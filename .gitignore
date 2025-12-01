@@ -5,6 +5,6 @@
 static/videos_page/
 
 # (ولو عندك مجلدات صور ضخمة ترجعها بعدين، زيدها هون)
-static/images/
+
 static/images_exame_*/
 static/fotos_borden/
