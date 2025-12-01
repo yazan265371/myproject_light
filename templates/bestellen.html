@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanmelden & Betaling</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- يمكنك إضافة أي مكتبة CSS خارجية مثل Bootstrap لجمالية أكثر -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> -->
+    <style>
+        body {
+            background: #f6f8fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .signup-container {
+            max-width: 400px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+            padding: 30px 25px;
+        }
+        .signup-title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+            color: #222;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        input, select {
+            width: 100%;
+            padding: 9px;
+            border-radius: 5px;
+            border: 1px solid #d3d3d3;
+        }
+        button[type="submit"] {
+            background: #2f8f46;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 11px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+        button[type="submit"]:hover {
+            background: #246c35;
+        }
+        .payment-info {
+            font-size: 0.92em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .flash-messages {
+            background: #ffeedd;
+            border: 1px solid #ffbb99;
+            color: #a65b00;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 13px;
+            font-size: 0.97em;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-title">Account aanmaken & Betaal</div>
+        
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="flash-messages">
+              {% for message in messages %}
+                <div>{{ message }}</div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+        
+        <form method="POST">
+            <div class="form-group">
+                <label for="username">Gebruikersnaam</label>
+                <input type="text" id="username" name="username" required placeholder="Jouw gebruikersnaam">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="Jouw e-mail">
+            </div>
+            <div class="form-group">
+                <label for="password">Wachtwoord</label>
+                <input type="password" id="password" name="password" required placeholder="Wachtwoord">
+            </div>
+            <div class="form-group">
+                <label for="payment">Betaalmethode</label>
+                <select name="payment" id="payment" required>
+                    <option value="">-- Kies een betaalmethode --</option>
+                    <option value="ideal">iDEAL</option>
+                    <option value="creditcard">Creditcard</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="contant">Contant</option>
+                </select>
+                <div class="payment-info">
+                  Na registratie kun je betalen via de gekozen methode.<br>
+                  <b>Let op:</b> De betaling is pas definitief na bevestiging!
+                </div>
+            </div>
+            <!-- مكان يمكن فيه إضافة زر دفع فعلي (مثال: زر Stripe/PayPal) -->
+            <!-- <button id="real-payment" type="button">Betaal nu</button> -->
+            
+            <button type="submit">Account aanmaken</button>
+        </form>
+        <div style="text-align:center; margin-top:15px;">
+        <a href="/inloggen">Heb je al een account? Inloggen</a>
+        </div>
+    </div>
+</body>
+</html>

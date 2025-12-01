@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>سؤال بالفيديو</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .video-progress-bar {
+      width: 100%;
+      background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+      padding: 18px 0;
+      margin-bottom: 28px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      border-radius: 14px;
+      color: #fff;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 12px rgba(33,147,176,0.16);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+    }
+    .progress-icon {
+      font-size: 28px;
+      margin-right: 8px;
+    }
+    .progress-label {
+      font-size: 18px;
+      color: #eaf6fb;
+      margin: 0 4px;
+    }
+    .progress-value {
+      background: rgba(255,255,255,0.18);
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 20px;
+      color: #fff;
+      margin: 0 2px;
+    }
+    .progress-separator {
+      font-size: 20px;
+      color: #fff;
+      margin: 0 8px;
+    }
+    video {
+      width: 600px;
+      height: 450px;
+      border-radius: 16px;
+      object-fit: cover;
+      border: 5px solid #2193b0;
+      box-shadow: 0 4px 16px rgba(33,147,176,0.18);
+      background: #eaf6fb;
+    }
+    .options {
+      max-width: 400px;
+      min-height: 320px;
+      background: #f0f0f0;
+      padding: 32px 24px;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(33,147,176,0.12);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 18px;
+    }
+    .option {
+      display: block;
+      margin: 0;
+      padding: 16px 14px;
+      border: 1.5px solid #2193b0;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      background: #fff;
+      transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+      box-shadow: 0 2px 8px rgba(33,147,176,0.07);
+    }
+    .option:hover {
+      background: #eaf6fb;
+      color: #2193b0;
+      box-shadow: 0 4px 16px rgba(33,147,176,0.18);
+    }
+    .correct {
+      color: #28a745;
+      background: #d4edda;
+      border-color: #28a745;
+      box-shadow: 0 2px 8px rgba(40,167,69,0.12);
+    }
+    .wrong {
+      color: #dc3545;
+      background: #f8d7da;
+      border-color: #dc3545;
+      box-shadow: 0 2px 8px rgba(220,53,69,0.12);
+    }
+    #nextBtn, #prevBtn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #nextBtn {
+      background: #007bff;
+      color: white;
+      margin-left: 8px;
+      display: none;
+    }
+    #nextBtn:hover {
+      background: #0056b3;
+    }
+    #prevBtn {
+      background: #6c757d;
+      color: white;
+      display: none;
+    }
+    #prevBtn:hover {
+      background: #495057;
+    }
+    #resultsBox {
+      display: none;
+      min-width: 220px;
+      min-height: 120px;
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 24px;
+      padding: 18px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(33,147,176,0.12);
+      text-align: center;
+      align-self: flex-start;
+      font-size: 20px;
+      position: relative;
+    }
+    #correctDisplay {
+      font-size: 22px;
+      color: green;
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+    #wrongDisplay {
+      font-size: 22px;
+      color: red;
+      font-weight: bold;
+      display: block;
+    }
+    #submitTestBtn {
+      margin-top: 18px;
+      padding: 11px 26px;
+      border: none;
+      border-radius: 10px;
+      background: #28a745;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(40,167,69,0.18);
+      display: none;
+    }
+    #submitTestBtn:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-progress-bar" id="videoProgress">
+    <span class="progress-icon">🎬</span>
+    <span class="progress-label">عدد الفيديوهات:</span>
+    <span id="totalVideos" class="progress-value"></span>
+    <span class="progress-separator">|</span>
+    <span class="progress-label">تمت مشاهدة:</span>
+    <span id="watchedVideos" class="progress-value"></span>
+  </div>
+  <div class="container">
+    <video id="myVideo" controls>
+      <source id="videoSource" src="" type="video/mp4">
+    </video>
+    <div class="options">
+      <h3 id="questionTitle"></h3>
+      <div id="optionsList"></div>
+      <button id="prevBtn">⬅ السابق</button>
+      <button id="nextBtn">التالي ▶</button>
+    </div>
+    <div id="resultsBox">
+      <span id="correctDisplay"></span><br>
+      <span id="wrongDisplay"></span>
+      <form id="submitTestForm" action="/finish_test/1" method="post">
+        <button id="submitTestBtn" type="submit">تسليم الاختبار</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const questions = [
+      {
+        video: "{{url_for('static', filename='videos_page/video_1.mp4')}}",
+        question: "على ماذا يجب أن تنتبه هنا؟",
+        options: [
+          "أن السائقين الذين يتجاوزونك يمكن أن يقطعوا عليك الطريق.",
+          "أن تذهب إلى اليمين في الوقت المناسب إذا كنت تقود على المسار الأيسر.",
+          "أن هناك حركة مرور على المسار الأيمن عندما تغيّر المسار."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_2.mp4')}}",
+        question: "ماذا يظهر في هذا الفيديو؟",
+        options: [
+          "تزيد السرعة.",
+          "تنتظر حتى تمر الدراجة.",
+          "تتجاوز الدراجة بسرعة."
+        ],
+        correct: 1
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_3.mp4')}}",
+        question: "ماذا يظهر في هذا الفيديو؟",
+        options: [
+          "تزيد السرعة.",
+          "تنتظر حتى تمر الدراجة.",
+          "تتجاوز الدراجة بسرعة."
+        ],
+        correct: 1
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_4.mp4')}}",
+        question: "ماذا يظهر في هذا الفيديو؟",
+        options: [
+          "سيارة تتجاوز بسرعة.",
+          "دراجة نارية قادمة.",
+          "إشارة توقف."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_5.mp4')}}",
+        question: "ما هو المشهد الرئيسي؟",
+        options: [
+          "شارع مزدحم بالسيارات.",
+          "رجل يمشي على الرصيف.",
+          "ضوء أصفر في إشارة المرور."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_6.mp4')}}",
+        question: "ما الذي يجب الانتباه له؟",
+        options: [
+          "طفل يركض نحو الطريق.",
+          "حافلة تتوقف.",
+          "سيارة صغيرة تسير ببطء."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_7.mp4')}}",
+        question: "ما الذي يظهر بجانب الرصيف؟",
+        options: [
+          "دراجة تمر بجانب الرصيف.",
+          "سيارة شرطة خلفك.",
+          "طريق خالٍ من السيارات."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_8.mp4')}}",
+        question: "ماذا ترى في إشارة المرور؟",
+        options: [
+          "إشارة مرور خضراء.",
+          "سيارة تنتظر الانعطاف.",
+          "رجل يحمل حقيبة كبيرة."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_9.mp4')}}",
+        question: "ما الذي يحدث فجأة؟",
+        options: [
+          "سيارة تتوقف فجأة.",
+          "كلب يركض على الطريق.",
+          "ضوء أحمر في إشارة المرور."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_10.mp4')}}",
+        question: "ماذا يحدث عند الحافلة؟",
+        options: [
+          "حافلة تفتح أبوابها.",
+          "دراجة تمر من الطريق.",
+          "سيارة إسعاف تقترب."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_11.mp4')}}",
+        question: "كيف يبدو الشارع بعد المطر؟",
+        options: [
+          "شارع زلق بعد المطر.",
+          "سيارة تتجاوز بسرعة.",
+          "مشاة على الرصيف."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_12.mp4')}}",
+        question: "ما الذي يحدث عند التاكسي؟",
+        options: [
+          "سيارة تاكسي تتوقف.",
+          "إشارة مرور صفراء.",
+          "رجل يقود دراجة."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_13.mp4')}}",
+        question: "ما هو المشهد في الطريق؟",
+        options: [
+          "مطب صناعي على الطريق.",
+          "شاحنة كبيرة قادمة.",
+          "ضوء أخضر في إشارة المرور."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_14.mp4')}}",
+        question: "ما الذي يحدث بسرعة؟",
+        options: [
+          "سيارة إسعاف تمر بسرعة.",
+          "طفل يركض نحو الطريق.",
+          "رجل يمشي على الرصيف."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_15.mp4')}}",
+        question: "ما هو المشهد الرئيسي؟",
+        options: [
+          "شارع مزدحم بالسيارات.",
+          "قطة تعبر الطريق.",
+          "دراجة تمر بجانب الرصيف."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_16.mp4')}}",
+        question: "ماذا يحدث فجأة؟",
+        options: [
+          "سيارة تتوقف فجأة.",
+          "إشارة توقف.",
+          "رجل يحمل حقيبة كبيرة."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_17.mp4')}}",
+        question: "ما الذي يحدث عند الحافلة؟",
+        options: [
+          "حافلة تتوقف.",
+          "ضوء أصفر في إشارة المرور.",
+          "سيارة صغيرة تسير ببطء."
+        ],
+        correct: 0
+      },
+      {
+        video: "{{url_for('static', filename='videos_page/video_18.mp4')}}",
+        question: "ما الذي يظهر في الفيديو؟",
+        options: [
+          "نفاد الوقود.",
+          "إشارة مرور حمراء.",
+          "عطل في المحرك."
+        ],
+        correct: 1
+      }
+    ];
+    let current = 0;
+    let correctCount = 0;
+    let wrongCount = 0;
+    let correctAnswered = false;
+    let answered = Array(questions.length).fill(false);
+    let selectedAnswers = Array(questions.length).fill(null);
+
+    function updateProgressBar() {
+      document.getElementById("totalVideos").textContent = questions.length;
+      document.getElementById("watchedVideos").textContent = current + 1;
+    }
+
+    function loadQuestion(idx, autoPlay = true) {
+      document.getElementById("videoSource").src = questions[idx].video;
+      document.getElementById("myVideo").load();
+      if (autoPlay) {
+        document.getElementById("myVideo").play();
+      }
+      document.getElementById("questionTitle").textContent = questions[idx].question;
+
+      const optionsDiv = document.getElementById("optionsList");
+      optionsDiv.innerHTML = "";
+      questions[idx].options.forEach((opt, i) => {
+        const div = document.createElement("button");
+        div.className = "option";
+        div.textContent = opt;
+        div.onclick = () => checkAnswer(i);
+        if (answered[idx]) {
+          div.disabled = true;
+          div.style.opacity = "0.7";
+          div.style.cursor = "not-allowed";
+          if (selectedAnswers[idx] === i) {
+            div.classList.add(
+              i === questions[idx].correct ? "correct" : "wrong"
+            );
+          }
+          if (i === questions[idx].correct && selectedAnswers[idx] !== i) {
+            div.classList.add("correct");
+          }
+        }
+        optionsDiv.appendChild(div);
+      });
+
+      document.getElementById("nextBtn").style.display = "none";
+      document.getElementById("nextBtn").textContent = "التالي ▶";
+      document.getElementById("nextBtn").onclick = goNext;
+
+      document.getElementById("prevBtn").style.display = idx > 0 ? "inline-block" : "none";
+
+      correctAnswered = false;
+
+      if (answered[idx]) {
+        document.getElementById("nextBtn").style.display = "inline-block";
+        if (idx === questions.length - 1) {
+          document.getElementById("nextBtn").textContent = "انتهى الاختبار - اضغط هنا لعرض النتيجة";
+          document.getElementById("nextBtn").onclick = showResults;
+        } else {
+          document.getElementById("nextBtn").textContent = "التالي ▶";
+          document.getElementById("nextBtn").onclick = goNext;
+        }
+      }
+
+      updateProgressBar();
+    }
+
+    function checkAnswer(selected){
+      if (answered[current]) return;
+      selectedAnswers[current] = selected;
+      let options = document.querySelectorAll(".option");
+      let correctAnswer = questions[current].correct;
+
+      if (correctAnswered) return;
+      correctAnswered = true;
+
+      if(selected === correctAnswer){
+        options[selected].classList.add("correct");
+        correctCount++;
+        answered[current] = true;
+      } else {
+        options[selected].classList.add("wrong");
+        options[correctAnswer].classList.add("correct");
+        wrongCount++;
+        answered[current] = true;
+      }
+
+      options.forEach(opt => opt.style.pointerEvents = "none");
+
+      let oldImg = document.getElementById("sideFeedbackImg");
+      if (oldImg) oldImg.remove();
+
+      let feedbackImg = document.createElement("img");
+      feedbackImg.id = "sideFeedbackImg";
+      feedbackImg.style.display = "block";
+      feedbackImg.style.margin = "24px 0 0 24px";
+      feedbackImg.style.maxWidth = "180px";
+      feedbackImg.style.maxHeight = "180px";
+      feedbackImg.alt = selected === correctAnswer ? "إجابة صحيحة" : "إجابة خاطئة";
+      feedbackImg.src = selected === correctAnswer
+        ? "{{url_for('static', filename='images/mickey_1.png')}}"
+        : "{{url_for('static', filename='images/mickey_2.png')}}";
+
+      document.querySelector(".container").appendChild(feedbackImg);
+
+      document.getElementById("nextBtn").style.display = "inline-block";
+      if(current === questions.length - 1){
+        document.getElementById("nextBtn").textContent = "انتهى الاختبار - اضغط هنا لعرض النتيجة";
+        document.getElementById("nextBtn").onclick = showResults;
+      }
+    }
+
+    function showResults() {
+      document.getElementById("resultsBox").style.display = "block";
+      document.getElementById("correctDisplay").textContent = `✅ عدد الإجابات الصحيحة: ${correctCount}`;
+      document.getElementById("wrongDisplay").textContent = `❌ عدد الإجابات الخاطئة: ${wrongCount}`;
+      const nextBtn = document.getElementById("nextBtn");
+      nextBtn.disabled = false;
+      nextBtn.textContent = "🔄 إعادة الامتحان";
+      nextBtn.style.display = "inline-block";
+      nextBtn.onclick = resetExam;
+      document.getElementById("submitTestBtn").style.display = "inline-block";
+    }
+
+    function resetExam() {
+      current = 0;
+      correctCount = 0;
+      wrongCount = 0;
+      correctAnswered = false;
+      answered = Array(questions.length).fill(false);
+      selectedAnswers = Array(questions.length).fill(null);
+      document.getElementById("resultsBox").style.display = "none";
+      document.getElementById("submitTestBtn").style.display = "none";
+      loadQuestion(current, true);
+    }
+
+    function goNext(){
+      current++;
+      if(current < questions.length){
+        loadQuestion(current, true);
+      }
+    }
+
+    function goPrev(){
+      if(current > 0){
+        current--;
+        loadQuestion(current, false);
+      }
+    }
+
+    window.onload = () => {
+      document.getElementById("totalVideos").textContent = questions.length;
+      loadQuestion(current);
+      document.getElementById("prevBtn").onclick = goPrev;
+    };
+  </script>
+</body>
+</html>

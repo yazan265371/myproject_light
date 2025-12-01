@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الاختبارات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Cairo', Arial, sans-serif;
+      background: linear-gradient(115deg, #e0eafc, #cfdef3 70%);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #2193b0 60%, #6dd5ed 100%);
+      color: #fff;
+      padding: 30px 0 15px 0;
+      box-shadow: 0 2px 10px rgba(33,147,176,0.12);
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.6rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.15rem;
+      margin: 0;
+      opacity: .84;
+    }
+    .tests-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 24px;
+      max-width: 1100px;
+      margin: 50px auto 40px auto;
+      padding: 0 16px;
+    }
+    .test-card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(33,147,176,.13), 0 1px 2px rgba(0,0,0,.04);
+      padding: 34px 16px 26px 16px;
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #2193b0;
+      cursor: pointer;
+      text-decoration: none;
+      position: relative;
+      transition: box-shadow 0.3s, background 0.3s, color 0.3s, transform 0.25s;
+      overflow: hidden;
+      border: 1px solid #e3e8ee;
+      box-sizing: border-box;
+    }
+    .test-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+      opacity: 0;
+      z-index: 0;
+      transition: opacity 0.35s;
+    }
+    .test-card:hover {
+      color: #fff;
+      box-shadow: 0 10px 30px rgba(33,147,176,0.22);
+      transform: translateY(-6px) scale(1.02);
+    }
+    .test-card:hover::before {
+      opacity: 1;
+    }
+    .test-card span {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-size: 1.22rem;
+      letter-spacing: .5px;
+      transition: color 0.3s;
+    }
+    .test-card i {
+      font-size: 1.6rem;
+      color: #6dd5ed;
+      transition: color 0.3s;
+    }
+    .test-card:hover i {
+      color: #fff;
+    }
+    .attempt-badge {
+      position: absolute;
+      top: 10px;
+      left: 14px;
+      background: #f44336;
+      color: #fff;
+      border-radius: 50%;
+      min-width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem;
+      font-weight: 700;
+      box-shadow: 0 0 6px #2193b0;
+      z-index: 2;
+      padding: 0 8px;
+      flex-direction: column;
+    }
+    .attempt-count-label {
+      font-size: 0.75em;
+      color: #fff;
+      font-weight: 400;
+      margin-top: 1px;
+      letter-spacing: 0.5px;
+    }
+    .test-card {
+      position: relative;
+    }
+    @media (max-width:600px) {
+      header h1 { font-size: 2rem; }
+      .tests-container { gap: 14px; }
+      .test-card { font-size: 1rem; padding: 24px 8px 20px 8px; }
+      .attempt-badge { min-width: 24px; height: 24px; font-size: .85rem; left: 8px; top: 8px; }
+      .attempt-count-label { font-size: 0.65em; }
+    }
+    footer {
+      background: #f7fafc;
+      text-align: center;
+      color: #9ea7b0;
+      font-size: 1rem;
+      padding: 18px 0 12px 0;
+      border-top: 1px solid #e0eafc;
+      margin-top: 40px;
+      letter-spacing: .5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>قائمة الاختبارات</h1>
+    <p>اختر أحد الاختبارات أدناه للبدء. جميع الأسئلة تهدف لتطوير مهاراتك!</p>
+  </header>
+  <div class="tests-container">
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-clipboard-list"></i>الاختبار 1
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[1] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('image_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-image"></i>الاختبار 2
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[2] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-film"></i>الاختبار 3
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[3] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-book-open"></i>الاختبار 4
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[4] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-pencil-alt"></i>الاختبار 5
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[5] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-bolt"></i>الاختبار 6
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[6] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-award"></i>الاختبار 7
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[7] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-laptop-code"></i>الاختبار 8
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[8] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-brain"></i>الاختبار 9
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[9] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-chart-bar"></i>الاختبار 10
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[10] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-globe"></i>الاختبار 11
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[11] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-lightbulb"></i>الاختبار 12
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[12] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-puzzle-piece"></i>الاختبار 13
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[13] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-rocket"></i>الاختبار 14
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[14] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-cubes"></i>الاختبار 15
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[15] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-user-graduate"></i>الاختبار 16
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[16] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-book-reader"></i>الاختبار 17
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[17] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-question"></i>الاختبار 18
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[18] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-star"></i>الاختبار 19
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[19] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+    <a href="{{ url_for('videos_page') }}" class="test-card">
+      <span>
+        <i class="fas fa-heart"></i>الاختبار 20
+      </span>
+      <span class="attempt-badge">
+        {{ attempts[20] }}
+        <span class="attempt-count-label">مرة</span>
+      </span>
+    </a>
+  </div>
+  <footer>
+    جميع الحقوق محفوظة &copy; 2025
+  </footer>
+</body>
+</html>

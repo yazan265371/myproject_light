@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>معرض الفيديو الفخم</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, sans-serif;
+            background: linear-gradient(135deg, #eaeafc 0%, #d6e2f0 100%);
+            margin: 0;
+            min-height: 100vh;
+        }
+        h2 {
+            text-align: right;
+            margin: 40px 60px 10px 0;
+            color: #273c75;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+        .video-thumbnails-bar {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
+            gap: 22px;
+            padding: 22px 0;
+            background: #fff;
+            box-shadow: 0 4px 18px #d1d8e0a0;
+            border-radius: 22px;
+            margin: 0 40px 40px 40px;
+            overflow-x: auto;
+        }
+        .video-thumb-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        .video-thumbnail {
+            width: 110px;
+            height: 68px;
+            cursor: pointer;
+            border: 3px solid #f1f2f6;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px #d1d8e0a0;
+            transition: border-color 0.2s, transform 0.19s, opacity 0.19s;
+            background: #f5f6fa;
+            object-fit: cover;
+            opacity: 0.80;
+        }
+        .video-thumbnail.active,
+        .video-thumb-wrapper:hover .video-thumbnail {
+            border-color: #4078fa;
+            opacity: 1;
+            transform: scale(1.07);
+            box-shadow: 0 4px 14px #4078fa40;
+        }
+        .video-number {
+            position: absolute;
+            top: 9px;
+            left: 11px;
+            width: 18px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.90rem;
+            font-weight: 500;
+            color: #4078fa;
+            background: rgba(255,255,255,0.50);
+            border: 1px solid #4078fa60;
+            border-radius: 50%;
+            box-shadow: 0 1px 6px 0 #4078fa17;
+            backdrop-filter: blur(2px);
+            z-index: 2;
+            user-select: none;
+            pointer-events: none;
+            transition: box-shadow 0.24s;
+        }
+        .video-thumb-wrapper:hover .video-number {
+            box-shadow: 0 2px 10px 0 #4078fa33;
+            background: rgba(255,255,255,0.75);
+        }
+        .main-video-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10vw 40px 10vw;
+        }
+        .video-player {
+            width: 780px;
+            max-width: 96vw;
+            background: #fff;
+            box-shadow: 0 8px 30px #4078fa30;
+            border-radius: 24px;
+            padding: 30px 32px 28px 32px;
+            position: relative;
+            text-align: center;
+        }
+        .video-player video {
+            width: 100%;
+            height: 430px;
+            border-radius: 16px;
+            background: #111;
+            box-shadow: 0 3px 16px #4078fa30;
+            outline: none;
+        }
+        .video-title {
+            font-size: 1.35rem;
+            color: #4078fa;
+            margin: 18px 0 0 0;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .video-player {
+                width: 95vw;
+                padding: 18px 6vw;
+            }
+            .video-player video {
+                height: 230px;
+            }
+            h2 {
+                font-size: 1.4rem;
+                margin: 24px 16px 12px 0;
+            }
+            .video-thumbnails-bar {
+                gap: 11px;
+                border-radius: 12px;
+                margin: 0 8px 26px 8px;
+                padding: 12px 2px;
+            }
+            .main-video-section {
+                margin: 0 2vw 22px 2vw;
+            }
+            .video-number {
+                width: 15px;
+                height: 15px;
+                font-size: 0.75rem;
+                top: 7px;
+                left: 7px;
+            }
+        }
+        .play-overlay {
+            display: none;
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -58%);
+            background: rgba(255,255,255,0.88);
+            border-radius: 50%;
+            width: 74px; height: 74px;
+            box-shadow: 0 2px 18px #4078fa26;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            cursor: pointer;
+        }
+        .play-overlay svg {
+            width: 54px; height: 54px;
+            fill: #4078fa;
+        }
+        .video-player.paused .play-overlay {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h2>دليلك الشامل لفهم أساسيات القيادة قبل الاختبارات</h2>
+    <div class="video-thumbnails-bar" id="thumbnails">
+        <!-- صور المصغرات للفيديوهات ستظهر هنا -->
+    </div>
+    <div class="main-video-section">
+        <div class="video-player paused" id="mainPlayer">
+            <span class="play-overlay" id="playOverlay" title="تشغيل الفيديو">
+                <svg viewBox="0 0 64 64"><polygon points="16,8 56,32 16,56"></polygon></svg>
+            </span>
+            <video id="bigVideo" controls controlsList="nodownload">
+                <source src="static/videos_page/intro_video/1.mp4" type="video/mp4">
+                المتصفح لا يدعم تشغيل الفيديو.
+            </video>
+            <div class="video-title" id="videoTitle">شرح الامتحان</div>
+        </div>
+    </div>
+
+    <script>
+        const videoFiles = [
+            "static/videos_page/intro_video/1.mp4",
+            "static/videos_page/intro_video/2.mp4",
+            "static/videos_page/intro_video/3.mp4",
+            "static/videos_page/intro_video/4.mp4",
+            "static/videos_page/intro_video/5.mp4",
+            "static/videos_page/intro_video/6.mp4",
+            "static/videos_page/intro_video/7.mp4",
+            "static/videos_page/intro_video/8.mp4",
+            "static/videos_page/intro_video/9.mp4"
+        ];
+        const videoNames = [
+            "شرح الامتحان",
+            "فيديو رقم 2",
+            "فيديو رقم 3",
+            "فيديو رقم 4",
+            "فيديو رقم 5",
+            "فيديو رقم 6",
+            "فيديو رقم 7",
+            "فيديو رقم 8",
+            "فيديو رقم 9"
+        ];
+        const thumbnailImages = [
+            "static/images/thumbnails/into_1.png",
+            "static/images/thumbnails/into_2.png",
+            "static/images/thumbnails/into_3.png",
+            "static/images/thumbnails/into_4.png",
+            "static/images/thumbnails/into_5.png",
+            "static/images/thumbnails/into.png",
+            "static/images/thumbnails/into.png",
+            "static/images/thumbnails/into.png",
+            "static/images/thumbnails/into.png"
+        ];
+
+        const thumbnailsDiv = document.getElementById('thumbnails');
+        const bigVideo = document.getElementById('bigVideo');
+        const videoTitle = document.getElementById('videoTitle');
+        const mainPlayer = document.getElementById('mainPlayer');
+        const playOverlay = document.getElementById('playOverlay');
+
+        // إنشاء صور المصغرات مع رقم في الزاوية لكل فيديو
+        videoFiles.forEach((src, idx) => {
+            const wrapper = document.createElement('span');
+            wrapper.className = "video-thumb-wrapper";
+
+            const thumb = document.createElement('img');
+            thumb.src = thumbnailImages[idx] || "static/images/thumbnails/default.png";
+            thumb.className = "video-thumbnail" + (idx === 0 ? " active" : "");
+            thumb.alt = videoNames[idx];
+            thumb.title = videoNames[idx];
+            thumb.onerror = function() {
+                this.src = "static/images/thumbnails/default.png";
+            };
+            thumb.onclick = () => {
+                bigVideo.src = src;
+                videoTitle.textContent = videoNames[idx];
+                document.querySelectorAll('.video-thumbnail').forEach(t => t.classList.remove('active'));
+                thumb.classList.add('active');
+                bigVideo.pause();
+                mainPlayer.classList.add('paused');
+            };
+
+            // رقم الفيديو بشكل أنيق وصغير
+            const numberLabel = document.createElement('span');
+            numberLabel.className = "video-number";
+            numberLabel.textContent = (idx + 1);
+
+            wrapper.appendChild(thumb);
+            wrapper.appendChild(numberLabel);
+
+            thumbnailsDiv.appendChild(wrapper);
+        });
+
+        // إعداد الفيديو الرئيسي والزر الكبير
+        bigVideo.src = videoFiles[0];
+        videoTitle.textContent = videoNames[0];
+
+        bigVideo.addEventListener('pause', () => {
+            mainPlayer.classList.add('paused');
+        });
+        bigVideo.addEventListener('play', () => {
+            mainPlayer.classList.remove('paused');
+        });
+        playOverlay.addEventListener('click', () => {
+            bigVideo.play();
+        });
+        bigVideo.addEventListener('loadeddata', () => {
+            mainPlayer.classList.add('paused');
+        });
+
+    </script>
+</body>
+</html>

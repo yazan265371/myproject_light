@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- خطوط Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+    <!-- أيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>تسجيل الدخول</title>
+    <style>
+        body {
+            font-family: 'Tajawal', Arial, sans-serif;
+            background: linear-gradient(120deg, #3a5bdc 0%, #6ec3fa 100%);
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        /* خلفية متحركة */
+        .animated-bg {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .bubble {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.24;
+            animation: float 14s linear infinite;
+        }
+        .bubble1 { width: 140px; height: 140px; background: #fff; top: 10%; left: 8%; animation-delay: 0s;}
+        .bubble2 { width: 70px; height: 70px; background: #6ec3fa; top: 60%; left: 70%; animation-delay: 4s;}
+        .bubble3 { width: 110px; height: 110px; background: #3a5bdc; top: 80%; left: 20%; animation-delay: 2s;}
+        .bubble4 { width: 60px; height: 60px; background: #fff; top: 35%; left: 85%; animation-delay: 7s;}
+        .bubble5 { width: 90px; height: 90px; background: #4ec2fa; top: 75%; left: 45%; animation-delay: 11s;}
+        @keyframes float {
+            0% {transform: translateY(0) scale(1);}
+            50% {transform: translateY(-40px) scale(1.08);}
+            100% {transform: translateY(0) scale(1);}
+        }
+        /* صندوق التسجيل */
+        .container {
+            max-width: 400px;
+            margin: 80px auto;
+            background: rgba(255,255,255,0.97);
+            border-radius: 22px;
+            box-shadow: 0 8px 32px rgba(58,91,220,0.20);
+            padding: 52px 32px 34px 32px;
+            position: relative;
+            z-index: 1;
+        }
+        .form-title {
+            text-align: center;
+            font-size: 29px;
+            color: #3a5bdc;
+            font-weight: 700;
+            margin-bottom: 27px;
+            letter-spacing: 0.5px;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .input-group {
+            position: relative;
+            margin-bottom: 6px;
+        }
+        .input-group label {
+            font-size: 15.5px;
+            color: #2847b7;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+            letter-spacing: 0.2px;
+        }
+        .input-group i {
+            position: absolute;
+            left: 20px;
+            top: 42px;
+            font-size: 17px;
+            color: #6ec3fa;
+            transition: color 0.22s;
+            z-index: 2;
+        }
+        .login-form input {
+            width: 100%;
+            padding: 12px 46px 12px 14px;
+            border-radius: 10px;
+            border: 1.8px solid #d2dbed;
+            font-size: 16px;
+            background: #f8fbff;
+            transition: border 0.22s, box-shadow 0.18s;
+            outline: none;
+        }
+        .login-form input:focus {
+            border: 2px solid #3a5bdc;
+            box-shadow: 0 2px 14px #6ec3fa33;
+        }
+        /* زر الدخول */
+        .login-btn {
+            background: linear-gradient(90deg,#4ec2fa 0%,#3a5bdc 100%);
+            color: #fff;
+            padding: 14px 0;
+            border-radius: 11px;
+            font-size: 21px;
+            font-weight: 700;
+            border: none;
+            box-shadow: 0 2px 12px rgba(58,91,220,0.13);
+            cursor: pointer;
+            letter-spacing: 0.4px;
+            transition: background 0.37s, transform 0.19s;
+            margin-top: 15px;
+            position: relative;
+            z-index: 1;
+        }
+        .login-btn:hover, .login-btn:focus {
+            background: linear-gradient(90deg,#3a5bdc 0%,#4ec2fa 100%);
+            transform: scale(1.05) translateY(-2px);
+        }
+        .signup-link {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
+        }
+        .signup-link a {
+            color: #3a5bdc;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.22s;
+            margin-right: 6px;
+        }
+        .signup-link a:hover {
+            color: #4ec2fa;
+            text-decoration: underline;
+        }
+        .messages {
+            margin-top: 18px;
+            text-align: center;
+            z-index: 1;
+            position: relative;
+        }
+        .messages p {
+            background: #ffe7eb;
+            color: #c0392b;
+            padding: 9px 13px;
+            border-radius: 7px;
+            font-size: 16px;
+            margin: 8px 0;
+            box-shadow: 0 2px 8px #e74c3c10;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            animation: fadeIn 0.7s;
+        }
+        /* رابط نسيت كلمة المرور */
+        .forgot-link {
+            text-align: left;
+            margin-top: 7px;
+            font-size: 15px;
+        }
+        .forgot-link a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.22s;
+            margin-right: 6px;
+        }
+        .forgot-link a:hover {
+            color: #c0392b;
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @media (max-width: 600px) {
+            .container {
+                max-width: 98vw;
+                padding: 24px 8px 16px 8px;
+                margin: 34px auto;
+            }
+            .form-title { font-size: 23px; margin-bottom: 11px;}
+            .login-btn { font-size: 17px;}
+        }
+    </style>
+</head>
+<body>
+    <!-- خلفية متحركة -->
+    <div class="animated-bg">
+        <div class="bubble bubble1"></div>
+        <div class="bubble bubble2"></div>
+        <div class="bubble bubble3"></div>
+        <div class="bubble bubble4"></div>
+        <div class="bubble bubble5"></div>
+    </div>
+    <div class="container">
+        <div class="form-title"><i class="fa fa-sign-in-alt"></i> تسجيل الدخول</div>
+        <form class="login-form" method="POST" autocomplete="on">
+            <div class="input-group">
+                <label for="username"><i class="fa fa-user"></i> اسم المستخدم أو البريد الإلكتروني</label>
+                <input type="text" name="username_or_email" id="username" required autocomplete="username" />
+                <i class="fa fa-user"></i>
+            </div>
+            <div class="input-group">
+                <label for="password"><i class="fa fa-lock"></i> كلمة المرور</label>
+                <input type="password" name="password" id="password" required autocomplete="current-password" />
+                <i class="fa fa-lock"></i>
+                <div class="forgot-link">
+                    <a href="/forgot_password"><i class="fa fa-question-circle"></i> نسيت كلمة المرور؟</a>
+                </div>
+            </div>
+            <button type="submit" class="login-btn"><i class="fa fa-sign-in-alt"></i> دخول</button>
+        </form>
+        <div class="signup-link">
+            <span>ليس لديك حساب؟</span>
+            <a href="/bestellen"><i class="fa fa-user-plus"></i> أنشئ حساب جديد</a>
+        </div>
+        <div class="messages">
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                <p>{{ message }}</p>
+                {% endfor %}
+            {% endif %}
+            {% endwith %}
+        </div>
+    </div>
+</body>
+</html>

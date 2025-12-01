@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>سؤال بالصورة</title>
+  <style>
+    .container { display: flex; gap: 20px; align-items: flex-start; }
+    .video-progress-bar { width: 100%; background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%); padding: 18px 0; margin-bottom: 28px; text-align: center; font-size: 22px; font-weight: bold; border-radius: 14px; color: #fff; letter-spacing: 1px; box-shadow: 0 2px 12px rgba(33,147,176,0.16); display: flex; justify-content: center; align-items: center; gap: 18px; }
+    .progress-icon { font-size: 28px; margin-right: 8px; }
+    .progress-label { font-size: 18px; color: #eaf6fb; margin: 0 4px; }
+    .progress-value { background: rgba(255,255,255,0.18); padding: 4px 12px; border-radius: 8px; font-size: 20px; color: #fff; margin: 0 2px; }
+    .progress-separator { font-size: 20px; color: #fff; margin: 0 8px; }
+    #myImageBox { width: 400px; height: 350px; border-radius: 16px; border: 5px solid #2193b0; box-shadow: 0 4px 16px rgba(33,147,176,0.18); background: #eaf6fb; display: flex; align-items: center; justify-content: center; overflow: hidden; margin-bottom: 8px; }
+    #myImage { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px; background: transparent; display: block; margin: auto; box-shadow: none; }
+    .options { max-width: 400px; min-height: 320px; background: #f0f0f0; padding: 32px 24px; border-radius: 16px; box-shadow: 0 4px 16px rgba(33,147,176,0.12); display: flex; flex-direction: column; justify-content: flex-start; gap: 18px; }
+    .option { display: block; margin: 0; padding: 16px 14px; border: 1.5px solid #2193b0; border-radius: 10px; cursor: pointer; font-size: 18px; background: #fff; transition: background 0.3s, color 0.3s, box-shadow 0.3s; box-shadow: 0 2px 8px rgba(33,147,176,0.07); text-align: right; }
+    .option:hover { background: #eaf6fb; color: #2193b0; box-shadow: 0 4px 16px rgba(33,147,176,0.18); }
+    .correct { color: #28a745; background: #d4edda; border-color: #28a745; box-shadow: 0 2px 8px rgba(40,167,69,0.12); }
+    .wrong { color: #dc3545; background: #f8d7da; border-color: #dc3545; box-shadow: 0 2px 8px rgba(220,53,69,0.12); }
+    #nextBtn, #prevBtn { margin-top: 20px; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+    #nextBtn { background: #007bff; color: white; margin-left: 8px; display: none; }
+    #nextBtn:hover { background: #0056b3; }
+    #prevBtn { background: #6c757d; color: white; display: none; }
+    #prevBtn:hover { background: #495057; }
+    #resultsBox { display: none; min-width: 220px; min-height: 120px; margin-top: 0; margin-right: 0; margin-left: 24px; padding: 18px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(33,147,176,0.12); text-align: center; align-self: flex-start; font-size: 20px; position: relative; }
+    #correctDisplay { font-size: 22px; color: green; font-weight: bold; margin-bottom: 10px; display: block; }
+    #wrongDisplay { font-size: 22px; color: red; font-weight: bold; display: block; }
+    #sideFeedbackBox { min-width: 120px; min-height: 120px; display: flex; align-items: flex-start; justify-content: flex-start; margin-top: 0; margin-right: 0; }
+    #sideFeedbackImg { border-radius: 12px; border: 3px solid rgba(0,0,0,0.05); box-shadow: 0 4px 14px rgba(0,0,0,0.08); max-width: 120px; max-height: 120px; margin-left: 0; margin-top: 0; display: block; }
+    #tryAnotherBtn {
+      margin-top: 20px;
+      padding: 10px 24px;
+      border-radius: 8px;
+      background: #4caf50;
+      color: #fff;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+    #tryAnotherBtn:hover { background: #388e3c; }
+    @media (max-width: 1020px) {
+      .container { flex-direction: column; align-items: center; }
+      #myImageBox { width: 95vw; height: 220px; }
+      #sideFeedbackBox { min-width: 0; min-height: 0; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="video-progress-bar" id="videoProgress">
+    <span class="progress-icon">🖼️</span>
+    <span class="progress-label">عدد الصور:</span>
+    <span id="totalVideos" class="progress-value"></span>
+    <span class="progress-separator">|</span>
+    <span class="progress-label">الموضوع الحالي:</span>
+    <span id="watchedVideos" class="progress-value"></span>
+  </div>
+  <div style="width:100%;text-align:center;margin-top:-12px;">
+    <span style="color:#2193b0;font-size:20px;font-weight:600;">
+      عدد مرات إنهاء هذا الامتحان: 
+      <span id="attemptsDisplay" style="background:#f44336;color:#fff;border-radius:50%;padding:6px 18px 6px 18px;font-size:20px;box-shadow:0 0 7px #2193b0;display:inline-block;margin-left:8px;">{{ attempts_count }}</span>
+    </span>
+  </div>
+  <div class="container">
+    <div id="myImageBox">
+      <img id="myImage" src="" alt="الصورة المعروضة">
+    </div>
+    <div class="options">
+      <h3 id="questionTitle"></h3>
+      <div id="optionsList"></div>
+      <button id="prevBtn">⬅ السابق</button>
+      <button id="nextBtn">التالي ▶</button>
+    </div>
+    <div id="sideFeedbackBox"></div>
+    <div id="resultsBox">
+      <span id="correctDisplay"></span><br>
+      <span id="wrongDisplay"></span>
+      <button id="resetBtn" style="margin-top:14px; padding:9px 18px; border-radius:7px; background:#2193b0; color:white; font-size:16px; border:none; cursor:pointer;">إعادة الامتحان</button>
+      <button id="tryAnotherBtn">الانتقال للاختبار التالي</button>
+    </div>
+  </div>
+  <script>
+    const questions = [
+      {
+        image: "{{ url_for('static', filename='images/photo1.png') }}",
+        question: "je hebt zojuist het rijbewijs B gehaald. welk(e) voertuig(en) mag je besturen?",
+        options: [
+          "Alleen een personenauto",
+          "Alleen een personenauto en bromfiets",
+          "Alleen een personenauto, bromfiets en brommobiel"
+        ],
+        correct: 2
+      },
+      {
+        image: "{{ url_for('static', filename='images/photo2.png') }}",
+        question: "Wat is de minimumleeftijd voor het besturen van een personenauto bij begeleid rijden?",
+        options: [
+          "16 jaar",
+          "17 jaar",
+          "18 jaar"
+        ],
+        correct: 1
+      },
+      {
+        image: "{{ url_for('static', filename='images/photo3.jpeg') }}",
+        question: "Je bent 18 jaar en haalt voor het eerst een rijbewijs. Hoe lang ben je een beginnende bestuurder?",
+        options: [
+          "5 jaar",
+          "1 jaar",
+          "7 jaar"
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/medepassagiers.jpg') }}",
+        question: "Je rijdt met medepassagiers. Waar moet je dan rekening mee houden?",
+        options: [
+          "Een langere remweg",
+          "afleiding .",
+          "minder grip op het wegdek."
+        ],
+        correct: 1
+      },
+      {
+        image: "{{ url_for('static', filename='images/bacha.jpg') }}",
+        question: "Waar kun je massa rijklaar gewicht van je auto vinden?",
+        options: [
+          "Op het kentekenbewijs.",
+          "Op het rijbewijs.",
+          "Allebei."
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/politie.png') }}",
+        question: "De massa rijklaar gewicht van je auto staat op het kentekenbewijs. Waar is dat belangrijk voor?",
+        options: [
+          "De politie.",
+          "De wegenbelasting.",
+          "De verzekering."
+        ],
+        correct: 1
+      },
+      {
+        image: "{{ url_for('static', filename='images/rijkswaterstaat-auto.png') }}",
+        question: "Is een Rijkswaterstaat-auto een voorrangsvoertuig?",
+        options: [
+          "Ja.",
+          "Nee.",
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/zitplaatsen.jpg') }}",
+        question: "Hoeveel andere zitplaatsen mag een auto maximaal hebben om met een rijbewijs B te rijden?",
+        options: [
+          "6 zitplaatsen",
+          "7 zitplaatsen",
+          "8 zitplaatsen"
+        ],
+        correct: 2
+      },
+      {
+        image: "{{ url_for('static', filename='images/ontzegd.png') }}",
+        question: "Je rijbevoegdheid is ontzegd. Is het toegestaan om te fietsen?",
+        options: [
+          "Ja.",
+          "Nee.",
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/rijverbod.jpg') }}",
+        question: "De politie heeft je een rijverbod opgelegd. Welk voertuig mag je besturen?",
+        options: [
+          "Alleen een fiets.",
+          "Geen enkel voertuig.",
+          "Alleen een fiets en een snorfiets."
+        ],
+        correct: 1
+      },
+      {
+        image: "{{ url_for('static', filename='images/wedstrijd.jpg') }}",
+        question: "Op weg wordt er een wedstrijd gehouden met een voertuig. Wie is er strafbaar?",
+        options: [
+          "De eigenaar en de bestuurder.",
+          "De bestuurder",
+          "De eigenaar."
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/mobiel.webp') }}",
+        question: "Is het verboden om je telefoon in je hand te hebben als je rijdt?",
+        options: [
+          "Ja.",
+          "Nee.",
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/verkeersongeval.png') }}",
+        question: "Je bent betrokken bij een verkeersongeval. Wanneer moet je jouw ID van je motorrijtuig kenbaar maken?",
+        options: [
+          "Dat moet altijd.",
+          "Alleen als je het ongeval zelf veroorzaakt hebt.",
+          "Alleen als je zelf schade en letsel hebt opgelopen."
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/douaneambtenaar.jfif') }}",
+        question: "De douaneambtenaar geeft je een teken tot stoppen. Wanneer moet je daar gehoor aan geven?",
+        options: [
+          "Altijd.",
+          "Alleen bij een grensovergang.",
+          "Alleen als je passagiers en bagage vervoert."
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/vrachtauto.jpg') }}",
+        question: "De vrachtauto voor je is zijn vracht verloren. Wat doe je?",
+        options: [
+          "Niets.",
+          "De politie inschakelen.",
+          "De Wegenwacht inschakelen."
+        ],
+        correct: 1
+      },
+      {
+        image: "{{ url_for('static', filename='images/verplichtverzekering.png') }}",
+        question: "Ben je verplicht een verzekering af te sluiten voor een auto?",
+        options: [
+          "Ja.",
+          "Nee.",
+        ],
+        correct: 0
+      },
+      {
+        image: "{{ url_for('static', filename='images/cacco.png') }}",
+        question: "Wat kan een WA-Casco verzekering van een motorvoertuig na een ongeval vergoeden?",
+        options: [
+          "het eigen voertuig",
+          "Alleen de schade aan de tegenpartij",
+          "De schade aan het eigen voertuig en de tegenpartij"
+        ],
+        correct: 2
+      }
+    ];
+
+    let current = 0;
+    let correctCount = 0;
+    let wrongCount = 0;
+    let correctAnswered = false;
+    let answered = Array(questions.length).fill(false);
+    let selectedAnswers = Array(questions.length).fill(null);
+
+    function updateProgressBar() {
+      document.getElementById("totalVideos").textContent = questions.length;
+      document.getElementById("watchedVideos").textContent = current + 1;
+    }
+
+    function loadQuestion(idx) {
+      document.getElementById("myImage").src = questions[idx].image;
+      document.getElementById("myImage").alt = questions[idx].question || `الصورة ${idx+1}`;
+      document.getElementById("questionTitle").textContent = questions[idx].question;
+
+      const optionsDiv = document.getElementById("optionsList");
+      optionsDiv.innerHTML = "";
+      questions[idx].options.forEach((opt, i) => {
+        const btn = document.createElement("button");
+        btn.className = "option";
+        btn.textContent = opt;
+        btn.onclick = () => checkAnswer(i);
+        if (answered[idx]) {
+          btn.disabled = true;
+          btn.style.opacity = "0.7";
+          btn.style.cursor = "not-allowed";
+          if (selectedAnswers[idx] === i) {
+            btn.classList.add(i === questions[idx].correct ? "correct" : "wrong");
+          }
+          if (i === questions[idx].correct && selectedAnswers[idx] !== i) {
+            btn.classList.add("correct");
+          }
+        }
+        optionsDiv.appendChild(btn);
+      });
+
+      document.getElementById("nextBtn").style.display = "none";
+      document.getElementById("nextBtn").textContent = "التالي ▶";
+      document.getElementById("nextBtn").onclick = goNext;
+      document.getElementById("prevBtn").style.display = idx > 0 ? "inline-block" : "none";
+      correctAnswered = false;
+
+      document.getElementById("sideFeedbackBox").innerHTML = '';
+
+      if (answered[idx]) {
+        document.getElementById("nextBtn").style.display = "inline-block";
+        if (idx === questions.length - 1) {
+          document.getElementById("nextBtn").textContent = "انتهى الاختبار - اضغط هنا لعرض النتيجة";
+          document.getElementById("nextBtn").onclick = showResults;
+        } else {
+          document.getElementById("nextBtn").textContent = "التالي ▶";
+          document.getElementById("nextBtn").onclick = goNext;
+        }
+      }
+      updateProgressBar();
+    }
+
+    function checkAnswer(selected){
+      if (answered[current]) return;
+      selectedAnswers[current] = selected;
+      let options = document.querySelectorAll(".option");
+      let correctAnswer = questions[current].correct;
+      if (correctAnswered) return;
+      correctAnswered = true;
+
+      if(selected === correctAnswer){
+        options[selected].classList.add("correct");
+        correctCount++;
+        answered[current] = true;
+      } else {
+        options[selected].classList.add("wrong");
+        options[correctAnswer].classList.add("correct");
+        wrongCount++;
+        answered[current] = true;
+      }
+      options.forEach(opt => opt.style.pointerEvents = "none");
+
+      let sideBox = document.getElementById("sideFeedbackBox");
+      sideBox.innerHTML = '';
+      let feedbackImg = document.createElement("img");
+      feedbackImg.id = "sideFeedbackImg";
+      feedbackImg.alt = selected === correctAnswer ? "إجابة صحيحة" : "إجابة خاطئة";
+      feedbackImg.src = selected === correctAnswer
+        ? "{{ url_for('static', filename='images/mickey_1.png') }}"
+        : "{{ url_for('static', filename='images/mickey_2.png') }}";
+      sideBox.appendChild(feedbackImg);
+
+      if(current === questions.length - 1){
+        setTimeout(() => {
+          showResults();
+        }, 900);
+      } else {
+        document.getElementById("nextBtn").style.display = "inline-block";
+      }
+    }
+
+    function showResults() {
+      document.getElementById("resultsBox").style.display = "block";
+      document.getElementById("correctDisplay").textContent = `✅ عدد الإجابات الصحيحة: ${correctCount}`;
+      document.getElementById("wrongDisplay").textContent = `❌ عدد الإجابات الخاطئة: ${wrongCount}`;
+      document.getElementById("resetBtn").onclick = resetExam;
+      document.getElementById("tryAnotherBtn").onclick = goToNextTest;
+
+      fetch("/finish_test/2", { method: "POST" })
+        .then(() => {
+          fetch("/get_attempts/2")
+            .then(response => response.json())
+            .then(data => {
+              document.getElementById("attemptsDisplay").textContent = data.attempts_count;
+            });
+        });
+    }
+
+    function resetExam() {
+      current = 0;
+      correctCount = 0;
+      wrongCount = 0;
+      correctAnswered = false;
+      answered = Array(questions.length).fill(false);
+      selectedAnswers = Array(questions.length).fill(null);
+      document.getElementById("resultsBox").style.display = "none";
+      document.getElementById("sideFeedbackBox").innerHTML = '';
+      loadQuestion(current);
+    }
+
+    function goToNextTest() {
+      window.location.href = "{{ url_for('videos_page') }}";
+    }
+
+    function goNext(){
+      current++;
+      if(current < questions.length){
+        loadQuestion(current);
+      }
+    }
+
+    function goPrev(){
+      if(current > 0){
+        current--;
+        loadQuestion(current);
+      }
+    }
+
+    window.onload = () => {
+      document.getElementById("totalVideos").textContent = questions.length;
+      loadQuestion(current);
+      document.getElementById("prevBtn").onclick = goPrev;
+    };
+  </script>
+</body>
+</html>

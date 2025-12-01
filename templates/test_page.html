@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>{{ test.title }}</title>
+
+<style>
+body {
+    font-family: 'Cairo', Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* ⭐ التوب بار */
+#topbar {
+    background: #2193b0;
+    color: white;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.topbar-left span,
+.topbar-right span {
+    margin: 0 12px;
+}
+
+/* ⭐ الدوائر في ترتيب الأولوية */
+.order-badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.order-badge-correct { background: #28a745; }
+.order-badge-wrong   { background: #dc3545; }
+.order-badge-missed  { background: #17a2b8; }
+
+.container {
+    display: flex;
+    gap: 32px;
+    margin: 20px auto 0 auto;
+    max-width: 950px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#myImageBox {
+    width: 400px;
+    height: 320px;
+    border-radius: 16px;
+    border: 4px solid #2193b0;
+    background: #eaf6fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#myImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* الفيديو */
+video#myVideo {
+    width: 400px;
+    height: 320px;
+    border-radius: 16px;
+    border: 4px solid #2193b0;
+    background: #eaf6fb;
+}
+
+/* صندوق الخيارات */
+.options {
+    max-width: 400px;
+    min-width: 280px;
+    background: #ffffff;
+    padding: 25px 18px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* زر التالي فوق */
+#nextBtn {
+    background: #007bff;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start;
+    display: none;
+}
+
+/* زر السابق تحت */
+#prevBtn {
+    background: #6c757d;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    align-self: flex-end;
+    display: none;
+}
+
+/* خيار واحد */
+.option {
+    padding: 12px;
+    border: 1.4px solid #2193b0;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: right;
+}
+.option:hover {
+    background: #eaf6fb;
+}
+
+.option.correct {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+.option.wrong {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+/* متعدد */
+.options label {
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1.5px solid #2193b0;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.options label.correct {
+    background: #d4edda;
+    border-color: #28a745;
+}
+.options label.wrong {
+    background: #f8d7da;
+    border-color: #dc3545;
+}
+.options label.missed-correct {
+    background: #d4edda;
+    animation: missedBlink 0.4s ease-in-out 6;
+}
+
+@keyframes missedBlink {
+    0%, 100% { background: #d4edda; }
+    50%      { background: #fff3cd; }
+}
+
+/* الشيك بوكس */
+.options input[type=checkbox] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+/* زر تحقق */
+.submit-btn {
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* صندوق الأزرار بعد انتهاء الامتحان */
+#resultsBox {
+    display: none;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.action-btn {
+    padding: 10px 18px;
+    margin: 0 6px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.action-btn-primary {
+    background: #28a745;
+    color: #fff;
+}
+
+.action-btn-secondary {
+    background: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/* موبايل */
+@media (max-width: 600px) {
+    #topbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        max-width: 100%;
+    }
+    #myImageBox,
+    video#myVideo {
+        width: 95vw;
+        height: 200px;
+    }
+    .options {
+        max-width: 95vw;
+        min-width: 0;
+    }
+}
+/* الخلفية الشفافة للـ Popup */
+.result-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* الدائرة نفسها */
+.result-circle {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+    animation: zoomIn 0.5s ease-out, pulse 1.4s ease-in-out infinite;
+}
+
+.result-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* الرقم فوق الصورة */
+.result-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+/* أنيميشن الدخول الشفاف */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* أنيميشن التكبير */
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* نبض خفيف للدائرة */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50%      { transform: scale(1.03); }
+}
+
+.result-gif {
+    width: 200px;
+    height: auto;
+}
+
+.result-number {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result-gif {
+    width: 120px;
+    height: auto;
+}
+
+</style>
+</head>
+<body>
+
+<!-- ⭐ الشريط العلوي -->
+<div id="topbar">
+    <div class="topbar-left">
+        <span>🏁 {{ test.title }}</span>
+    </div>
+
+    <div class="topbar-right">
+        <span>عدد الأسئلة: <span id="totalQuestions"></span></span>
+        <span>المتبقي: <span id="remainingQuestions"></span></span>
+
+        <!-- النتيجة بعد انتهاء الاختبار -->
+        <span id="topbarScore" style="display:none;">
+            | ✅ <span id="topCorrect"></span>
+            | ❌ <span id="topWrong"></span>
+        </span>
+    </div>
+</div>
+
+<div class="container">
+{% if test.type == "image" %}
+    <div id="myImageBox"><img id="myImage" src="" /></div>
+{% elif test.type == "video" %}
+    <video id="myVideo" controls><source id="videoSource"></video>
+{% endif %}
+
+    <div class="options">
+    <h3 id="questionTitle"></h3>
+    <div id="optionsList"></div>
+
+    <!-- ✅ أزرار السابق / التالي في نفس الصف -->
+    <div id="navButtons">
+        <button id="prevBtn">⬅ السابق</button>
+        <button id="nextBtn">التالي ▶</button>
+    </div>
+
+    
+</div>
+
+    <!-- ⬇️ هنا فقط الأزرار بعد انتهاء الامتحان، بدون نص صحيح/خاطئ -->
+<div id="resultsBox">
+    <!-- هنا رح نرسم الدائرة بالـ JS بعد انتهاء الامتحان -->
+    <div id="finalResult"></div>
+
+    <button id="resetBtn" class="action-btn action-btn-primary">🔄 إعادة الامتحان</button>
+    <button id="backBtn" class="action-btn action-btn-secondary">⬅ العودة لقائمة الاختبارات</button>
+</div>
+
+
+<script>
+const testType = "{{ test.type }}";
+const questions = {{ test.questions | tojson }};
+const totalQuestions = questions.length;
+
+let current = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let answered = Array(questions.length).fill(false);
+let selectedAnswers = Array(questions.length).fill(null);
+
+function arraysEqual(a, b) {
+    if (!Array.isArray(a) || !Array.isArray(b)) return false;
+    if (a.length !== b.length) return false;
+    return a.every(x => b.includes(x)) && b.every(x => a.includes(x));
+}
+
+// 🔢 تحديث عداد الأسئلة المتبقية في الشريط العلوي
+function updateRemaining() {
+    const answeredCount = answered.filter(x => x).length;
+    const remaining = totalQuestions - answeredCount;
+    const remEl = document.getElementById("remainingQuestions");
+    if (remEl) remEl.textContent = remaining;
+}
+
+function loadQuestion(idx) {
+    // عرض الصورة أو الفيديو
+    if (testType == "image") {
+        const img = document.getElementById("myImage");
+        if (img) img.src = "/static/" + questions[idx].image;
+    } else if (testType == "video") {
+        const src = document.getElementById("videoSource");
+        const video = document.getElementById("myVideo");
+        if (src && video) {
+            src.src = "/static/" + questions[idx].video;
+            video.load();
+            video.play();
+        }
+    }
+
+    // نص السؤال
+    document.getElementById("questionTitle").textContent = questions[idx].question;
+
+    const optionsDiv = document.getElementById("optionsList");
+    optionsDiv.innerHTML = "";
+
+    let correct = questions[idx].correct;
+    let isMulti = Array.isArray(correct) && correct.length > 1;
+    let isOrder = isMulti && questions[idx].order === true; // سؤال أولوية
+
+    // 🟡 حالة سؤال أولوية
+    if (isOrder) {
+        if (!Array.isArray(selectedAnswers[idx])) selectedAnswers[idx] = [];
+
+        questions[idx].options.forEach((opt, i) => {
+            const btn = document.createElement("button");
+            btn.className = "option";
+
+            const userPos = selectedAnswers[idx].indexOf(i);
+            const textSpan = document.createElement("span");
+            textSpan.textContent = opt + (userPos !== -1 ? ` (ترتيبك: ${userPos + 1})` : "");
+            btn.appendChild(textSpan);
+
+            btn.disabled = answered[idx];
+
+            btn.onclick = () => {
+                if (answered[idx]) return;
+                if (!selectedAnswers[idx].includes(i)) {
+                    selectedAnswers[idx].push(i);
+                }
+                loadQuestion(idx);
+            };
+
+            optionsDiv.appendChild(btn);
+        });
+
+        const submitBtn = document.createElement("button");
+        submitBtn.textContent = "تحقق من الإجابة";
+        submitBtn.className = "submit-btn";
+        submitBtn.disabled = answered[idx];
+        submitBtn.onclick = function () {
+            if (!Array.isArray(selectedAnswers[idx]) || selectedAnswers[idx].length === 0) {
+                alert("اضغط على المركبات بالترتيب الصحيح أولاً.");
+                return;
+            }
+            checkAnswer(selectedAnswers[idx].slice());
+        };
+        optionsDiv.appendChild(submitBtn);
+
+    // 🟢 حالة متعدد عادي (checkbox)
+    } else if (isMulti) {
+        if (!Array.isArray(selectedAnswers[idx])) selectedAnswers[idx] = [];
+
+        questions[idx].options.forEach((opt, i) => {
+            const label = document.createElement("label");
+            const cb = document.createElement("input");
+            cb.type = "checkbox";
+            cb.value = i;
+            cb.disabled = answered[idx];
+            cb.checked = selectedAnswers[idx].includes(i);
+
+            cb.onchange = function () {
+                if (!Array.isArray(selectedAnswers[idx])) selectedAnswers[idx] = [];
+                if (cb.checked && !selectedAnswers[idx].includes(i)) {
+                    selectedAnswers[idx].push(i);
+                } else if (!cb.checked && selectedAnswers[idx].includes(i)) {
+                    selectedAnswers[idx] = selectedAnswers[idx].filter(x => x !== i);
+                }
+            };
+
+            label.appendChild(cb);
+            label.appendChild(document.createTextNode(opt));
+            optionsDiv.appendChild(label);
+        });
+
+        const submitBtn = document.createElement("button");
+        submitBtn.textContent = "تحقق من الإجابة";
+        submitBtn.className = "submit-btn";
+        submitBtn.disabled = answered[idx];
+        submitBtn.onclick = function () {
+            if (!Array.isArray(selectedAnswers[idx]) || selectedAnswers[idx].length === 0) {
+                alert("يرجى اختيار إجابة واحدة على الأقل!");
+                return;
+            }
+            checkAnswer(selectedAnswers[idx].slice());
+        };
+        optionsDiv.appendChild(submitBtn);
+
+    // 🔵 حالة اختيار واحد
+    } else {
+        questions[idx].options.forEach((opt, i) => {
+            const btn = document.createElement("button");
+            btn.className = "option";
+            btn.textContent = opt;
+            btn.disabled = answered[idx];
+
+            btn.onclick = () => checkAnswer(i);
+
+            if (answered[idx]) {
+                btn.style.opacity = "0.7";
+                btn.style.cursor = "not-allowed";
+                if (selectedAnswers[idx] === i) {
+                    btn.classList.add(questions[idx].correct.includes(i) ? "correct" : "wrong");
+                }
+                if (questions[idx].correct.includes(i) && selectedAnswers[idx] !== i) {
+                    btn.classList.add("correct");
+                }
+            }
+
+            optionsDiv.appendChild(btn);
+        });
+    }
+
+    // الأزرار التالي/السابق
+    const nextBtn = document.getElementById("nextBtn");
+    const prevBtn = document.getElementById("prevBtn");
+
+    nextBtn.style.display = "none";
+    prevBtn.style.display = idx > 0 ? "inline-block" : "none";
+
+    if (answered[idx]) {
+        nextBtn.style.display = "inline-block";
+        if (idx === questions.length - 1) {
+            nextBtn.textContent = "انتهى الاختبار - اضغط لعرض النتيجة";
+            nextBtn.onclick = showResults;
+        } else {
+            nextBtn.textContent = "التالي ▶";
+            nextBtn.onclick = goNext;
+        }
+    }
+
+    updateRemaining();
+}
+
+function checkAnswer(selected) {
+    if (answered[current]) return;
+
+    let correctAnswer = questions[current].correct;
+    let isMulti = Array.isArray(correctAnswer) && correctAnswer.length > 1;
+    let isOrder = isMulti && questions[current].order === true;
+    let userAnswer;
+
+    // 🟡 أسبقية
+    if (isOrder) {
+        userAnswer = Array.isArray(selected) ? selected.slice() : [];
+        const buttons = document.querySelectorAll('#optionsList .option');
+
+        buttons.forEach((btn, index) => {
+            btn.classList.remove('correct', 'wrong');
+            btn.style.pointerEvents = "none";
+
+            const correctPos = correctAnswer.indexOf(index);
+            const userPos = userAnswer.indexOf(index);
+            const optionText = questions[current].options[index];
+
+            btn.innerHTML = "";
+
+            const wrapper = document.createElement("span");
+            wrapper.style.display = "flex";
+            wrapper.style.flexWrap = "wrap";
+            wrapper.style.alignItems = "center";
+            wrapper.style.gap = "6px";
+
+            // الدائرة الأساسية
+            if (userPos !== -1 || correctPos !== -1) {
+                const mainBadge = document.createElement("span");
+                mainBadge.classList.add("order-badge");
+
+                if (userPos !== -1) {
+                    mainBadge.textContent = userPos + 1;
+                    if (correctPos !== -1 && userPos === correctPos) {
+                        mainBadge.classList.add("order-badge-correct");
+                        btn.classList.add("correct");
+                    } else {
+                        mainBadge.classList.add("order-badge-wrong");
+                        btn.classList.add("wrong");
+                    }
+                } else if (userPos === -1 && correctPos !== -1) {
+                    mainBadge.textContent = correctPos + 1;
+                    mainBadge.classList.add("order-badge-missed");
+                    btn.classList.add("correct");
+                }
+
+                wrapper.appendChild(mainBadge);
+            }
+
+            const textSpan = document.createElement("span");
+            textSpan.textContent = optionText + " ";
+            wrapper.appendChild(textSpan);
+
+            const extraSpan = document.createElement("span");
+            extraSpan.style.fontSize = "14px";
+
+            if (userPos !== -1 && correctPos !== -1) {
+                extraSpan.appendChild(document.createTextNode("ترتيبك: " + (userPos + 1) + "، الصحيح: "));
+
+                const correctBadgeInline = document.createElement("span");
+                correctBadgeInline.classList.add("order-badge", "order-badge-correct");
+                correctBadgeInline.textContent = correctPos + 1;
+
+                extraSpan.appendChild(correctBadgeInline);
+            } else if (userPos !== -1 && correctPos === -1) {
+                extraSpan.textContent = " (ترتيبك: " + (userPos + 1) + "، هذا ليس ضمن الأسبقية)";
+            } else if (userPos === -1 && correctPos !== -1) {
+                extraSpan.appendChild(document.createTextNode(" (كان يجب أن يكون في الترتيب "));
+                const correctBadgeInline = document.createElement("span");
+                correctBadgeInline.classList.add("order-badge", "order-badge-correct");
+                correctBadgeInline.textContent = correctPos + 1;
+                extraSpan.appendChild(correctBadgeInline);
+                extraSpan.appendChild(document.createTextNode(")"));
+            }
+
+            wrapper.appendChild(extraSpan);
+            btn.appendChild(wrapper);
+        });
+
+        let isCorrect = arraysEqual(userAnswer, correctAnswer);
+        if (isCorrect) correctCount++;
+        else wrongCount++;
+
+        selectedAnswers[current] = userAnswer;
+
+    // 🟢 متعدد عادي
+    } else if (isMulti) {
+        userAnswer = Array.isArray(selected) ? selected.slice().sort() : [];
+        let correctSorted = correctAnswer.slice().sort();
+        let isCorrect = arraysEqual(userAnswer, correctSorted);
+
+        const checkboxes = document.querySelectorAll('#optionsList input[type="checkbox"]');
+
+        checkboxes.forEach((cb, idx) => {
+            const label = cb.parentNode;
+            const isUserSelected = userAnswer.includes(idx);
+            const isCorrectOpt = correctAnswer.includes(idx);
+
+            label.classList.remove("correct", "wrong", "missed-correct");
+
+            if (isUserSelected && isCorrectOpt) {
+                label.classList.add("correct");
+            } else if (isUserSelected && !isCorrectOpt) {
+                label.classList.add("wrong");
+            } else if (!isUserSelected && isCorrectOpt) {
+                label.classList.add("correct", "missed-correct");
+            }
+
+            cb.disabled = true;
+        });
+
+        if (isCorrect) correctCount++;
+        else wrongCount++;
+
+        selectedAnswers[current] = userAnswer;
+
+    // 🔵 خيار واحد
+    } else {
+        userAnswer = selected;
+        selectedAnswers[current] = selected;
+
+        const btns = document.querySelectorAll("#optionsList .option");
+        if (correctAnswer.includes(selected)) {
+            btns[selected].classList.add("correct");
+            correctCount++;
+        } else {
+            btns[selected].classList.add("wrong");
+            correctAnswer.forEach(idx => btns[idx].classList.add("correct"));
+            wrongCount++;
+        }
+        btns.forEach(btn => btn.style.pointerEvents = "none");
+    }
+
+    answered[current] = true;
+    updateRemaining();
+
+    const nextBtn = document.getElementById("nextBtn");
+    nextBtn.style.display = "inline-block";
+
+    if (current === questions.length - 1) {
+        nextBtn.textContent = "انتهى الاختبار - اضغط لعرض النتيجة";
+        nextBtn.onclick = showResults;
+    } else {
+        nextBtn.textContent = "التالي ▶";
+        nextBtn.onclick = goNext;
+    }
+}
+
+function showResults() {
+    const score = correctCount;
+
+    // اختيار صورة حسب النتيجة (أنت تستخدم نفس الصورة حاليًا)
+    let gifSrc = "";
+
+    if (score < 10) {
+        gifSrc = "/static/fotos/gif.gif";
+    } else if (score < 20) {
+        gifSrc = "/static/fotos/gif.gif";
+    } else if (score < 30) {
+        gifSrc = "/static/fotos/gif.gif";
+    } else {
+        gifSrc = "/static/fotos/gif1.gif";
+    }
+
+    // تشغيل صوت حسب النتيجة (مثلاً 70% فما فوق نجاح)
+    const successSound = document.getElementById("successSound");
+    const failSound = document.getElementById("failSound");
+    const total = questions.length;
+    const ratio = total > 0 ? score / total : 0;
+
+    if (successSound && failSound) {
+        if (ratio >= 0.7) {
+            // نجاح
+            failSound.pause();
+            failSound.currentTime = 0;
+            successSound.currentTime = 0;
+            successSound.play().catch(() => {});
+        } else {
+            // نتيجة ضعيفة
+            successSound.pause();
+            successSound.currentTime = 0;
+            failSound.currentTime = 0;
+            failSound.play().catch(() => {});
+        }
+    }
+
+    // 🔵 عرض Popup يغطي الشاشة
+    const popup = document.getElementById("popupContainer");
+    if (popup) {
+        popup.innerHTML = `
+            <div class="result-popup">
+                <div class="result-circle">
+                    <img src="${gifSrc}">
+                    <div class="result-number">${score}</div>
+                </div>
+            </div>
+        `;
+    }
+
+    // ⏳ بعد 5 ثواني: نخفي البوب أب ونظهر النتائج فقط
+    setTimeout(() => {
+        if (popup) popup.innerHTML = "";
+
+        // عرض النتائج في الشريط العلوي
+        const topScore = document.getElementById("topbarScore");
+        const topCorrect = document.getElementById("topCorrect");
+        const topWrong = document.getElementById("topWrong");
+
+        if (topScore && topCorrect && topWrong) {
+            topCorrect.textContent = correctCount;
+            topWrong.textContent = wrongCount;
+            topScore.style.display = "inline-block";
+        }
+
+        // عرض أزرار إعادة الامتحان والرجوع
+        const resBox = document.getElementById("resultsBox");
+        if (resBox) {
+            resBox.style.display = "block";
+        }
+
+    }, 5000);
+
+    // تسجيل المحاولة في الباك إند (كما عندك)
+    if (window.fetch) {
+        fetch("/finish_test/{{ test.id }}", { method: "POST" })
+        .catch(() => {});
+    }
+}
+function resetExam() {
+    current = 0;
+    correctCount = 0;
+    wrongCount = 0;
+    answered = Array(questions.length).fill(false);
+    selectedAnswers = Array(questions.length).fill(null);
+
+    const topScore = document.getElementById("topbarScore");
+    if (topScore) topScore.style.display = "none";
+
+    const resBox = document.getElementById("resultsBox");
+    if (resBox) resBox.style.display = "none";
+
+    loadQuestion(current);
+}
+
+function goNext() {
+    if (current < questions.length - 1) {
+        current++;
+        loadQuestion(current);
+    }
+}
+
+function goPrev() {
+    if (current > 0) {
+        current--;
+        loadQuestion(current);
+    }
+}
+
+window.onload = () => {
+    const totalSpan = document.getElementById("totalQuestions");
+    if (totalSpan) totalSpan.textContent = totalQuestions;
+
+    loadQuestion(current);
+
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    prevBtn.onclick = goPrev;
+    nextBtn.onclick = goNext;
+};
+
+
+</script>
+<!-- أصوات النتيجة -->
+<audio id="successSound" src="/static/sounds/success.mp3" preload="auto"></audio>
+<audio id="failSound" src="/static/sounds/fail.mp3" preload="auto"></audio>
+
+<div id="popupContainer"></div>
+</body>
+</html>
+
+
+</body>
+</html>

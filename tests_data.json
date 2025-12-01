@@ -1,0 +1,5894 @@
+{
+"tests": [
+    {
+"id": 3,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+    {
+        "image": "images/photo1.png",
+        "question": "je hebt zojuist het rijbewijs B gehaald. welk(e) voertuig(en) mag je besturen?",
+        "options": [
+            "Alleen een personenauto",
+            "Alleen een personenauto en bromfiets",
+            "Alleen een personenauto, bromfiets en brommobiel"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/photo2.png",
+        "question": "Wat is de minimumleeftijd voor het besturen van een personenauto bij begeleid rijden?",
+        "options": [
+            "16 jaar",
+            "17 jaar",
+            "18 jaar"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/photo3.jpeg",
+        "question": "Je bent 18 jaar en haalt voor het eerst een rijbewijs. Hoe lang ben je een beginnende bestuurder?",
+        "options": [
+            "5 jaar",
+            "1 jaar",
+            "7 jaar"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/medepassagiers.jpg",
+        "question": "Je rijdt met medepassagiers. Waar moet je dan rekening mee houden?",
+        "options": [
+            "Een langere remweg",
+            "afleiding.",
+            "minder grip op het wegdek."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/bacha.jpg",
+        "question": "Waar kun je massa rijklaar gewicht van je auto vinden?",
+        "options": [
+            "Op het kentekenbewijs.",
+            "Op het rijbewijs.",
+            "Allebei."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/politie.png",
+        "question": "De massa rijklaar gewicht van je auto staat op het kentekenbewijs. Waar is dat belangrijk voor?",
+        "options": [
+            "De politie.",
+            "De wegenbelasting.",
+            "De verzekering."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/rijkswaterstaat-auto.png",
+        "question": "Is een Rijkswaterstaat-auto een voorrangsvoertuig?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/zitplaatsen.jpg",
+        "question": "Hoeveel andere zitplaatsen mag een auto maximaal hebben om met een rijbewijs B te rijden?",
+        "options": [
+            "6 zitplaatsen",
+            "7 zitplaatsen",
+            "8 zitplaatsen"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/ontzegd.png",
+        "question": "Je rijbevoegdheid is ontzegd. Is het toegestaan om te fietsen?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/rijverbod.jpg",
+        "question": "De politie heeft je een rijverbod opgelegd. Welk voertuig mag je besturen?",
+        "options": [
+            "Alleen een fiets.",
+            "Geen enkel voertuig.",
+            "Alleen een fiets en een snorfiets."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/wedstrijd.jpg",
+        "question": "Op weg wordt er een wedstrijd gehouden met een voertuig. Wie is er strafbaar?",
+        "options": [
+            "De eigenaar en de bestuurder.",
+            "De bestuurder",
+            "De eigenaar."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/telephoon.jpg",
+        "question": "Is het verboden om je telefoon in je hand te hebben als je rijdt?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/verkeersongeval.png",
+        "question": "Je bent betrokken bij een verkeersongeval. Wanneer moet je jouw ID van je motorrijtuig kenbaar maken?",
+        "options": [
+            "Dat moet altijd.",
+            "Alleen als je het ongeval zelf veroorzaakt hebt.",
+            "Alleen als je zelf schade en letsel hebt opgelopen."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/douaneambtenaar.jfif",
+        "question": "De douaneambtenaar geeft je een teken tot stoppen. Wanneer moet je daar gehoor aan geven?",
+        "options": [
+            "Altijd.",
+            "Alleen bij een grensovergang.",
+            "Alleen als je passagiers en bagage vervoert."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/vrachtauto.jpg",
+        "question": "De vrachtauto voor je is zijn vracht verloren. Wat doe je?",
+        "options": [
+            "Niets.",
+            "De politie inschakelen.",
+            "De Wegenwacht inschakelen."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/verplichtverzekering.png",
+        "question": "Ben je verplicht een verzekering af te sluiten voor een auto?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/cacco.png",
+        "question": "Wat kan een WA-Casco verzekering van een motorvoertuig na een ongeval vergoeden?",
+        "options": [
+            "het eigen voertuig",
+            "Alleen de schade aan de tegenpartij",
+            "De schade aan het eigen voertuig en de tegenpartij"
+        ],
+        "correct": [2]
+    }
+]
+},
+    {
+"id": 4,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+    {
+        "image": "images/images_exame_4/auto_1.png",
+        "question": "Je wilt hier linksaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_2.png",
+        "question": "Je wilt hier linksaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_3.png",
+        "question": "Je wilt hier linksaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_4.png",
+        "question": "Je wilt rechtsaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_5.png",
+        "question": "Je wilt rechtsaf. Gaat de gehandicapte voor?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_6.png",
+        "question": "Je wilt rechtsaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_7.png",
+        "question": "Je wilt  linksaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_8.png",
+        "question": "Je wilt hier parkeren. Moet je de voetganger voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_9.png",
+        "question": "Je wilt het parkeervak verlaten. Moet je de voetganger voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_10.png",
+        "question": "De motor wil de rotonde verlaten. Moet hij de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_11.png",
+        "question": "Je wilt  linksaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_12.png",
+        "question": "Je wilt linksaf. Moet je de voetganger voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_13.png",
+        "question": "Wie heeft hier voorrang?",
+        "options": ["De auto", "De motor"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_14.png",
+        "question": "Je wilt rechtdoor. Moet je de gele auto voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_15.png",
+        "question": "Je wilt rechtsaf. Moet je de motor voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_16.png",
+        "question": "Je wilt  linksaf. Moet je de motor voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_17.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Scooter, auto, fietser", "Auto, fietser, scooter", "Fietser, auto, scooter"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_4/auto_18.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["motor, auto, scooter", "Auto, scooter, motor", "Scooter, motor, auto"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_19.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["witte auto, grijze auto, fiets", "fiets, witte auto, grijze auto", "fiets, , grijze auto,witte auto"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_20.png",
+        "question": "Je wilt linksaf. Moet je de zwarte auto voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_21.png",
+        "question": "Je wilt linksaf. Moet je de brommobiel voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_22.png",
+        "question": "In welke situatie moet je de vrachtauto voorrang verlenen?",
+        "options": ["Situatie A", "Situatie B", "Situatie A + B"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_4/auto_23.png",
+        "question": "Moet je de tractor in deze situatie voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_24.png",
+        "question": "Je wilt rechtdoor. Moet je de bromfietser voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_25.png",
+        "question": "In welke situatie heeft de motor voorrang?",
+        "options": ["Situatie A", "Situatie B", "Situatie A en B"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_4/auto_26.png",
+        "question": "Wie heeft hier voorrang?",
+        "options": ["Gele auto", "Witte auto", "Grijze auto"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_27.png",
+        "question": "Wie heeft hier voorrang?",
+        "options": ["Auto", "Motor", "scooter"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_28.png",
+        "question": "Je wilt rechtdoor. Moet je de auto voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_29.png",
+        "question": "Je wilt rechtdoor. Moet je de auto voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_30.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Scooter, auto, tram, motor", "Auto, motor, scooter, tram", "Motor, auto, scooter, tram"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_31.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Motor, scooter, bus", "Scooter, bus, motor", "Bus, motor, scooter"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_32.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Auto, tram, motor", "Tram, motor, auto", "Motor, auto, tram"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_33.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Militair konvooi, auto", "Auto, militair konvooi"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_34.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Tram, militair konvooi, auto", "Militair konvooi, tram, auto", "Auto, tram, militair konvooi"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_35.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Brandweerauto, auto, fiets", "Auto, fiets, brandweerauto", "Fiets, auto, brandweerauto"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_36.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Bus, motor, scooter", "Motor, scooter, bus", "Scooter, bus, moto"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_37.png",
+        "question": "Moet je de tram in deze situatie voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_4/auto_38.png",
+        "question": "Je wilt rechtdoor. Moet je de uitvaartstoet voorrang verlenen",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_39.png",
+        "question": "Wat is de juiste volgorde van voor laten gaan?",
+        "options": ["Militair konvooi, auto", "Auto, militair konvooi"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_4/auto_40.png",
+        "question": "Moet je de bus voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    }
+]
+},
+{
+"id": 5,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+    {
+        "image": "images/images_exame_5/regel_1.png",
+        "question": "Je passagier wil uitstappen. Moet ze de gehandicapte voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_2.png",
+        "question": "Je rijdt hier achteruit. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/regel_3.png",
+        "question": "Bij welk verkeersbord of borden is het toegestaan om te keren?",
+        "options": ["Bord A", "Bord A en B", "Bord C"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/regel_4.png",
+        "question": "Wie mogen binnen een erf de weg over de volle breedte gebruiken?",
+        "options": ["Alle weggebruikers", "Alle bestuurders", "Voetgangers"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/regel_5.png",
+        "question": "Welke invloed heeft vermoeidheid op de focus van de bestuurder?",
+        "options": ["De focus neemt af", "De focus neemt toe", "Vermoeidheid heeft geen invloed op de focus"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_6.png",
+        "question": "Als je goed bent uitgerust achter het stuur, heeft dit dan invloed op je reactieafstand?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_7.png",
+        "question": "Jonge beginnende bestuurders zijn het vaakst bij een ongeval betrokken. Wat is de belangrijkste oorzaak hiervan?",
+        "options": ["Ze overschatten hun eigen rijvaardigheid", "Zij zijn nog onervaren bestuurders", "Zij rijden te snel"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_8.png",
+        "question": "Is de maximumsnelheid op de spitsstrook hetzelfde als op de andere rijstroken?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_9.png",
+        "question": "Is het toegestaan om na dit bord een doorgetrokken lijn te overschrijden?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_10.png",
+        "question": "Is het toegestaan om op een spitsstrook in te halen ondanks de doorgetrokken streep?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_11.png",
+        "question": "Is het toegestaan om van rijstrook te wisselen naar de spitsstrook ondanks de doorgetrokken lijn?",
+        "options": ["Ja, want je moet zoveel mogelijk rechts rijden", "Nee, want de spitsstrook is alleen bestemd voor vrachtverkeer"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_13.png",
+        "question": "Waar is het parkeren op een rijbaan van een voorrangsweg toegestaan?",
+        "options": ["Alleen binnen de bebouwde kom", "Alleen buiten de bebouwde kom", "Binnen en buiten de bebouwde kom"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/regel_14.png",
+        "question": "Moet je er rekening mee houden dat de remweg van een vrachtauto langer is dan van een personenauto?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/gordel_1.png",
+        "question": "Je rijdt in een auto en hebt op de achterbank 3 gordels. Is het toegestaan om 4 volwassenen op de achterbank te vervoeren?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/gordel_2.png",
+        "question": "Hoort een autogordel los of strak op het lichaam te zitten?",
+        "options": ["Los", "Strak"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/gordel_3.png",
+        "question": "Een zwangere bestuurder gebruikt de driepuntsgordel als heupgordel. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/gordel_4.png",
+        "question": "Wanneer is het toegestaan een kind zonder een geschikt kinderzitje te vervoeren?",
+        "options": ["Nooit", "Als het kind 1,35 meter of langer is", "Als het kind kleiner is dan 1,35 meter"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/gordel_5.png",
+        "question": "Een kind van 12 zit in de auto, maar de gordel komt tegen zijn hals. Wat moet hij gebruiken?",
+        "options": ["Een zitverhoger", "Een kinderstoeltje", "Niets"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/gordel_6.png",
+        "question": "Als de airbag is uitgeschakeld, welke positie is dan veiliger?",
+        "options": ["Situatie A", "Situatie B"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/gordel_7.png",
+        "question": "Is het toegestaan een kind van twee jaar in een geschikt kinderzitje op de voorste zitplaats te vervoeren?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/stoet_1.png",
+        "question": "Je gaat rechtdoor. Moet je de hele militaire colonne voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/stoet_2.png",
+        "question": "Je gaat rechtdoor. Moet je de uitvaartstoet voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/stoet_3.png",
+        "question": "Je gaat rechtdoor. Moet je de militaire colonne voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/stoet_4.png",
+        "question": "Waar moet je een bus de kans geven om weg te rijden vanuit een bushalte?",
+        "options": ["Binnen de bebouwde kom", "Buiten de bebouwde kom", "Binnen en buiten de bebouwde kom"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/stoet_5.png",
+        "question": "De bus wil gaan vertrekken. Gaat de bus voor?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/stoet_6.png",
+        "question": "Kun je nu verwachten dat de bus zal uitwijken op jouw rijstrook?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/stoet_7.png",
+        "question": "Je ziet een ambulance met optische en geluidssignalen terwijl je een kruispunt nadert. Wat is verstandig om te doen?",
+        "options": ["Met onverminderde snelheid blijven rijden", "Direct stoppen, motor afzetten en waarschuwingslichten aanzetten", "Zoveel mogelijk rechts rijden en de weg blijven volgen tot je ruimte kunt maken"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/stoet_8.png",
+        "question": "Je staat voor een rood verkeerslicht. Mag je dan even je gordel losmaken om snel je jas uit te trekken?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/stoet_9.png",
+        "question": "Een ambulance met zwaailichten en sirene nadert je van achter. Wat is verstandig om te doen?",
+        "options": ["De eerstvolgende afslag rechts pakken", "Op de rotonde blijven rijden", "Jouw oorspronkelijke route volgen"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/stoet_10.png",
+        "question": "Je gaat rechtdoor. Moet je de militaire colonne voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/stoet_11.png",
+        "question": "Er nadert een ambulance met optische en geluidssignalen. Is het toegestaan om uit te wijken naar de fietsstrook om de ambulance voor te laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/stoet_12.png",
+        "question": "Mag je over een verdrijvingsvlak rijden als een ambulance er langs moet?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/situatie_1.png",
+        "question": "In welke situatie verleen je de voetganger voorrang?",
+        "options": ["Situatie A", "Situatie B", "Situatie A en B"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/situatie_2.png",
+        "question": "Kun je de stopafstand verkleinen door goed te anticiperen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/situatie_3.png",
+        "question": "Wat gebeurt er met je brandstofverbruik als je goed anticipeert?",
+        "options": ["Dit wordt lager", "Dit blijft hoger", "Dit blijft gelijk"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/situatie_4.png",
+        "question": "Waar kun je lezen dat de medicijnen je rijvaardigheid kunnen belemmeren?",
+        "options": ["In de bijsluiter", "In het doktersrecept"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/situatie_5.png",
+        "question": "Slaap- en kalmeringsmiddelen kunnen de rijvaardigheid beïnvloeden. Geldt dit ook voor andere geneesmiddelen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/situatie_6.png",
+        "question": "Je gebruikt medicijnen. Wanneer is het toegestaan om een auto te besturen?",
+        "options": ["Nooit", "Altijd", "Als de medicijnen je rijvaardigheid niet beïnvloeden"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/situatie_7.png",
+        "question": "Zijn de effecten van medicijnen altijd direct merkbaar na het innemen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_1.png",
+        "question": "Er heeft een ongeval plaatsgevonden. Moet men na een ongeval de plaats van het ongeval direct beveiligen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_2.png",
+        "question": "Een slachtoffer is bewusteloos en begint te braken. Wat is de juiste lichaamspositie?",
+        "options": ["Houding A", "Houding B"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_3.png",
+        "question": "Je komt als eerste aan bij een ongeval. Wat moet je eerst doen?",
+        "options": ["112 bellen", "Zorgen voor het slachtoffer", "Zorgen voor je eigen veiligheid"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_4.png",
+        "question": "Wat moet je doen bij een verkeersslachtoffer dat klaagt over hevige rugpijn, maar buiten levensgevaar is?",
+        "options": ["Het slachtoffer in een stabiele zijligging leggen", "Het slachtoffer laten liggen zoals je hem aantreft"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_5.png",
+        "question": "Wat moet je doen als een verkeersslachtoffer een whiplash heeft?",
+        "options": ["Het slachtoffer in een stabiele zijligging leggen", "Het slachtoffer zo laten liggen", "Het slachtoffer op de rug plaatsen"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_6.png",
+        "question": "Je bent betrokken bij een aanrijding waarbij gewonden zijn gevallen. Is het toegestaan het slachtoffer wat te drinken te geven?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_7.png",
+        "question": "Er ligt een slachtoffer op de grond met een helm op. Is het toegestaan de helm af te nemen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_8.png",
+        "question": "Waar is dit mesje voor bedoeld?",
+        "options": ["Voor het lossnijden van de gordel", "Voor het lossnijden van je kleding", "Voor het lossnijden van het kinderzitje"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_9.png",
+        "question": "Je auto is het water gevallen. Op welk moment probeer je de auto te verlaten?",
+        "options": ["Meteen als de auto nog drijft", "Pas als de auto geheel onder water is verdwenen"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_10.png",
+        "question": "Je staat met pech en blijft in de auto om op hulp te wachten. Is dit de veiligste plek om te wachten?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_11.png",
+        "question": "Wanneer is het toegestaan de vluchtstrook te gebruiken?",
+        "options": ["In geval van nood", "Om je telefoon te beantwoorden", "Zowel in geval van nood als om je telefoon te beantwoorden"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/ongeval_12.png",
+        "question": "Je rijdt in een tunnel zonder vluchtstrook. Je bent bijna aan het einde van de tunnel als er rook onder de motorkap vandaan komt. Wat moet je doen?",
+        "options": ["Onmiddellijk stoppen en de motor afzetten", "Proberen de tunnel uit te rijden en dan te stoppen"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_1.png",
+        "question": "Moet je nu je lichten aanzetten?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/licht_2.png",
+        "question": "Je rijdt overdag met dimlicht. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/licht_3.png",
+        "question": "Je rijdt een tunnel met dimlicht. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/licht_4.png",
+        "question": "Wat is de betekenis van dit symbool?",
+        "options": ["Grootlicht", "Stadslicht", "Dimlicht"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/licht_5.png",
+        "question": "Je rijdt hier met grootlicht. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_6.png",
+        "question": "In welke situatie is het toegestaan om grootlicht te voeren?",
+        "options": ["Situatie A", "Situatie B", "Situatie A en B"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_7.png",
+        "question": "Welke verlichting mag je aandoen als het ’s nachts is en je niemand verlicht?",
+        "options": ["Grootlicht", "Dimlicht", "Dimlicht en grootlicht"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/licht_8.png",
+        "question": "Wanneer is het toegestaan om overdag met grootlicht te rijden?",
+        "options": ["Nooit", "Bij zeer dichte mist", "Als je voertuig deel uitmaakt van een uitvaartstoet"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/licht_9.png",
+        "question": "Je rijdt een tunnel in met grootlicht aan. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_10.png",
+        "question": "Welke verlichting is overdag toegestaan?",
+        "options": ["Dimlicht en stadslicht", "Grootlicht en stadslicht", "Grootlicht en dimlicht"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/licht_11.png",
+        "question": "Je rijdt in de regen met mistachterlicht aan. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_12.png",
+        "question": "Wat is de betekenis van dit symbool?",
+        "options": ["Stadslicht", "Mistachterlicht", "Dimlicht"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_13.png",
+        "question": "Je rijdt in mist. Je kunt de twee volgende hectometerpaaltjes nog zien. Is het toegestaan om het mistachterlicht aan te doen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_14.png",
+        "question": "Mistlichten aan de voorzijde mogen gevoerd worden bij mist, sneeuwval of regen als het zicht minder is dan:",
+        "options": ["50 meter", "100 meter", "200 meter"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/licht_15.png",
+        "question": "Is het toegestaan om alleen met stadslichten te rijden?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_16.png",
+        "question": "Is het toegestaan dagrijverlichting te voeren in plaats van dimlicht?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_17.png",
+        "question": "Je rijdt in het donker en je kentekenverlichting is defect. Is het toegestaan zo te rijden?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/licht_18.png",
+        "question": "Zou de lading de verlichting van de auto kunnen beïnvloeden?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_1.png",
+        "question": "Hoelang duurt het voordat 1 standaardglas alcohol is afgebroken?",
+        "options": ["Half uur", "1 uur", "1,5 uur"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_2.png",
+        "question": "Wat kan je doen om alcohol sneller uit je bloed te krijgen?",
+        "options": ["Veel koffie drinken", "Veel water drinken", "Niets"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_3.png",
+        "question": "Bevat een glas pils minder alcohol dan een glas jenever?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_4.png",
+        "question": "Ben je na het drinken van 1 glas wijn onder invloed?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_5.png",
+        "question": "Wat doet te veel alcohol met je reactietijd?",
+        "options": ["De reactietijd wordt langer", "De reactietijd wordt korter", "De reactietijd blijft gelijk"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_6.png",
+        "question": "Hoeveel microgram mag een ervaren bestuurder maximaal in zijn adem hebben?",
+        "options": ["220", "88", "150"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_7.png",
+        "question": "Hoeveel promille alcohol in je bloed is tijdens het rijden toegestaan?",
+        "options": ["0,2 promille", "0,5 promille", "0,8 promille"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_8.png",
+        "question": "Je bent 21 jaar en je hebt meer dan 0,2 promille alcohol gedronken. Mag je nu een fiets besturen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/alcohol_9.png",
+        "question": "Je hebt in de avond 10 standaardglazen bier gedronken. Mag je de volgende ochtend naar werk rijden?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/spiegel_1.png",
+        "question": "Welk deel van de weg kan de bestuurder met een goed afgestelde linkerbuitenspiegel overzien?",
+        "options": ["Alleen deel 1", "Alleen deel 2", "Alleen deel 3"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/spiegel_2.png",
+        "question": "Je hebt alleen een linker buitenspiegel. Is het toegestaan om zo te rijden?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/spiegel_3.png",
+        "question": "Waar zit je dode hoek?",
+        "options": ["Alleen deel 1", "Alleen deel 2", "Deel 1 en deel 2"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/spiegel_4.png",
+        "question": "Door het rijden met een aanhangwagen kan je via de binnenspiegel niet zien wat er achter je gebeurt. Wat moet je doen?",
+        "options": ["De zijspiegels verbreden", "Langzamer rijden", "Over je schouder kijken"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_5/spiegel_5.png",
+        "question": "Heeft een vrachtauto een grotere dode hoek dan een personenauto?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    }
+]
+},
+{
+"id": 6,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+    {
+        "image": "images/images_exame_6/verkeer_1.png",
+        "question": "Door verkeer achter je kan je nog niet invoegen. Moet je wachten met je richting aangeven tot het mogelijk is?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_2.png",
+        "question": "Waar moet je de richtingaanwijzer gebruiken als je wilt wegrijden?",
+        "options": ["Alleen binnen de bebouwde kom", "Alleen buiten de bebouwde kom", "Binnen en buiten de bebouwde kom"],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_3.png",
+        "question": "Je wilt inhalen, moet je jouw richting aangeven?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_4.png",
+        "question": "Je staat met pech. Is het toegestaan de waarschuwingslichten te laten knipperen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_5.png",
+        "question": "Je staat met pech. Je hebt je waarschuwingslichten aan. Moet je dan ook een gevarendriehoek gebruiken?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_6.png",
+        "question": "Je wilt invoegen. Moet je het doorgaande verkeer voor laten gaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_7.png",
+        "question": "Je rijdt in het donker en een auto rijdt je tegemoet die geen lichten voert. Is het toegestaan om de tegenligger te waarschuwen met lichtsignalen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_8.png",
+        "question": "Je hebt pech. Is het toegestaan de gevarendriehoek op 5 meter afstand te plaatsen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_9.png",
+        "question": "Je hebt pech. Is het toegestaan de gevarendriehoek op deze afstand te plaatsen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_10.png",
+        "question": "Je rijdt een tunnel uit. Waar moet je rekening mee houden?",
+        "options": [
+            "Dat het zonlicht je kan verblinden en wat tijd kost om alles weer goed te zien",
+            "Door het zonlicht kan je alles meteen weer goed zien"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_11.png",
+        "question": "Wanneer mogen geluidssignalen worden gegeven?",
+        "options": [
+            "Alleen ter afwending van dreigend gevaar",
+            "Alleen om te laten weten dat je wilt inhalen",
+            "In beide situaties"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_12.png",
+        "question": "Waar mogen geluidssignalen of lichtsignalen worden gegeven om dreigend gevaar af te wenden?",
+        "options": [
+            "Alleen binnen de bebouwde kom",
+            "Alleen buiten de bebouwde kom",
+            "Binnen en buiten de bebouwde kom"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_13.png",
+        "question": "Je krijgt geen voorrang. Is het toegestaan een geluidssignaal af te geven?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_14.png",
+        "question": "Waar heb je de meeste kans op aquaplaning?",
+        "options": [
+            "Op een wegdek met spoorvorming",
+            "Op een parkeerplaats",
+            "Bij een viaduct"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_15.png",
+        "question": "Wie moet je voor laten gaan bij een voetgangersoversteekplaats?",
+        "options": [
+            "Alleen voetgangers",
+            "Voetgangers en bestuurders van gehandicaptenvoertuigen",
+            "Voetgangers, gehandicaptenvoertuigen en fietsers"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_16.png",
+        "question": "Binnen maximaal hoeveel meter voor een voetgangersoversteekplaats is het niet toegestaan om te parkeren?",
+        "options": ["5 meter", "12 meter", "15 meter"],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_17.png",
+        "question": "Geven de elektronische signaleringsborden een adviessnelheid aan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_18.png",
+        "question": "Wat is nu je toegestane maximumsnelheid op deze weg?",
+        "options": ["60 km/u", "80 km/u", "100 km"],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verkeer_19.png",
+        "question": "Op welke route ervaar je meer vertraging?",
+        "options": [
+            "A16 20+2",
+            "A15 10+5",
+            "Op beide routes even veel"
+        ],
+        "correct": [1]
+    }
+]
+},
+{
+"id": 7,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+    {
+        "image": "images/images_exame_7/verbruik_1.png",
+        "question": "Als je in een bocht de snelheid verhoogt, wat gebeurt er dan met de centrifugale kracht?",
+        "options": [
+            "Deze wordt kleiner",
+            "Deze wordt groter",
+            "Deze blijft gelijk"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_2.png",
+        "question": "Wat verbruikt in de auto de meeste energie?",
+        "options": [
+            "De airconditioning",
+            "De achterruitverwarming",
+            "De verwarming van de buitenspiegels"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_3.png",
+        "question": "Je laat de motor kort warmlopen voordat je weg rijdt. Is dit een extra belasting voor het milieu?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_4.png",
+        "question": "Je laat de motor warm draaien. Is dat beter voor de motor van de auto?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_5.png",
+        "question": "Is het schadelijk voor het milieu als na een hevige sneeuwbui je ruiten sneeuwvrij maakt en direct wegrijdt?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_6.png",
+        "question": "Je remt sterk af en trekt daarna hard op. Bespaar je hiermee brandstof?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_7.png",
+        "question": "Is het mogelijk om aan je toerenteller te zien wanneer je moet doorschakelen?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_8.png",
+        "question": "Is je toerenteller stuk, is het toegestaan om zo door te rijden naar de garage om je toerenteller te laten controleren?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_9.png",
+        "question": "Je snelheidsmeter is defect. Is het toegestaan om dan door te rijden?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_10.png",
+        "question": "Wat is het nadeel van cruisecontrol?",
+        "options": [
+            "Het rijden wordt makkelijker waardoor oplettendheid kan verminderen.",
+            "Het brandstofverbruik neemt toe."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_11.png",
+        "question": "Wanneer verbruikt je auto meer brandstof?",
+        "options": [
+            "Als er veel met constante snelheid wordt gereden.",
+            "Als er veel met wisselende snelheid wordt gereden."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_12.png",
+        "question": "Kun je brandstof besparen door cruisecontrol te gebruiken?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_13.png",
+        "question": "Waardoor kan je het gebruik van brandstof verminderen?",
+        "options": [
+            "Door cruisecontrol te gebruiken.",
+            "Door de motor warm te laten draaien.",
+            "Door zo lang mogelijk in een lage versnelling te blijven rijden."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_14.png",
+        "question": "Je houdt je aan een goede volgafstand. Kan je dan brandstof besparen?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_15.png",
+        "question": "Wat is het gevolg van extra gewicht in de auto?",
+        "options": [
+            "Alleen meer brandstofverbruik.",
+            "Een langere remweg en langere reactietijd.",
+            "Een langere remweg en meer brandstofverbruik."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_16.png",
+        "question": "Je schakelt pas bij een hoog toerental door naar een hogere versnelling. Heb je hierdoor een hoger brandstofverbruik?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_17.png",
+        "question": "Hoe kun je ervoor zorgen dat het brandstofverbruik vermindert?",
+        "options": [
+            "Door zoveel mogelijk op een lage versnelling te blijven rijden.",
+            "Door zoveel mogelijk op een hoge versnelling te blijven rijden."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_18.png",
+        "question": "Je rijdt met je raam open. Heeft dit invloed op je brandstofverbruik?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_19.png",
+        "question": "Op welke manier kan je brandstof besparen?",
+        "options": [
+            "Je blijft net zo lang in een versnelling rijden totdat je niet verder kunt.",
+            "Je voorkomt dat je vaak moet schakelen en remmen.",
+            "Je schakelt over bij een zo hoog mogelijk toerental."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_20.png",
+        "question": "Hoe kan je brandstof besparen ?",
+        "options": [
+            "Door tijdig het gas los te laten en de auto te laten uitrollen.",
+            "Door de cruisecontrol te gebruiken.",
+            "Beide antwoorden zijn juist."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_21.png",
+        "question": "Hoe kan je tijdens het rijden brandstof besparen?",
+        "options": [
+            "Door een lage bandenspanning in alle banden.",
+            "Door bij lage toerentallen op te schakelen.",
+            "Door bij hoge toerentallen op te schakelen."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_22.png",
+        "question": "Hoe kan je ervoor zorgen dat je minder brandstof verbruikt?",
+        "options": [
+            "Door de motor warm te laten draaien voordat je wegrijdt.",
+            "Door vaak de airco te gebruiken.",
+            "Door een goede bandenspanning te hebben."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_23.png",
+        "question": "Je rijdt in een auto met een automatische versnellingsbak. Is het mogelijk om brandstof te besparen door met de schakelflippers aan het stuur sneller naar een hogere versnelling te schakelen?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_24.png",
+        "question": "Wat gebeurt er met het brandstofverbruik als je goed anticipeert?",
+        "options": [
+            "Dit wordt lager.",
+            "Dit wordt hoger.",
+            "Dit blijft gelijk."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_25.png",
+        "question": "Is het goed voor het milieu als je tijdens het rijden vaak het start-stopsysteem gebruikt?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_7/verbruik_26.png",
+        "question": "Je rijdt met je navigatie aan. Heeft dit invloed op het milieu?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    }
+]
+},
+{
+"id": 8,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+{
+    "image": "images/images_exame_8/bord_1.png",
+    "question": "Als je deze autosnelweg blijft volgen, blijft deze dan bestaan uit twee rijstroken?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/bord_2.png",
+    "question": "Je wilt zo blijven rijden. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/bord_3.png",
+    "question": "Je wilt linksaf. Is het toegestaan om zo voor te sorteren?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/bord_4.png",
+    "question": "Je gaat richting Arnhem. Zit je nu op de juiste rijstrook?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/bord_5.png",
+    "question": "Je moet wachten op tegenliggers die voorbij rijden. Wat is dan de meest veilige stand van je voorwielen?",
+    "options": ["Naar links", "Naar rechts", "Recht vooruit in de rijrichting"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/bord_6.png",
+    "question": "Je gaat de rotonde driekwartrond rijden. Is het dan toegestaan om op deze baan te blijven rijden?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/bord_7.png",
+    "question": "Naar welke zijde moet je gaan uitwijken als er een motor nadert?",
+    "options": ["Naar rechts", "Naar links", "Niet uitwijken"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/bord_8.png",
+    "question": "Je wilt zo blijven rijden. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/bord_9.png",
+    "question": "De politieauto rijdt met zwaailichten en sirenes. Moet je in deze situatie rechts aanhouden?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/bord_10.png",
+    "question": "Je rijdt hier 100 km/u. Waar moet je wisselen van rijstrook?",
+    "options": ["Voor de vrachtauto", "Achter de vrachtauto"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/bord_11.png",
+    "question": "Je rijdt langs dit bord. Wanneer mag je de rijstrook verlaten?",
+    "options": ["Direct na dit bord", "Na 300 meter", "Beide"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/bord_12.png",
+    "question": "Op welke rijstrook heb je de meeste kans op spoorvorming?",
+    "options": ["Rijstrook A", "Rijstrook B", "Rijstrook C"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/bord_13.png",
+    "question": "Is het toegestaan om nu al te ritsen?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_1.png",
+    "question": "De gele auto rijdt langzaam op de linker rijstrook. Is het toegestaan om hier van rechts in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_2.png",
+    "question": "Je wilt hier invoegen op de autosnelweg. Is het toegestaan om hier van rechts in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/fruit_3.png",
+    "question": "Je verlaat de autosnelweg en haalt via rechts in. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/fruit_4.png",
+    "question": "Is het toegestaan in één keer door te rijden naar de meest linkerrijstrook om de auto in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_5.png",
+    "question": "Is het mogelijk om een file te voorkomen door kort achter elkaar te rijden?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_6.png",
+    "question": "Je haalt hier de motor in. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_7.png",
+    "question": "Bij welk bord is het toegestaan om een vrachtauto in te halen?",
+    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/fruit_8.png",
+    "question": "Je ziet dit bord. Is het toegestaan om hier een vrachtauto in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/fruit_9.png",
+    "question": "Je ziet dit bord. Is het toegestaan om hier een vrachtauto in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_10.png",
+    "question": "Je wilt hier inhalen. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_11.png",
+    "question": "Is het toegestaan om bij dit bord een bromfietser in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/fruit_12.png",
+    "question": "Moet je verwachten dat een motorrijder achteraan aansluit bij een file?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/fruit_13.png",
+    "question": "Door wat lopen motorrijders meer risico in een file?",
+    "options": ["Door het verschil in snelheid", "Door beperkte zichtbaarheid", "Door het verschil in snelheid en beperkte zichtbaarheid"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/fruit_14.png",
+    "question": "Waarvan is je beslissing om in te halen afhankelijk?",
+    "options": ["Alleen het onderlinge snelheidsverschil", "Alleen de ruimte tussen de voertuigen", "Het onderlinge snelheidsverschil en de ruimte tussen de voertuigen"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/toegstaan_1.png",
+    "question": "Wat is je toegestane maximumsnelheid op deze weg?",
+    "options": ["50 km/u", "60 km/u"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_2.png",
+    "question": "Welk bord geeft het begin van de bebouwde kom aan?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_3.png",
+    "question": "Welk bord geeft een maximumsnelheid aan?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/toegstaan_4.png",
+    "question": "Welk bord geeft een adviessnelheid aan?",
+    "options": ["Bord A", "Bord B", "Bord C"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_5.png",
+    "question": "Waar kun je een brommobiel op de rijbaan verwachten?",
+    "options": ["Binnen de bebouwde kom", "Buiten de bebouwde kom", "Binnen en buiten de bebouwde kom"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/toegstaan_6.png",
+    "question": "Je rijdt nu stapvoets. Is het verplicht om hier stapvoets te rijden?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_7.png",
+    "question": "Je rijdt nu 30 km/u. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_8.png",
+    "question": "Rijd je nu in een 30 km/u zone?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_9.png",
+    "question": "Op dit bord staat 100. Wat geeft dit aan?",
+    "options": ["Een adviessnelheid", "Maximumsnelheid voor alle motorvoertuigen", "Maximumsnelheid alleen voor vrachtauto’s"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_10.png",
+    "question": "Op welke wegen kan de maximumsnelheid 130 km/u zijn?",
+    "options": ["Autowegen", "Autosnelwegen", "Autowegen en autosnelwegen"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_11.png",
+    "question": "Je wilt op deze weg overdag 130 km/u rijden. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_12.png",
+    "question": "Welke snelheid moet een motorvoertuig minimaal hebben om gebruik te mogen maken van een autosnelweg?",
+    "options": ["50 km/u", "60 km/u", "70 km/u"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_13.png",
+    "question": "Je wilt de autosnelweg verlaten. Op welke afstand van de afrit moet je jouw richting aangeven?",
+    "options": ["300 meter", "600 meter", "1200 meter"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_14.png",
+    "question": "Je wilt de doorgaande rijbaan oprijden met 40 km/u. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_15.png",
+    "question": "Je wilt de doorgaande rijbaan oprijden. Moet je eerst op de vluchtstrook voldoende snelheid maken?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_16.png",
+    "question": "Je rijdt in de middag op de autosnelweg en ziet dit bord. Mag je dan maximaal 100 km/u rijden?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_17.png",
+    "question": "Het is 22:00 uur. Wat is de toegestane maximumsnelheid op de autosnelweg?",
+    "options": ["100 km/u", "120 km/u", "130 km/u"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/toegstaan_18.png",
+    "question": "Je rijdt na dit bord 100 km/u. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_19.png",
+    "question": "Je wilt hier 90 km/u rijden. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_20.png",
+    "question": "Wat is je toegestane maximumsnelheid op deze weg?",
+    "options": ["90 km/u", "100 km/u", "130 km/u"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_8/toegstaan_21.png",
+    "question": "Je rijdt hier. Kun je op deze weg een landbouwtrekker verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_22.png",
+    "question": "Op welke weg kun je tegenliggers verwachten?",
+    "options": ["Alleen op weg A", "Alleen op weg B", "Op weg A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_23.png",
+    "question": "Wat is de toegestane maximumsnelheid op deze weg?",
+    "options": ["70 km/u", "80 km/u", "100 km/u"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_24.png",
+    "question": "Welke weg is ingericht voor een maximumsnelheid van 100 km/u?",
+    "options": ["Weg A", "Weg B", "Weg A en B"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/toegstaan_25.png",
+    "question": "Je rijdt 120 km/u. Welke volgafstand moet je minimaal aanhouden bij deze snelheid?",
+    "options": ["1 seconde", "2 seconden", "3 seconden"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_26.png",
+    "question": "Je rijdt 100 km/u. Welke volgafstand moet je tenminste aanhouden bij deze snelheid?",
+    "options": ["Ongeveer 35 meter", "Ongeveer 55 meter", "Ongeveer 100 meter"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_27.png",
+    "question": "Wat is de minimale volgafstand bij hevige regenval?",
+    "options": ["1 seconde", "2 seconden", "3 seconden"],
+    "correct": [2]
+}
+]
+},
+{
+"id": 9,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+{
+    "image": "images/images_exame_9/banden_1.png",
+    "question": "Wanneer heeft het nut om winterbanden te gebruiken?",
+    "options": [
+    "Bij een temperatuur onder 7 graden",
+    "Bij een temperatuur onder 0 graden",
+    "Bij een temperatuur onder -5 graden"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_2.png",
+    "question": "Een winterband heeft een aanbevolen minimum profieldiepte om goed te kunnen functioneren. Hoeveel is dat?",
+    "options": [
+    "1,6 millimeter",
+    "4 millimeter",
+    "5 millimeter"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_3.png",
+    "question": "Wat is de minimale profieldiepte van banden?",
+    "options": [
+    "0,8 millimeter",
+    "1,6 millimeter",
+    "2,4 millimeter"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_4.png",
+    "question": "Wat moet de profieldiepte van een aanhangwagenband zijn?",
+    "options": [
+    "0,8 millimeter",
+    "1,6 millimeter",
+    "2,4 millimeter"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_5.png",
+    "question": "Wat is het gevolg van een te lage bandenspanning?",
+    "options": [
+    "Alleen een slechtere wegligging",
+    "Alleen een hoger brandstofverbruik",
+    "Een slechtere wegligging en een hoger brandstofverbruik"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_6.png",
+    "question": "Je rijdt met een lage bandenspanning. Wanneer heeft dit invloed op jouw brandstofverbruik?",
+    "options": [
+    "Alleen als je langzaam rijdt",
+    "Als je snel rijdt",
+    "In beide gevallen"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_7.png",
+    "question": "Is het beter om de bandenspanning te controleren nadat je al een stuk hebt gereden?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_8.png",
+    "question": "Welke bandenspanning is juist?",
+    "options": [
+    "Band A",
+    "Band B",
+    "Band C"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_9.png",
+    "question": "Vanaf hoeveel graden zijn de positieve effecten van winterbanden merkbaar?",
+    "options": [
+    "14 graden",
+    "7 graden",
+    "0 graden"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_10.png",
+    "question": "Je ziet dit symbool op de band. Wat voor soort band is dit?",
+    "options": [
+    "Een reserveband",
+    "Een winterband",
+    "Een gewone band"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_11.png",
+    "question": "Waar is een ventieldop goed voor?",
+    "options": [
+    "Voorkomen van een klapband",
+    "Bescherming tegen water",
+    "Bescherming tegen vuil en vocht"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_12.png",
+    "question": "Wat is het belangrijkste gevolg van een te hoge bandenspanning?",
+    "options": [
+    "Minder grip op het wegdek",
+    "Een hoger brandstofverbruik",
+    "Meer slijtage aan de buitenkant van de band"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_13.png",
+    "question": "Wat is het gevolg voor de remweg als je rijdt op zomerse temperaturen met winterbanden?",
+    "options": [
+    "Winterbanden hebben een lagere remweg",
+    "Winterbanden lopen sneller leeg",
+    "Winterbanden hebben een grotere kans op aquaplaning"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_14.png",
+    "question": "Na een lange droge periode begint het te regenen. Wat voor invloed heeft dit op de stopafstand?",
+    "options": [
+    "De stopafstand wordt langer",
+    "De stopafstand wordt kleiner",
+    "De stopafstand blijft gelijk"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_15.png",
+    "question": "Met welke autoband is de kans op aquaplaning het grootst?",
+    "options": [
+    "Band A",
+    "Band B"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_16.png",
+    "question": "Je rijdt met lage bandenspanning. Heeft dit invloed op de slijtage van de banden?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_17.png",
+    "question": "Het heeft gesneeuwd. Waar besteed je voor het wegrijden aandacht aan?",
+    "options": [
+    "De koelvloeistof",
+    "De motorolie",
+    "De ruitenvloeistof"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_18.png",
+    "question": "Je ruitenwissers zijn kapot. Is het toegestaan dan te rijden?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_19.png",
+    "question": "Hoe vaak moet je de auto APK laten keuren als je auto op diesel rijdt en ouder is dan 3 jaar?",
+    "options": [
+    "Elk jaar",
+    "Elke 2 jaar",
+    "Elk 3 jaar"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_20.png",
+    "question": "Je hebt een nieuwe benzineauto gekocht. Wanneer moet je jouw auto voor het eerst APK laten keuren?",
+    "options": [
+    "In jaar 2",
+    "In jaar 3",
+    "In jaar 4"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_21.png",
+    "question": "Je hebt een benzineauto. De auto is 4 jaar oud en APK gekeurd. Hoe lang is de APK dan geldig?",
+    "options": [
+    "2 jaar",
+    "3 jaar",
+    "4 jaar"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_22.png",
+    "question": "Wat moet je doen als je de verkeerde brandstof hebt getankt?",
+    "options": [
+    "Stoppen en de hulpdiensten inschakelen",
+    "De tank aanlengen met de juiste brandstof",
+    "Doorrijden tot de tank leeg is"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_23.png",
+    "question": "Wat is de maximale hoeveelheid brandstof die je in je auto mag vervoeren?",
+    "options": [
+    "60 liter",
+    "120 liter",
+    "240 liter"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_9/banden_24.png",
+    "question": "Je rijdt op een autosnelweg. Dit controlelampje op het dashboard gaat branden. Kun je doorrijden naar de eerstvolgende parkeerplaats om te stoppen?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_9/banden_25.png",
+    "question": "Wanneer schakelt ABS in tijdens het rijden?",
+    "options": [
+    "Als je de rem pompt",
+    "Als je krachtig en hard remt"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_9/banden_26.png",
+    "question": "Welk symbool geeft een accu aan?",
+    "options": [
+    "Symbool A",
+    "Symbool B",
+    "Symbool C"
+    ],
+    "correct": [0]
+}
+]
+},
+{
+"id": 1,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+{
+    "image": "images/images_exame_1/parkeren_1.png",
+    "question": "Welk bord geeft een parkeerverbod aan?",
+    "options": [
+    "Alleen bord A",
+    "Alleen bord B",
+    "Bord A en B"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_2.png",
+    "question": "Welk bord geeft een verbod om stil te staan aan?",
+    "options": [
+    "Alleen bord A",
+    "Alleen bord B",
+    "Bord A en B"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_3.png",
+    "question": "Waar is het verboden te parkeren?",
+    "options": [
+    "Alleen bord A",
+    "Alleen bord B",
+    "Bord A en B"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_1/parkeren_4.png",
+    "question": "Je staat hier stil om te laden. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_5.png",
+    "question": "Je staat hier stil om een vriend af te zetten. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_6.png",
+    "question": "Is het toegestaan hier op een zondag zonder parkeerschijf te parkeren?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_7.png",
+    "question": "Op welke tijd moet je de parkeerschijf instellen als je om 13:40 uur aankomt?",
+    "options": [
+    "13:40 uur",
+    "15:40 uur",
+    "18:40 uur"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_8.png",
+    "question": "Je bent hier gestopt om een kaart te lezen. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_9.png",
+    "question": "Je bent hier gestopt om een kaart te lezen. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_10.png",
+    "question": "Je parkeert hier. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_11.png",
+    "question": "Je staat stil om te lossen. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_12.png",
+    "question": "Je staat stil om te lossen. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_13.png",
+    "question": "Je staat hier stil om een brief te posten. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_14.png",
+    "question": "Voor welke zijde van de rijbaan geldt dit bord?",
+    "options": [
+    "Alleen aan de rechterzijde",
+    "Aan beide zijden van de rijbaan"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_15.png",
+    "question": "Voor welke zijde van de rijbaan geldt dit bord?",
+    "options": [
+    "Aan beide zijden van de rijbaan",
+    "Alleen aan de rechterzijde"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_16.png",
+    "question": "Je parkeert hier. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/parkeren_17.png",
+    "question": "Je staat hier stil om dozen in de auto te laden. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/parkeren_18.png",
+    "question": "Je parkeert hier. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/bestuurder_1.png",
+    "question": "Is een fietser een bestuurder?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/bestuurder_2.png",
+    "question": "Wat is een skater?",
+    "options": ["Bestuurder", "Voetganger"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_1/bestuurder_3.png",
+    "question": "Je leidt je paard aan de hand. Wat ben je?",
+    "options": ["Bestuurder", "Voetganger"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_1/bestuurder_4.png",
+    "question": "Waar kun je een brommobiel op de rijbaan verwachten?",
+    "options": [
+    "Binnen de bebouwde kom",
+    "Buiten de bebouwde kom",
+    "Binnen en buiten de bebouwde kom"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_1/bestuurder_5.png",
+    "question": "Je ziet dit bord. Kan je hier snorfietsers op de rijbaan verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+}
+]
+},
+{
+"id": 10,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+{
+    "image": "images/images_exame_10/borden_1.png",
+    "question": "Je hebt dit verkeersbord te laat gezien en je gaat keren. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_2.png",
+    "question": "Wat geeft dit bord aan?",
+    "options": [
+    "De rijstrook heeft een breedte van maximaal 2 m",
+    "Voertuigen die breder zijn dan 2 m mogen deze rijstrook niet gebruiken",
+    "Voertuigen die breder zijn dan 2 m moeten deze rijstrook gebruiken"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_3.png",
+    "question": "Je rijdt deze weg in. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_4.png",
+    "question": "Je rijdt deze straat in. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_5.png",
+    "question": "Is deze waarschuwing alleen van toepassing bij hevige regenval?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_6.png",
+    "question": "Waar kun je dit waarschuwingsbord verwachten?",
+    "options": ["Autosnelweg", "Binnen de bebouwde kom", "In een tunnel"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_7.png",
+    "question": "Welk bord waarschuwt je voor een ongeval?",
+    "options": ["Bord A", "Bord B", "Bord C"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_8.png",
+    "question": "Is deze waarschuwing alleen van toepassing als de weg nat is?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_9.png",
+    "question": "Welk bord waarschuwt voor een overweg zonder overwegbomen?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_10.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": ["Niet afslaan", "Tegenligger", "Niet keren"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_11.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": ["Uitwijken voor tegenliggers", "Wegversmalling", "Eenrichtingsweg"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_12.png",
+    "question": "Waarvoor waarschuwt dit bord?",
+    "options": ["Niet afslaan", "Tegenligger", "Niet keren"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_13.png",
+    "question": "Welk bord geeft aan dat je overstekende spelende kinderen kunt verwachten?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_14.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": [
+    "Omleidingsroute",
+    "Route voor gevaarlijke situaties",
+    "Route voor een bepaalde woonwijk"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_15.png",
+    "question": "Dit bord is geplaatst aan de zijkant van de weg. Op welke weg rijd je nu?",
+    "options": ["Op de autoweg", "Op de autosnelweg"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_16.png",
+    "question": "Dit bord is geplaatst aan de zijkant van de weg. Rijd je nu op de autosnelweg?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_17.png",
+    "question": "Welke nummers zijn er op dit bord aangegeven?",
+    "options": ["Alleen afritnummers", "Alleen routenummers", "Afrit- en routenummers"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_18.png",
+    "question": "Op welk bord is een afritnummer aangegeven?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_19.png",
+    "question": "Welke weg is over het algemeen het meest veilig?",
+    "options": ["Weg A", "Weg B"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_20.png",
+    "question": "Wat is de betekenis van deze aanduiding?",
+    "options": ["Tunnel", "Viaduct", "Wegversmalling"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_21.png",
+    "question": "Je rijdt op deze weg. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_22.png",
+    "question": "Je ziet dit bord. Nader je dan een invoegstrook?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_23.png",
+    "question": "Welk bord kun je tegenkomen bij een versmalling van de vluchtstrook?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_24.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": ["Knooppunt autosnelwegen", "Afrit autosnelwegen", "Splitsing autosnelwegen"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_25.png",
+    "question": "Waar waarschuwt dit bord je voor?",
+    "options": ["Een doodlopende weg", "Eenrichtingsverkeer", "Een scherpe bocht naar links"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_26.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": [
+    "Bestuurder uit tegengestelde richting moet verkeer dat nadert voor laten gaan",
+    "Verbod door te rijden bij nadering van verkeer uit tegengestelde richting",
+    "Verbod voor motorvoertuigen om elkaar onderling in te halen"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_27.png",
+    "question": "Welk bord geeft aan dat je een voetganger kan verwachten?",
+    "options": ["Bord A", "Bord B", "Bord A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_28.png",
+    "question": "Je ziet dit bord. Kun je hier een voetganger verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_29.png",
+    "question": "Door hevige sneeuwval is enkel de vorm van het bord zichtbaar. Wat is de betekenis van dit bord?",
+    "options": ["Een waarschuwingsbord", "Een informatiebord", "Een voorrangsbord"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_30.png",
+    "question": "Je rijdt hier. Kun je nu een vrachtauto verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_31.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": [
+    "Voetpad",
+    "Overstekende kinderen",
+    "Nadering voetgangersoversteekplaats"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_32.png",
+    "question": "Wanneer kan je verwachten dat wild oversteekt?",
+    "options": ["Alleen in de winter", "Alleen in de zomer", "Het gehele jaar door"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_33.png",
+    "question": "Op welk moment is het risico groot dat wild gaat oversteken?",
+    "options": ["Bij daglicht", "In het donker"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_34.png",
+    "question": "Je ziet dit bord. Is het nu verstandig om grootlicht te voeren?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_35.png",
+    "question": "Waarschuwt dit bord je voor loslopend vee?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_36.png",
+    "question": "Waarschuwt dit bord je voor langzaam rijdende voertuigen?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_37.png",
+    "question": "Word je hier gewaarschuwd voor een verkeersdrempel?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_38.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": ["Openstaande brug", "Rijbaanversmalling", "Verkeer uit twee richtingen"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_39.png",
+    "question": "Bij welk bord geldt een gesloten verklaring voor alle motorvoertuigen?",
+    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_40.png",
+    "question": "Voor wie is deze gesloten verklaring van toepassing?",
+    "options": [
+    "Alle motorvoertuigen",
+    "Alle motorvoertuigen en bromfietsers",
+    "Alle motorvoertuigen met uitzondering van tractoren"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_41.png",
+    "question": "Voor wie is deze gesloten verklaring van toepassing?",
+    "options": [
+    "Alle motorvoertuigen",
+    "Alleen personenauto’s",
+    "Motorvoertuigen op meer dan twee wielen"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_42.png",
+    "question": "Bij welk bord geldt een gesloten verklaring voor voertuigen in beide richtingen?",
+    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_43.png",
+    "question": "Wat doe je als je dit bord ziet?",
+    "options": ["Snelheid verhogen", "Snelheid verminderen", "Je stuur goed vastpakken"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_44.png",
+    "question": "Welk bord waarschuwt je voor een gevaarlijke daling?",
+    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_45.png",
+    "question": "Is dit een waarschuwing voor een gevaarlijke daling?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_46.png",
+    "question": "Is dit een waarschuwing voor een overweg zonder overwegbomen?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_47.png",
+    "question": "Je ziet dit bord. Kun je hier bromfietsers op de rijbaan verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_48.png",
+    "question": "Je ziet dit bord. Waar moet je nu rekening mee houden?",
+    "options": [
+    "Overstekende bromfietsers",
+    "Bromfietsers kunnen nu vanaf het fiets- en bromfietspad de rijbaan oprijden",
+    "Bromfietsers moeten nu het fiets- en bromfietspad op"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_49.png",
+    "question": "Je ziet dit bord. Kan je hier snorfietsers op de rijbaan verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_50.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": [
+    "Parkeren voor carpoolers",
+    "Parkeren bij restaurant",
+    "Parkeren om over te stappen op het openbaar vervoer"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_10/borden_51.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": ["Vluchthaven", "Parkeergelegenheid", "Verbreding van de rijbaan"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_52.png",
+    "question": "Word je gewaarschuwd voor een rijstrook die afgesloten is?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_53.png",
+    "question": "Welke verboden worden na dit bord beëindigd?",
+    "options": [
+    "Alleen verboden op verkeersborden",
+    "Alleen verboden op elektronische signaleringsborden",
+    "De verboden op verkeersborden en op elektronische signaleringsborden"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_10/borden_54.png",
+    "question": "Welk bord geeft het einde van alle door verkeersborden aangegeven verboden aan?",
+    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_55.png",
+    "question": "Geeft dit bord een wegversmalling aan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_10/borden_56.png",
+    "question": "Wat geeft dit bord aan?",
+    "options": ["Politiecontrole", "Overstekende kinderen", "Wegwerkzaamheden"],
+    "correct": [1]
+}
+]
+},
+{
+"id": 11,
+"title": "اختبار الصور التجريبي",
+"type": "image",
+"questions": [
+{
+    "image": "images/images_exame_11/stopbord_1.png",
+    "question": "Welk bord geeft aan dat je bestuurders op de kruisende weg voor moet laten gaan?",
+    "options": [
+    "Bord A",
+    "Bord B",
+    "Bord A en B"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_11/stopbord_2.png",
+    "question": "Je ziet geen bestuurders naderen. Moet je nu stoppen?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/stopbord_3.png",
+    "question": "Je ziet geen bestuurders naderen. Moet je nu stoppen?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/stopbord_4.png",
+    "question": "Je ziet dit bord. Wie moet je hier voor laten gaan?",
+    "options": [
+    "Alle bestuurders en voetgangers op de kruisende weg",
+    "Alle bestuurders op de kruisende weg",
+    "Alleen bestuurders van motorvoertuigen op de kruisende weg"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/stopbord_5.png",
+    "question": "Welke wegmarkering geeft aan dat je bestuurders op de kruisende weg voor moet laten gaan?",
+    "options": [
+    "Weg A",
+    "Weg B"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/stopbord_6.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": [
+    "Gevaarlijk kruispunt",
+    "Voorrangskruispunt",
+    "Verleen voorrang aan bestuurders op de kruisende weg"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/stopbord_7.png",
+    "question": "Welk bord geeft aan dat je een voorrangskruispunt nadert?",
+    "options": [
+    "Bord A",
+    "Bord B",
+    "Bord A en B"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/stopbord_8.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": [
+    "Voorrangskruispunt",
+    "Voorrangsweg",
+    "Verleen voorrang aan bestuurders op de kruisende weg"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/stopbord_9.png",
+    "question": "Word je met dit bord gewaarschuwd voor landbouwtrekkers?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/stopbord_10.png",
+    "question": "Wat betekent deze combinatie van verkeersborden?",
+    "options": [
+    "Je rijdt op een voorrangsweg, maar de voorrang geldt niet voor de voertuigen op dit bord",
+    "Je rijdt op een voorrangsweg die gesloten is voor voertuigen op dit bord",
+    "Je rijdt op een voorrangsweg maar de voorrang geldt alleen voor de voertuigen op dit bord"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_1.png",
+    "question": "Kun je hier bestuurders op de kruisende weg verwachten?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_2.png",
+    "question": "Is het schadelijk voor het milieu als je na een hevige sneeuwbui je ruiten sneeuwvrij maakt en direct wegrijdt?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_3.png",
+    "question": "In welke situatie mag er ingehaald worden?",
+    "options": ["Bord A", "Bord B", "Geen van beide"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_4.png",
+    "question": "Wat voor rotonde nader je bij het zien van deze markering op de rijbaan?",
+    "options": [
+    "Een rotonde met één rijstrook",
+    "Een rotonde met meerdere rijstroken"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_5.png",
+    "question": "De motor gaat naar Eindhoven. Is dit de juiste rijstrook?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_6.png",
+    "question": "Aan welke zijde van de rijbaan tref je rode reflectoren?",
+    "options": [
+    "Alleen aan de rechterzijde",
+    "Alleen aan de linkerzijde",
+    "Aan de linker- en rechterzijde"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_7.png",
+    "question": "Je wilt hier met 100 km/u inhalen. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_8.png",
+    "question": "Is het toegestaan om hier de motor in te halen?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_9.png",
+    "question": "Je ziet een gele wegmarkering op de weg. Waar moet je rekening mee houden?",
+    "options": [
+    "Gladheid op het wegdek",
+    "Tegenliggers",
+    "Wegomleiding"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_10.png",
+    "question": "Je verlaat de autosnelweg. Waar moet je rekening mee houden?",
+    "options": [
+    "Je snelheid dient zoveel mogelijk op de uitrijstrook te worden verminderd",
+    "300 meter voor de afrit verminder je de snelheid"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_11.png",
+    "question": "Je hebt zojuist de doorgaande rijbaan verlaten en rijdt op de uitrijstrook. Wanneer schakel je de richtingaanwijzer uit?",
+    "options": [
+    "Zodra de zijdelingse verplaatsing is voltooid",
+    "Bij het einde van de blokmarkering"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_12.png",
+    "question": "Wat is de kleur van een tijdelijke markering op het wegdek?",
+    "options": ["Wit", "Geel", "Rood"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_13.png",
+    "question": "Deze markering is aangebracht op de rijbaan en je wilt bij de eerste afslag direct linksaf. Is dat toegestaan?",
+    "options": ["Ja", "Nee"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_14.png",
+    "question": "In welke situatie mag er ingehaald worden?",
+    "options": [
+    "Voor een gevaarlijke verkeerssituatie",
+    "Kans op gladheid",
+    "Voor een slecht wegdek"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_15.png",
+    "question": "Je nadert stapvoets een oranje verkeerslicht. Ben je verplicht te stoppen?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_16.png",
+    "question": "Na een lange tijd van droogte begint het te regenen. Waarom zou je dan je rijgedrag moeten aanpassen?",
+    "options": [
+    "Omdat het voertuig een betere wegligging heeft",
+    "Omdat er een vette laag op het wegdek komt",
+    "Omdat de remweg korter wordt"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/borden_ook_17.png",
+    "question": "Bij welke situatie heb je een langere remweg?",
+    "options": [
+    "Bij een nat wegdek",
+    "Bij een nieuw geasfalteerde weg",
+    "Beide situaties"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_11/borden_ook_10.png",
+    "question": "Waardoor lopen motorrijders extra risico op een kruispunt?",
+    "options": [
+    "Beperkte zichtbaarheid van de motorrijders",
+    "Slechte wendbaarheid van de motor",
+    "Afwijkende voorrangsregels voor motorrijders"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/borden_ook_19.png",
+    "question": "Het is 2 graden boven nul. Waar heb je het meeste kans op gladheid door ijs?",
+    "options": [
+    "Op parkeerplaatsen",
+    "Bij viaducten",
+    "Op rotondes"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_1.png",
+    "question": "Bij welke splitsing kun je bestuurders van links verwachten?",
+    "options": [
+    "Splitsing A",
+    "Splitsing B",
+    "Splitsing A en B"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_2.png",
+    "question": "Bij welke splitsing kun je bestuurders van links verwachten?",
+    "options": [
+    "Splitsing A",
+    "Splitsing B",
+    "Splitsing A en B"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_11/splitsing_3.png",
+    "question": "Je moet rechtsaf. Kun je bij deze splitsing een tegemoetkomende snorfietser verwachten?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_4.png",
+    "question": "Je wilt rechtsaf. Moet dat?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_5.png",
+    "question": "Bij welk bord ben je verplicht linksaf te slaan?",
+    "options": [
+    "Alleen bord A",
+    "Alleen bord B",
+    "Bord A en B"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_6.png",
+    "question": "Welk bord geeft een eenrichtingsweg aan?",
+    "options": [
+    "Bord A",
+    "Bord B",
+    "Bord C"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_11/splitsing_7.png",
+    "question": "Welk bord geeft een vaste uitwijkroute aan?",
+    "options": [
+    "Bord A",
+    "Bord B",
+    "Bord C"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_8.png",
+    "question": "Rijd je hier op een eenrichtingsweg?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_9.png",
+    "question": "Bij welk bord is het verboden om rechtdoor te rijden?",
+    "options": [
+    "Alleen bord A",
+    "Alleen bord B",
+    "Bord A en B"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_10.png",
+    "question": "Kan je bij deze splitsing een bestuurder van links verwachten?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_11.png",
+    "question": "Is het mogelijk om op deze weg tegenliggers te verwachten?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_12.png",
+    "question": "Je wilt hier achteruit rijden. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_13.png",
+    "question": "Geeft dit bord je een verplichte rijrichting aan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_14.png",
+    "question": "Je rijdt deze weg in. Is dat toegestaan?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_15.png",
+    "question": "Is het mogelijk om tegenliggers te verwachten bij dit bord?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_16.png",
+    "question": "Je komt dit bord tegen. Kun je hier bestuurders van links tegenkomen?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_17.png",
+    "question": "Welk bord geeft een verplichte rijrichting aan?",
+    "options": [
+    "Alleen bord A",
+    "Alleen bord B",
+    "Bord A en B"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_11/splitsing_18.png",
+    "question": "Wat geeft dit bord aan?",
+    "options": [
+    "Eénrichtingsweg",
+    "Verboden links of rechts te gaan"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_19.png",
+    "question": "Welk bord geeft aan dat het een eenrichtingsweg is?",
+    "options": [
+    "Bord A",
+    "Bord B",
+    "Bord C"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_20.png",
+    "question": "Wat geven deze borden samen aan?",
+    "options": [
+    "Eénrichtingsweg, geldt niet voor fietsen, snorfietsen en bromfietsen",
+    "Eénrichtingsweg, geldt alleen voor fietsen, snorfietsen en bromfietsen"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_11/splitsing_21.png",
+    "question": "Wat geven deze borden samen aan?",
+    "options": [
+    "Eénrichtingsweg, geldt niet voor fietsen, snorfietsen en bromfietsen",
+    "Eénrichtingsweg, geldt alleen voor fietsen, snorfietsen en bromfietsen"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_11/splitsing_22.png",
+    "question": "Je ziet dit bord. Wanneer moet je oppassen voor slipgevaar?",
+    "options": [
+    "Direct na dit bord",
+    "Na anderhalve kilometer",
+    "Alleen als het regent"
+    ],
+    "correct": [0]
+}
+]
+},
+{
+"id": 14,
+"title": "images_exame_14",
+"type": "image",
+"disabled": true,
+"questions": [
+    {
+        "image": "images/images_exame_14/adnan_1.png",
+        "question": "Een tegenligger haalt in en je denkt dat hij het niet gaat halen. Wat moet je doen?",
+        "options": [
+            "A. Snelheid verminderen en zoveel mogelijk rechts gaan rijden.",
+            "B. De berm insturen terwijl je hard remt.",
+            "C. De tegenligger waarschuwen met een lichtsignaal."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_2.png",
+        "question": "Bij welke situatie wordt het aangeraden om de motor van de auto uit te zetten?",
+        "options": [
+            "A.",
+            "B.",
+            "C."
+        ],
+        "correct": [0,1,2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_3.png",
+        "question": "\nVan wie verwacht je hier een rijstrookwissel naar links?",
+        "options": [
+            "A. Rode auto",
+            "B. Vrachtwagen"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_4.png",
+        "question": "In welke situatie mag je inhalen?",
+        "options": [
+            "A.",
+            "B.",
+            "C. Beiden niet toegestaan"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_5.png",
+        "question": "\nEen verkeersregelaar regelt het verkeer bij een ongeval. Hij geeft aan dat je linksaf een weg moet inrijden waar dit verkeersbord staat. Wat doe je?",
+        "options": [
+            "A. Je slaat rechts af, want die weg mag je wel inrijden.",
+            "B. Je slaat links af, want je moet de aanwijzing opvolgen."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_6.png",
+        "question": "\nVerwacht je dat de motorfiets de fietsers gaat inhalen?",
+        "options": [
+            "A. Ja",
+            "B. Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_7.png",
+        "question": "\nDe vrachtwagens willen invoegen op een korte invoegstrook, wat doe je in deze situatie?",
+        "options": [
+            "A. Remmen.",
+            "B. Naar links opschuiven.",
+            "C. Niks doen."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_8.png",
+        "question": "\nBij welk verkeersbord mag je links afslaan?",
+        "options": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_9.png",
+        "question": "\nWat doe je in deze situatie?",
+        "options": [
+            "A. Remmen",
+            "B. Gas loslaten",
+            "C. Niks doen"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_10.png",
+        "question": "\nWat is de juiste volgorde van voor laten gaan?\n\nKeuzeopties:\n\nTram\n\nAuto\n\nJuiste volgorde:\n1 → 2\n\nDe tram gaat e",
+        "options": [
+            "Tram",
+            "Auto"
+        ],
+        "correct": [0, 1],
+        "order": true
+    },
+    {
+        "image": "images/images_exame_14/adnan_11.png",
+        "question": "\nMoet je hier richting aangeven?",
+        "options": [
+            "A. Ja",
+            "B. Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_12.png",
+        "question": "\nWelk symbool geeft de achterruitverwarming aan?",
+        "options": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+        ],
+        "correct": [3]
+    },
+    {
+        "image": "images/images_exame_14/adnan_13.png",
+        "question": "\nWat is de juiste volgorde van voor laten gaan?\n\nKeuzeopties:\n\nRode auto\n\nWitte lesauto\n\nJuiste volgorde:\n",
+        "options": [
+            "Rode auto",
+            "Witte lesauto"
+        ],
+        "correct": [1, 0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_14.png",
+        "question": "\nWaardoor worden de meeste verkeersongevallen veroorzaakt?",
+        "options": [
+            "A. Door de harde muziek in de auto.",
+            "B. Omdat de motorrijders de regels niet goed weten.",
+            "C. Omdat automobilisten de voorrangregels niet goed toepassen."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_15.png",
+        "question": "\nWelk verkeersbord verbiedt je rechtdoor te gaan?",
+        "options": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_16.png",
+        "question": "\nJe rijdt op zondag en ziet geen werkzaamheden. Hoe hard mag je hier maximaal rijden?",
+        "options": [
+            "A. 90 km/u",
+            "B. 100 km/u",
+            "C. 130 km/u"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_17.png",
+        "question": "\nWat doe je?",
+        "options": [
+            "A. Je rijdt de bussen snel voorbij.",
+            "B. Je rijdt de bussen langzaam voorbij.",
+            "C. Je stopt en laat het busje voorgaan."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_18.png",
+        "question": "\nVerwacht je dat de vrachtwagen van richting zal veranderen en naar jouw rijstrook zal gaan?",
+        "options": [
+            "A. Ja",
+            "B. Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_19.png",
+        "question": "\nIn welke situatie mag je rechts inhalen?\n",
+        "options": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+        ],
+        "correct": [0, 2, 3]
+    },
+    {
+        "image": "images/images_exame_14/adnan_20.png",
+        "question": "\nJe wilt naar Amsterdam. Waar moet je beginnen met richting aangeven?",
+        "options": [
+            "A.",
+            "B.",
+            "C."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_21.png",
+        "question": "\nWie mag hier parkeren?\n",
+        "options": [
+            "A. Auto's.",
+            "B. Motorfietsen.",
+            "C. Vrachtwagens.",
+            "D. Brommobielen."
+        ],
+        "correct": [0, 1, 2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_22.png",
+        "question": "\nWat doe je in deze situatie?",
+        "options": [
+            "A. Remmen.",
+            "B. Gas loslaten.",
+            "C. Niks doen."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_23.png",
+        "question": "\nWelk symbool geeft een storing aan in de motormanagement?",
+        "options": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+        ],
+        "correct": [3]
+    },
+    {
+        "image": "images/images_exame_14/adnan_24.png",
+        "question": "\nJe passagier heeft een gebroken been en loopt op krukken. Mag je parkeren op een gehandicaptenparkeerplaats?",
+        "options": [
+            "A. Ja",
+            "B. Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_25.png",
+        "question": "\nBij welk verkeersbord mag je rechtdoor rijden?\n",
+        "options": [
+            "A.",
+            "B."
+        ],
+        "correct": [0,1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_26.png",
+        "question": "\nWat doe je in deze situatie?",
+        "options": [
+            "A. Remmen.",
+            "B. Gas loslaten.",
+            "C. Niks doen."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_27.png",
+        "question": "\nWelk bord geeft een maximumsnelheid aan?\n\n",
+        "options": [
+            "A –",
+            "B –",
+            "C –",
+            "D –"
+        ],
+        "correct": [0, 1, 3]
+    },
+    {
+        "image": "images/images_exame_14/adnan_28.png",
+        "question": "\nWelk symbool heeft te maken met de cruise control?\n\n",
+        "options": [
+            "A –",
+            "B –",
+            "C –",
+            "D –"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_29.png",
+        "question": "\nWaar kom je dit verkeersbord tegen?\n\n",
+        "options": [
+            "A - op parkeerplaatsen",
+            "B - in een tunnel",
+            "C - in een recreatiegebied"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_30.png",
+        "question": "\nMag je overdag je dimlicht gebruiken?\n\n",
+        "options": [
+            "A - Ja",
+            "B - Nee",
+            "C - Alleen als het regent"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_31.png",
+        "question": "\nWelke volgafstand kun je het beste aanhouden in deze situatie als het weer goed is?\n\n",
+        "options": [
+            "A - 1 second afstand",
+            "B -  25 meter ",
+            "C - minimaal 2 seconden afstand"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_32.png",
+        "question": "\nWie moet je voorrang verlenen bij dit bord?\n\n",
+        "options": [
+            "A – Bestuurders en voetgangers",
+            "B – Alle weggebruikers",
+            "C – Alleen kruisende bestuurders"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_33.png",
+        "question": "\nMag je na dit bord parkeren?\n\n",
+        "options": [
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_34.png",
+        "question": "\nJe rijdt in een tunnel. Verderop staat een auto in brand waarvan de inzittende zijn gevlucht. Wat doe je?\n\n",
+        "options": [
+            "A – Je stopt en gaat de auto blussen.",
+            "B – Je rijdt voorzichtig voorbij de auto.",
+            "C – Je stopt, stapt uit de auto en verlaat de tunnel."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_35.png",
+        "question": "\nJe ziet dit verkeersbord. Welke voertuigen mogen deze straat niet inrijden?\n\n",
+        "options": [
+            "A – Alle motorvoertuigen en bromfietsen.",
+            "B – Alle motorvoertuigen, behalve tractoren.",
+            "C – Alle motorvoertuigen."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_36.png",
+        "question": "\nJe nadert een rotonde met haaientanden. Aan wie moet je voorrang verlenen?\n\n",
+        "options": [
+            "A – Aan alle weggebruikers.",
+            "B – Aan alle bestuurders.",
+            "C – Alleen bestuurders van motorvoertuigen."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_37.png",
+        "question": "\nJe ziet in je spiegel een ambulance met optische en geluidssignalen naderen. Wat doe je?\n\n",
+        "options": [
+            "A – Je stopt direct in de berm.",
+            "B – Je gaat op de linker rijstrook rijden.",
+            "C – Je blijft kalm en rijdt zoveel mogelijk rechts."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_14/adnan_38.png",
+        "question": "\nWat mag er in een woonerf?\nJe kunt meer dan één antwoord kiezen.\n\n",
+        "options": [
+            "A – Parkeren in de parkeervakken.",
+            "B – 15 km per uur rijden.",
+            "C – Links en rechts op de rijbaan rijden.",
+            "D – Laden en lossen buiten de parkeervakken."
+        ],
+        "correct": [0, 1,3]
+    },
+    {
+        "image": "images/images_exame_14/adnan_39.png",
+        "question": "\nMoet je de auto die links wil afslaan, voor laten gaan?\n\n",
+        "options": [
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_40.png",
+        "question": "\nWelk verkeersbord geeft aan dat bromfietsers op de rijbaan moeten gaan rijden?\n\n",
+        "options": [
+            "A –",
+            "B –",
+            "C –",
+            "D –"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_41.png",
+        "question": "\nWat moet het maximale gewicht van dit voertuig zijn om het met een rijbewijs B te mogen besturen?",
+        "options": [
+            "3500 kg",
+            "4000 kg",
+            "4500 kg"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_42.png",
+        "question": "\nMoet je hier de voetganger voor laten gaan?\n\n",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_43.png",
+        "question": "\nMag je met je arm in het gips in een auto met automaat gaan rijden?\n\n",
+        "options": [
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_44.png",
+        "question": "\nBij welk bord mag je de straat in rijden?\nJe kunt meer dan één antwoord kiezen.\n\n",
+        "options": [
+            "A –",
+            "B –",
+            "A & B –"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_45.png",
+        "question": "\nZal je het ontstaan van files voorkomen als je de afstand tussen jou en het voertuig voor je verkleint?\nJe kunt één antwoord kiezen.\n\n",
+        "options": [
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_46.png",
+        "question": "\nJe wilt linksaf. Mag je voor de blauwe auto langsrijden?\n",
+        "options": [
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_47.png",
+        "question": "\nMag je zo rijden?\nJe kunt één antwoord kiezen.\n\n",
+        "options": [        
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_48.png",
+        "question": "\nWat is de maximale snelheid op deze weg?\n",
+        "options": [
+            "A – 90 km/u",
+            "B – 100 km/u"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_14/adnan_49.png",
+        "question": "\nMag je hier de auto die links afslaat rechts inhalen?\n",
+        "options": [
+            "A – Ja",
+            "B – Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_14/adnan_50.png",
+        "question": "\nWat is de juiste volgorde van voor laten gaan?\n\n",
+        "options": [
+            "rode auto,blauwe auto, fiets",
+            "blauwe auto, fiets,  rode auto",
+            "fiets, rode auto, blauwe auto",
+            "fiets, blauwe auto, rode auto"
+        ],
+        "correct": [3] 
+    }
+]
+},
+{
+"id": 15,
+"title": "images_exame_15",
+"type": "image",
+"disabled": true,
+"questions": 
+[
+{
+"image": "images/images_exame_15/adnana_1.png",
+"question": "1 - Je komt aan bij een kruispunt. Er zijn geen bestuurder op de kruisende weg. Mag je hier doorrijden tot aan de haaientanden?",
+"options": [
+    "Bij onvoldoende zicht mag je direct doorrijden tot de haaientanden.",
+    "Je moet eerst voor de stopstreep stoppen."
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_15/adnana_2.png",
+"question": "2 - Je rijdt op de snelweg en je nadert een file, wat moet je doen?",
+"options": [
+    "Je zet waarschuwingslichten aan en remt krachtig",
+    "Je zet waarschuwingslichten aan en remt gedoseerd af"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_15/adnana_3.png",
+"question": "3 - Voor welke maximumsnelheid is deze weg ingericht?",
+"options": [
+    "30 km/u",
+    "70 km/u",
+    "80 km/u"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_15/adnana_4.png",
+"question": "4 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto scooter  motorfiets",
+    "scooter witte auto motorfiets",
+    "scooter motorfiets witte auto"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_15/adnana_5.png",
+"question": "5 - Je parkeert hier. In welke situatie mag dat? .",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [1,3]
+},
+{
+"image": "images/images_exame_15/adnana_6.png",
+"question": "6 - Waar is het vaak extra gevaarlijk als het vriest, sneeuwt of ijzelt? ",
+"options": [
+    "Op een brug of viaduct.",
+    "Op de linkerrijstrook van een autosnelweg.",
+    "In een tunnel.",
+    "Op een oprit of afrit."
+],
+"correct": [0,1,3]
+},
+{
+"image": "images/images_exame_15/adnana_7.png",
+"question": "7 - Wat is de maximumsnelheid van een motorfiets met zijspan op een autosnelweg?",
+"options": [
+    "90 km/u",
+    "100 km/u",
+    "130 km/u"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_15/adnana_8.png",
+"question": "8 - Wat verwacht je dat de autobestuurder voor je gaat doen?",
+"options": [
+    "De bestuurder voor je zal gas erbij geven.",
+    "De bestuurder voor je zal snelheid verminderen"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_15/adnana_9.png",
+"question": "9 - Wanneer mag je hier op de autosnelweg met je aanhangwagen op de linkerrijstrook rijden?",
+"options": [
+    "Met een aanhangwagen mag je de vierde rijstrook niet gebruiken.",
+    "Als de combinatie niet langer is dan 7 meter.",
+    "Als de aanhangwagen niet zwaarder is dan 3.500 kilogram."
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_15/adnana_10.png",
+"question": "10 - Wat doe je in deze situatie?",
+"options": [
+    "Richting aangeven en direct invoegen",
+    "Richting aangeven en wachten tot je ruimte krijgt om in te voegen"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_11.png",
+"question": "11 - Je ziet kinderen in het verkeer. Waar moet je altijd op letten?",
+"options": [
+    "Kinderen kunnen plotseling de weg oversteken",
+    "Kinderen letten goed op.",
+    "Kinderen weten dat ze geen schuld krijgen bij ongelukken."
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_12.png",
+"question": "12 - Je rijdt hier 40 km per uur, wat doe je in deze situatie?",
+"options": [
+    "Stapvoets rijden.",
+    "Zelfde snelheid aanhouden.",
+    "Claxonneren naar de fietser."
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_13.png",
+"question": "13 - Bij welke aanwijzing moet je stoppen? ",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [1,2,3]
+},
+
+{
+"image": "images/images_exame_15/adnana_14.png",
+"question": "14 - Moet je in deze situatie stoppen?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_15.png",
+"question": "15 - Je tegenligger rijdt met een kapotte koplamp. Mag je hem hier een knippersignaal geven?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_16.png",
+"question": "16 - Ben je strafbaar als je direct een auto gaat besturen nadat je medicijnen hebt gebruikt met gele sticker?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_17.png",
+"question": "17 - Je trekt een aanhanger om 22.00 uur wat is jou maximale snelheid op deze weg?",
+"options": [
+    "90 km/u",
+    "100 km/u",
+    "130 km/u"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_18.png",
+"question": "18 - Welk verkeersbord geeft aan dat je een onbeveiligde spoorwegovergang nadert?",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [3]
+},
+
+{
+"image": "images/images_exame_15/adnana_19.png",
+"question": "Vraag 19 - Je wilt hier de vrachtwagen inhalen is dat verstandig?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_20.png",
+"question": "Vraag 20 - Je parkeert hier. Hoe moet je de parkeerschijf instellen?",
+"options": [
+    "De parkeerschijf moet de aankomsttijd van het parkeren aangeven.",
+    "De parkeerschijf moet de eindtijd van het parkeren aangeven."
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_21.png",
+"question": "Vraag 21 - Je haalt de bromfietser in. Ga je zo ver genoeg naar links?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_22.png",
+"question": "Vraag 22 - Waar kan je meer Aquaplaning verwachten?",
+"options": [
+    "A - Nieuw wegdek",
+    "B - Slecht wegdek"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_23.png",
+"question": "Vraag 23 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "motor,witte auto ,gele auto",
+    "gele auto, witte auto, motor",
+    "witte auto, motor, gele auto"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_24.png",
+"question": "Vraag 24 - Door welke handeling kan een bestuurder afgeleid raken? ",
+"options": [
+    "Door tijdens het rijden iets te eten of te drinken.",
+    "Door te rijden met ingeschakelde cruise control.",
+    "Door tijdens het rijden handsfree te bellen."
+],
+"correct": [0,2]
+},
+
+{
+"image": "images/images_exame_15/adnana_25.png",
+"question": "Vraag 25 - Moet je hier voorrang verlenen aan bestuurders van links?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_26.png",
+"question": "Vraag 26 - Welk voertuig heeft deze reflector?",
+"options": [
+    "Een brommobiel.",
+    "Een bus.",
+    "Een landbouwtrekker."
+],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_15/adnana_27.png",
+"question": "Vraag 27 - Wie wordt hier beschouwd als bestuurder? ",
+"options": [
+    "A",
+    "B"
+],
+"correct": [0,1]
+},
+
+{
+"image": "images/images_exame_15/adnana_28.png",
+"question": "Vraag 28 - Welk verkeersbord geeft een verplichte rijrichting aan?",
+"options": [
+    "A",
+    "B"
+],
+"correct": [0,1]
+},
+
+{
+"image": "images/images_exame_15/adnana_29.png",
+"question": "Vraag 29 - Bij welk wegdek moet je rekening houden met een langere remweg?",
+"options": [
+    "Bij een nieuw wegdek.",
+    "Bij een nat wegdek."
+],
+"correct": [0,1]
+},
+
+{
+"image": "images/images_exame_15/adnana_30.png",
+"question": "Vraag 30 - In welke situatie moet je voorrang verlenen?",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [1,2,3]
+},
+
+{
+"image": "images/images_exame_15/adnana_31.png",
+"question": "Vraag 31 - Je bent 19 jaar en hebt alcohol gedronken. Mag je met een alcoholgehalte van 0,1 promille gaan rijden?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_32.png",
+"question": "Vraag 32 - Je rijdt op een besneeuwd wegdek. Wat gebeurt er dan met de remweg?",
+"options": [
+    "De remweg blijft gelijk.",
+    "De remweg wordt korter.",
+    "De remweg wordt langer."
+],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_15/adnana_33.png",
+"question": "Vraag 33 - Geldt dit verkeersbord ook voor jou?",
+"options": [
+    "Ja",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_34.png",
+"question": "Vraag 34 - Wat is het gevolg van een te lage bandenspanning?",
+"options": [
+    "Alleen een slechtere wegligging.",
+    "Alleen een hoger brandstofverbruik.",
+    "Een slechtere wegligging en een hoger brandstofverbruik."
+],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_15/adnana_35.png",
+"question": "Vraag 35 - Na hoeveel meter na dit bord geef je richting aan richting het vliegveld?",
+"options": [
+    "150 meter",
+    "300 meter",
+    "600 meter"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_36.png",
+"question": "Vraag 36 - Wat is de juiste manier om het oliepeil te controleren?",
+"options": [
+    "Wanneer de auto op een helling staat",
+    "Wanneer de auto op een vlak ondergrond staat"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_37.png",
+"question": "Vraag 37 - Je wil richting het vliegveld, mag je hier van rijstrook wisselen?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_38.png",
+"question": "38 - Bij welk bord is het toegestaan om motorfietsers in te halen?",
+"options": [
+    "A",
+    "B",
+    "A & B"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_39.png",
+"question": "39 - Is het toegestaan om op de linkerzijde van de weg te parkeren?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_40.png",
+"question": "40 - Mag je hier claxonneren zodat de voetganger aan de kant gaat?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_41.png",
+"question": "41 - Is het toegestaan om deel te nemen aan het verkeer wanneer je 3 glazen bier hebt geconsumeerd in korte tijd?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_42.png",
+"question": "42 - Hoeveel kilometer per uur mag je hier maximaal rijden na 19.00 uur?",
+"options": [
+    "130 km/u",
+    "100 km/u",
+    "90 km/u"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_43.png",
+"question": "43 - Je staat voorgesorteerd voor linksaf. Mag je nu van rijstrook wisselen om alsnog rechtdoor te rijden?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_44.png",
+"question": "44 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "rode auto,blauwe auto, witte auto",
+    "blauwe auto, witte auto, rode auto",
+    "witte auto,blauwe auto, rode auto"
+],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_15/adnana_45.png",
+"question": "45 - Voor wie is deze weg gesloten? (Meerdere antwoorden goed)",
+"options": [
+    "Een lijnbus voor 8 personen.",
+    "Een lijnbus voor 50 personen.",
+    "Een touringcar.",
+    "Een tram."
+],
+"correct": [1,2]
+},
+
+{
+"image": "images/images_exame_15/adnana_46.png",
+"question": "46 - Welke van de bovenstaande voertuigen behoort tot de eerste militaire colonne voertuig?",
+"options": [
+    "A",
+    "B",
+    "C"
+],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_15/adnana_47.png",
+"question": "47 - Mag je inhalen als je dit bord niet bent gepasseerd?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_15/adnana_48.png",
+"question": "48 - Welk licht wordt hier gevoerd?",
+"options": [
+    "Stadslicht.",
+    "Dimlicht.",
+    "Mistlicht voor.",
+    "Grootlicht."
+],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_15/adnana_49.png",
+"question": "49 - Mag je hier links afslaan?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_15/adnana_50.png",
+"question": "50 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto,fiets,blauwe auto,rode auto",
+    "fiets, witte auto, blauwe auto, rode auto",
+    "fiets, blauwe auto, witte auto, rode auto",
+    "blauwe auto, fiets,  rode auto, witte auto"
+],
+"correct": [0]
+}
+]
+
+},
+{
+"id": 16,
+"title": "images_exame_16",
+"type": "image",
+"disabled": true,
+"questions": 
+[
+{
+"image": "images/images_exame_16/adnan3_1.png",
+"question": "Vraag 1 - Op de autosnelweg staat een file. Waar houd je nu extra rekening mee?",
+"options": [
+    "Achteropkomend verkeer",
+    "Uitvoegend verkeer",
+    "Je snelheid op de uitrijstrook"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_2.png",
+"question": "Vraag 2 - Wie mag eerst?",
+"options": [
+    "Witte auto",
+    "Gele auto",
+    "Voetganger"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_4.png",
+"question": "Vraag 3 - In welke situatie mag je inhalen?",
+"options": [
+    "A",
+    "B"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_4.png",
+"question": "Vraag 4 - In welke situatie mag je inhalen?",
+"options": [
+    "A",
+    "B"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_5.png",
+"question": "Vraag 5 - Waar bevindt zich de zichtbare hoek voor een motorbestuurder?",
+"options": [
+    "A",
+    "B"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_6.png",
+"question": "6 - Je rijdt 's nachts buiten de bebouwde kom met slecht weer, welke lichten moet je aanzetten?",
+"options": [
+    "Dimlicht",
+    "Alleen grootlicht",
+    "Dimlicht of grootlicht"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_7.png",
+"question": "7 - Je rijdt de witte lesauto, wat kun je verwachten in deze situatie?",
+"options": [
+    "De rijstrook naar Breda zal sluiten",
+    "De voertuigen aan je linkerzijde kunnen mogelijk een rijstrookwissel maken richting Breda",
+    "Niks"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_8.png",
+"question": "8 - Wat doe je in deze situatie?",
+"options": [
+    "Remmen",
+    "Gas loslaten",
+    "Niks doen"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_9.png",
+"question": "9 - In welke situatie kun je meer slipgevaar verwachten?",
+"options": [
+    "A",
+    "B"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_10.png",
+"question": "10 - Na welk bord verwacht je een splitsing?",
+"options": [
+    "A",
+    "B",
+    "A & B"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_11.png",
+"question": "11 - Je rijdt de witte lesauto, wat moet je in deze situatie doen?",
+"options": [
+    "Nog meer naar rechts voorsorteren op de witte doorgetrokken streep",
+    "Links voorsorteren",
+    "Niks doen"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_12.png",
+"question": "12 - Welke rijstroken mag je gebruiken wanneer je naar Amsterdam wilt? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "De twee rechter rijstroken",
+    "De twee linker rijstroken"
+],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_16/adnan3_13.png",
+"question": "13 - Moet je deze band vervangen?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_14.png",
+"question": "14 - Wat is de juiste volgorde van voorlaten gaan?",
+"options": [
+    "gele auto, witte auto, voetganger",
+    "witte auto, gele auto, voetganger",
+    "witte auto,voetganger, gele auto"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_15.png",
+"question": "15 - Wat is de maximale snelheid op deze weg?",
+"options": [
+    "90 km/u",
+    "100 km/u",
+    "130 km/u"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_16.png",
+"question": "16 - Je rijdt op een open spitsstrook. Mag je over het puntstuk verder rijden?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_17.png",
+"question": "17 - Je bent gestopt op de vluchtstrook en bent van plan om verder te rijden en de snelweg op te gaan. Mag je je knipperlichten hier inschakelen terwijl je nog stilstaat?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_18.png",
+"question": "18 - Welk bord geeft de maximale snelheid aan? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [2,3]
+},
+{
+"image": "images/images_exame_16/adnan3_19.png",
+"question": "19 - Is het toegestaan om deel te nemen aan het verkeer wanneer je handrem niet werkt?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_20.png",
+"question": "20 - Welk bord verbiedt het betreden van voetgangers?",
+"options": [
+    "A",
+    "B",
+    "C"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_21.png",
+"question": "21 - Wat kun je verwachten wanneer je linksaf slaat? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "De weg is afgesloten vanuit de andere richting",
+    "Tegenliggers komen vanuit deze richting",
+    "Het is verboden om deze weg in te rijden"
+],
+"correct": [1,2]
+},
+{
+"image": "images/images_exame_16/adnan3_22.png",
+"question": "22 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "rode auto, fiets,witte auto",
+    "witte auto,rode auto, fiets",
+    "fiets, witte auto, rode auto"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_23.png",
+"question": "23 - Wat doe je in deze situatie?",
+"options": [
+    "Remmen",
+    "Gas loslaten",
+    "Niks doen"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_24.png",
+"question": "24 - Je rijdt met een aanhanger, de totale lengte bedraagt 8 meter. In welke situatie mag je inhalen? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B"
+],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_16/adnan3_25.png",
+"question": "25 - Bij welk bord kun je linksaf slaan? ",
+"options": [
+    "A",
+    "B"
+],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_16/adnan3_26.png",
+"question": "26 - Je rijdt 's avonds met flinke regenbuien en slecht zicht, welk licht kun je aanzetten? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [0,1,3]
+},
+{
+"image": "images/images_exame_16/adnan3_27.png",
+"question": "27 - Je rijdt in de witte auto, mag je de gele auto inhalen op deze manier?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_28.png",
+"question": "28 - Wat doe je in deze situatie?",
+"options": [
+    "Je gaat helemaal naar rechts",
+    "Je remt af en stopt",
+    "Je blijft rijden totdat je een parkeerplaats vindt waar je kunt stoppen"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_29.png",
+"question": "29 - Je besluit hier om de bus voor te laten gaan, mag je hier stoppen?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_16/adnan3_30.png",
+"question": "30 - Moet je de groene auto voor laten gaan?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_31.png",
+"question": "31 - In welke van de volgende situaties mag je 100 km/u rijden?",
+"options": [
+    "A",
+    "B",
+    "Beide"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_32.png",
+"question": " 32 - Bij welk bord is het toegestaan om rechts af te slaan? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [0, 1, 3]
+},
+{
+"image": "images/images_exame_16/adnan3_33.png",
+"question": "33 - Wat voor soort weg is dit?",
+"options": [
+    "Een weg buiten de bebouwde kom",
+    "Autoweg",
+    "Autosnelweg"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_34.png",
+"question": "34 - Wie mag er voor jou gaan?",
+"options": [
+    "Enkel de fietser",
+    "De bromfietser",
+    "Niemand"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_35.png",
+"question": "35 - Je bent betrokken bij een ongeluk en een van de passagiers heeft pijn in de nek. Wat doe je?",
+"options": [
+    "Je haalt hem uit de auto en legt hem op zijn rug",
+    "Je haalt hem uit de auto en legt hem op zijn zij",
+    "Je laat hem op zijn plek zonder hem te verplaatsen"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_36.png",
+"question": "36 - Je rijdt met hoge snelheid op de snelweg en verliest de controle over de auto. Wat doe je?",
+"options": [
+    "Haal je voet van het gaspedaal en blijf op dezelfde rijstrook",
+    "Haal je voet van het gaspedaal en stuur naar rechts en naar links",
+    "Niks"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_37.png",
+"question": "37 - Bij welk bord is het toegestaan om te parkeren?",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [1, 2]
+},
+{
+"image": "images/images_exame_16/adnan3_38.png",
+"question": "38 - waar verwacht je meer aquaplaning bij regenachtig weer?",
+"options": [
+    "Op parkeerplaatsen",
+    "Slecht wegdek",
+    "op een helling"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_39.png",
+"question": "39 - je bent betrokken bij een ongeluk op de snelweg, wat is de beste plek om het verzikkeringsformulier in te vullen?",
+"options": [
+    "op de berm",
+    "de uiterst linkse rijstrook",
+    "parkeerplaats"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_16/adnan3_40.png",
+"question": "40 - je ziet een voertuig met gele zwaailichten .wat kan er aan de hand zijn ?",
+"options": [
+"er wordt een VIP vervoerd onder begeleiding van de marechaussee",
+"er is een geldtransport  dat onder begeleiding van de  politie  rijdt ",
+"er is een geldtransport dat onder begeleiding van de  poltie  rijdt ",
+"er zijn voertuigen bezig met wegwerkzaamheden",
+"er is een speciaal (zwaar/breed) transport"
+],
+"correct": [2,3]
+},
+{
+"image": "images/images_exame_16/adnan3_41.png",
+"question": " 41 - In welke situatie is het toegestaan om een passagier aan de linkerkant van de weg te laten uitstappen? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B"
+],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_16/adnan3_42.png",
+"question": "Vraag 42 - Welke lichten moeten worden ingeschakeld bij het parkeren op de berm of op de rijbaan overdag, bij slecht weer?",
+"options": [
+    "Stadslicht",
+    "Dimlicht",
+    "Grootlicht",
+    "Mistvoorlicht"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_43.png",
+"question": "43 - Bij welk bord is het toegestaan om rechtsaf te slaan? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [1,2]
+},
+{
+"image": "images/images_exame_16/adnan3_44.png",
+"question": "44 - Mag je een caravan met een gewicht van 4000 kg besturen met een rijbewijs B?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_45.png",
+"question": "45 - Is het toegestaan om zo te rijden met uitstekende lading?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_46.png",
+"question": "46 - Bij welk bord mogen auto’s parkeren?",
+"options": [
+    "A",
+    "B",
+    "C"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_47.png",
+"question": "47 - Als de zon achter je ondergaat, welke van de volgende spiegels beïnvloedt je zicht het meest?",
+"options": [
+    "De binnenspiegel",
+    "Zijkspiegel"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_16/adnan3_48.png",
+"question": "48 - Als de zon achter je ondergaat, welke van de volgende spiegels beïnvloedt je zicht het meest?",
+"options": [
+    "De binnenspiegel",
+    "Zijkspiegel"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_49.png",
+"question": "49 - Wie mag eerst?",
+"options": [
+    "De witte auto",
+    "De militaire colonne"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_16/adnan3_50.png",
+"question": " 50 - Aan welke kant van de weg staat deze bermpaal?",
+"options": [
+"Rechterzijde",
+"Linkerzijde",
+"Beide"
+],
+"correct": [1]
+}
+]
+},
+{
+"id": 17,
+"title": "images_exame_17",
+"type": "image",
+"disabled": true,
+"questions": [
+
+{
+"image": "images/images_exame_17/adnan4_1.png",
+"question": "1 - Je wilt richting Amsterdam, mag je de auto met aanhanger rechts inhalen?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_2.png",
+"question": "2 - In welke verkeerssituatie mag de witte auto eerst? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B", "C", "D"],
+"correct": [1, 2]
+},
+{
+"image": "images/images_exame_17/adnan4_3.png",
+"question": "3 - Waar kun je ritsers verwachten?",
+"options": ["A", "B", "A & B"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_4.png",
+"question": "4 - Waarom is het percentage motorongelvallen op kruispunten hoger?",
+"options": ["Omdat het zicht beperkt is", "Vanwege de hoge snelheid"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_5.png",
+"question": "5 - Waar bevindt zich de dode hoek?",
+"options": ["1", "2"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_6.png",
+"question": "6 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto, politieauto, voetganger",
+    "politieauto, voetganger, witte auto",
+    "voetganger, witte auto, politieauto"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_7.png",
+"question": "7 - In welk situatie mag je rechts inhalen? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_8.png",
+"question": "8 - Wat is uw maximale snelheid in deze situatie?",
+"options": ["80 km/u", "90 km/u", "100 km/u"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_17/adnan4_9.png",
+"question": "9 - Wordt dit voertuig beschouwd als een voorrangsvoertuig?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_10.png",
+"question": "10 - Wat is hier de maximumsnelheid om 20.00 uur?",
+"options": ["100 km/u", "120 km/u", "130 km/u"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_17/adnan4_11.png",
+"question": "11 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["scooter,witte auto",
+"witte auto,scooter"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_12.png",
+"question": "12 - Moet je de fietser voor laten gaan?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_13.png",
+"question": "13 - Wie mag er in deze situatie op het fietspad rijden? Je kunt meer dan één antwoord kiezen.",
+"options": ["Fietsers", "Snorfietsers", "Bromfietsers", "Speed pedelec"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_14.png",
+"question": "14 - Welke lichten mag je aanzetten als je 's nachts alleen rijdt?",
+"options": ["Groot licht met dimlicht", "Stadslicht met mist achter licht", "Alleen dimlicht"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_15.png",
+"question": "15 - Alcohol zorgt ervoor dat het reactievermogen trager wordt, wordt de stopafstand korter?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_16.png",
+"question": "16 - In welke situatie moet je de voetganger voor laten gaan? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_17.png",
+"question": "17 - Je bent betrokken geweest bij een ongeval en alleen de koplampen zijn beschadigd, wat doe je?",
+"options": ["Blijf waar je bent op de weg", "Je stopt op de vluchtstrook", "Ga naar de dichtstbijzijnde parkeerplaats"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_17/adnan4_18.png",
+"question": "18 - Je ziet één hectometerbord, mag je het mistvoorlicht aanzetten?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_19.png",
+"question": "19 - Aan wie moet je hier voorrang verlenen?",
+"options": ["Alleen de voetganger", "Alleen de fietser", "Fietser en voetganger"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_17/adnan4_20.png",
+"question": "20 - Je wordt verblind door een voertuig achter je. Wat moet je doen?",
+"options": [
+    "Mistachterlicht aan zetten om aan te geven dat je verblind wordt",
+    "Harder rijden om te afstand groter te maken met het voertuig achter je",
+    "Je zet de binnenspiegel op dimstand of je draait de spiegel tijdelijk weg"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_17/adnan4_21.png",
+"question": "21 - Je rijdt in een auto met aanhanger, de totale lengte is 7,5 meter. In welk geval mag je inhalen?",
+"options": ["A", "B"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_22.png",
+"question": "22 - Als de zon achter jou ondergaat, wie kan jij slecht zien?",
+"options": ["Bestuurders die van voren naderen", "Bestuurders die van achter naderen"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_23.png",
+"question": "23 - In welke situatie mag je stilstaan? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_24.png",
+"question": "24 - Heb je meer kans op slipgevaar met een te lage bandenspanning?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_25.png",
+"question": "25 - Bij welk verkeersbord kan je tegenliggers verwachten? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_26.png",
+"question": "26 – Wat is het maximale aantal zitplaatsen in een voertuig met rijbewijs B?",
+"options": [
+"8 ",
+"9 ",
+"7 "
+
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_27.png",
+"question": "27 - Verwacht je dat een speed pedelec in deze situatie met je meerijdt op de rijbaan?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_17/adnan4_28.png",
+"question": "28 - Waar mag je keren?",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_29.png",
+"question": "29 - In welke situatie mag je rechts inhalen?",
+"options": ["A", "B"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_30.png",
+"question": "30 - Je staat in de file, moet je jouw gevarenlicht aanzetten?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_31.png",
+"question": "31 - Wat verwacht je na dit verkeersbord?",
+"options": ["Alleen auto's", "Alleen voetgangers", "Alleen fietsen", "Alle weggebruikers"],
+"correct": [3]
+},
+{
+"image": "images/images_exame_17/adnan4_32.png",
+"question": "32 - Mag je op deze rijstrook blijven rijden?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_33.png",
+"question": "33 - Welke van de twee wegen is een tweerichtingsweg?",
+"options": ["A", "B"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_34.png",
+"question": "34 - Bij welk verkeersbord kun je tegenliggers verwachten?",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 1,2]
+},
+{
+"image": "images/images_exame_17/adnan4_35.png",
+"question": "35 - Welke van de volgende antwoorden is een oorzaak voor meer brandstof verbruik?",
+"options": [
+"Wanneer de ramen open zijn",
+"Veel lading",
+"Een lage bandenspanning",
+"Hoge toeren tal"
+],
+"correct": [0, 1, 2, 3]
+},
+{
+"image": "images/images_exame_17/adnan4_36.png",
+"question": "36 - Wie mag deze weg in?",
+"options": ["Fietsers", "Snorfietsers", "Motorfietsers", "Auto's"],
+"correct": [0,1,3]
+},
+{
+"image": "images/images_exame_17/adnan4_37.png",
+"question": "37 - Is het toegestaan om de vrachtwagen in de halen in dit geval?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_38.png",
+"question": "38 - Is het toegestaan om de vrachtwagen in de halen in dit geval?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_39.png",
+"question": "39 - Wat betekent dit verkeersbord?",
+"options": ["Doodlopende weg", "Wegversmalling", "Eenrichtingsweg"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_40.png",
+"question": "40 - Je wilt het paard en de fietser inhalen. Wat moet je doen?",
+"options": [
+"Je rijdt langzaam en rijdt zo ruim mogelijk om het paard en de fietser heen.",
+"Je claxonneert en gaat langzamer rijden.",
+"Je wacht tot de ruiter aangeeft dat je kunt gaan inhalen."
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_41.png",
+"question": "41 - Bij welk bord mag je rechts afslaan?",
+"options": ["A", "B", "C", "D"],
+"correct": [1,3]
+},
+{
+"image": "images/images_exame_17/adnan4_42.png",
+"question": "42 - Mag je in deze situatie inhalen?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_43.png",
+"question": "43 - Wanneer kun je het beste de vrachtwagen inhalen?",
+"options": [
+"Wanneer de groene lijn een onderbroken lijn wordt",
+"Wanneer je goed zicht hebt en ver vooruit kan kijken",
+"Vóór de bocht"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_44.png",
+"question": "44 - Draagt het verwijderen van de sneeuw van de auto voordat je gaat rijden bij tot het behouden van het milieu?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_45.png",
+"question": "45 - Wie mag gebruik maken van een autoweg?",
+"options": [
+"Vrachtwagens en motorfietsen",
+"Fietsers en bromfietsers",
+"Auto's en brommobielen"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_17/adnan4_46.png",
+"question": "46 - In welke van de volgende gevallen mag je 90 km/u rijden?",
+"options": ["A", "B", "Beide niet"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_47.png",
+"question": "47 - Mogen meerdere passagiers dezelfde veiligheidsriem gebruiken tegelijkertijd?",
+"options": ["JA", "NEE"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_48.png",
+"question": "48 - Ben je hier verplicht om te stoppen wetend dat er geen kruisende bestuurders zijn?",
+"options": ["JA", "NEE"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_17/adnan4_49.png",
+"question": "49 - Wie wordt hier beschouwd als bestuurder? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B", "C"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_17/adnan4_50.png",
+"question": "50 - Op welke weg mag je 70 km/u rijden?",
+"options": ["A", "B", "Beide"],
+"correct": [0]
+}
+
+]
+},
+{
+"id": 18,
+"title": "images_exame_18",
+"type": "image",
+"disabled": true,
+"questions": [
+{
+"image": "images/images_exame_18/adnan5_1.png",
+"question": "1 - Waar moet je hier op letten? Je kunt meer dan één antwoord kiezen.",
+"options": [
+    "Dat bestuurders die jou inhalen je kunnen afsnijden.",
+    "Dat je op tijd naar rechts gaat als je op de linker rijstrook rijdt."
+],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_18/adnan5_2.png",
+"question": "2 - In welk situatie heeft de witte auto voorrang?",
+"options": ["A", "B", "C", "D"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_3.png",
+"question": "3 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["witte auto, voetganger, gele auto",
+"gele auto, witte auto, voetganger",
+"voetganger, witte auto, gele auto"],
+
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_4.png",
+"question": "4 - Je bandenspanning is te laag, is de kans op een klapband groter?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_5.png",
+"question": "5 - Je rijdt in de nacht binnen de bebouwde kom, waarom mag je in deze situatie geen grootlicht voeren?",
+"options": [
+    "Omdat je in de avond rijdt",
+    "Omdat je binnen de bebouwde kom bent",
+    "Omdat je tegenliggers hebt"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_18/adnan5_6.png",
+"question": "6 - Waar mag je 100 km/u rijden? Je kunt meer dan één antwoord kiezen.",
+"options": ["A", "B"],
+"correct": [0,1 ]
+},
+{
+"image": "images/images_exame_18/adnan5_7.png",
+"question": "7 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto, gele auto,", 
+    "gele auto, witte auto"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_8.png",
+"question": "8 - Je rijdt op een vluchtstrook omdat je niet op tijd kon invoegen door de drukte, moet je richting aangeven als je de vluchtstrook wil verlaten?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_9.png",
+"question": "9 - Bij welk verkeersbord mag je rechtdoor rijden?",
+"options": ["A", "B"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_10.png",
+"question": "10 - Wat doe je in deze situatie?",
+"options": ["Remmen", "Gas loslaten", "Niks doen"],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_18/adnan5_11.png",
+"question": "11 - Bij welk verkeersbord kan je tegenliggers verwachten?",
+"options": ["A", "B"],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_18/adnan5_12.png",
+"question": "12 - Jij bestuurt de witte auto, in welke situatie moet jij voorrang verlenen?",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 3]
+},
+{
+"image": "images/images_exame_18/adnan5_13.png",
+"question": "13 - Waar mag je een rijstrook wissel maken?",
+"options": ["A", "B"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_18/adnan5_14.png",
+"question": "14 - Bij welk verkeersbord kan je een gelijkwaardig kruispunt verwachten?",
+"options": ["A", "B", "C", "D"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_15.png",
+"question": "15 - Mag je hier doorrijden als de verkeersregelaar dit teken geeft?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_16.png",
+"question": "16 - Er geldt een stilstaan verbod links en rechts op de rijbaan, waar staat dit bord?",
+"options": ["Alleen rechts", "Alleen links", "Links en rechts"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_18/adnan5_17.png",
+"question": "17 - Je sleept een auto en de afstand tussen de auto's is 6 meter, mag je zo rijden?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_18.png",
+"question": "18 - Is het veilig om hier rechts in te halen?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_19.png",
+"question": "19 - Mag je hier de landbouw voertuig inhalen?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_20.png",
+"question": "20 - Je rijdt de witte lesauto, rijd je achter een vrachtauto of een vrachtwagen?",
+"options": ["Vrachtauto", "Vrachtwagen"],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_18/adnan5_21.png",
+"question": "21 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["witte auto, zwarte auto, voetganger",
+"witte auto,voetganger, zwarte auto",
+"voetganger,zwarte auto, witte auto"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_22.png",
+"question": "22 - Mag je zo rijden?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_23.png",
+"question": "23 - Welke voertuigen kan je verwachten op een autoweg?",
+"options": ["Caravans", "Auto's", "Brommobielen"],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_18/adnan5_24.png",
+"question": "24 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["witte auto, zwarte auto, voetganger",
+"witte auto, voetganger, zwarte auto",
+"voetganger, zwarte auto, witte auto"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_25.png",
+"question": "25 - Op welk verkeersbord gebeuren de meeste ongevallen?",
+"options": ["A", "B", "C", "D"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_26.png",
+"question": "26 - Wat doe je in deze situatie?",
+"options": ["Je haalt de vrachtwagen in", "Je stopt en laat de rode auto voor", "Je stopt vlak achter de vrachtwagen"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_27.png",
+"question": "27 - Mag je zo rijden?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_28.png",
+"question": "28 - Na welk bord kan je voetgangers verwachten?",
+"options": ["A", "B", "C", "D"],
+"correct": [1,2 ]
+},
+{
+"image": "images/images_exame_18/adnan5_29.png",
+"question": "29 - Hoeveel meter moet je voor of na een kruispunt parkeren?",
+"options": ["3 meter", "4 meter", "5 meter"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_18/adnan5_30.png",
+"question": "30 - In welke van de volgende gevallen moet je stoppen wanneer de verkeersregelaar dit teken aangeeft?",
+"options": [
+    "Wanneer je van achter de verkeersregelaar komt",
+    "Wanneer je van links van de verkeersregelaar komt",
+    "Wanneer je van de voorkant van de verkeersregelaar komt",
+    "Wanneer je van de rechterkant van de verkeersregelaar komt"
+],
+"correct": [0,2]
+},
+
+{
+"image": "images/images_exame_18/adnan5_31.png",
+"question": "31 - Na welk bord kan je brommobielen verwachten op de rijbaan?",
+"options": ["A", "B", "C", "D"],
+"correct": [1,2]
+},
+{
+"image": "images/images_exame_18/adnan5_32.png",
+"question": "32 - Je bent hier gestopt om te telefoneren. Mag dat?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_33.png",
+"question": "33 - Je wilt linksaf slaan, sta je zo goed voorgesorteerd?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_34.png",
+"question": "34 - Na welk bord kan je geen voetgangers verwachten?",
+"options": ["A", "B", "C", "D"],
+"correct": [3]
+},
+{
+"image": "images/images_exame_18/adnan5_35.png",
+"question": "35 - Mag je zo parkeren?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_36.png",
+"question": "36 - Welke van de volgende documenten ben je verplicht mee te nemen tijdens het rijden?",
+"options": ["Rijbewijs", "Kentekenbewijs", "Autoverzekeringspolis", "Gevaren driehoek"],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_18/adnan5_37.png",
+"question": "37 - In welke van de twee situaties kun je bestuurders van rechts verwachten?",
+"options": ["A", "B", "Beide niet"],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_18/adnan5_38.png",
+"question": "38 - De lengte van je voertuig met aanhanger is 8 meter, mag je op deze rijstrook rijden?",
+"options": ["Nee", "Ja"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_39.png",
+"question": "39 - Uit hoeveel rijstroken bestaat de snelweg na dit bord?",
+"options": ["1", "2", "3"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_18/adnan5_40.png",
+"question": "40 - Wat is de toegestane maximumsnelheid voor T-bussen op de autosnelweg?",
+"options": ["90 km/u", "100 km/u", "120 km/u"],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_18/adnan5_41.png",
+"question": "41 - Bij welke situatie mag de motorrijder links inhalen tijdens file?",
+"options": ["A", "B", "Beide"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_42.png",
+"question": "42 - Je rijdt zo de snelweg op, wat is de toegestane maximumsnelheid?",
+"options": ["80 km/u", "90 km/u", "130 km/u"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_18/adnan5_43.png",
+"question": "43 - Mag je een kind op deze manier vervoeren?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_44.png",
+"question": "44 - Bij welk bord mag je links parkeren?",
+"options": ["A", "B"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_45.png",
+"question": "45 - Kan je hier verwachten dat de tegenliggers gaan inhalen?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_18/adnan5_46.png",
+"question": "46 - Is de hoofdsteun zo goed afgesteld?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_47.png",
+"question": "47 - Mag je hier 90 km per uur rijden na dit bord?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_48.png",
+"question": "48 - In welke van de volgende situaties is de maximale snelheid meteen 90 km/u?",
+"options": ["A", "B", "Beide"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_18/adnan5_49.png",
+"question": "49 - Waar kunnen we dit voertuig verwachten?",
+"options": ["Op de autoweg", "Binnen de bebouwde kom", "Buiten de bebouwde kom", "Op de snelweg"],
+"correct": [1, 2]
+},
+{
+"image": "images/images_exame_18/adnan5_50.png",
+"question": "50 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["Militair konvooi, bus",
+"Bus, militair konvooi"],
+"correct": [0]
+}
+]
+},
+{
+"id": 19,
+"title": "images_exame_19",
+"type": "image",
+"disabled": true,
+"questions": [
+{
+
+"image": "images/images_exame_19/adnan6_1.png",
+"question": "1 - Zo veel mogelijk rechts voorsorteren?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_2.png",
+"question": "2 - Kan je met 100 km/u invoegen in deze situatie?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_3.png",
+"question": "3 - Mag je zo van rijstroken wisselen?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_4.png",
+"question": "4 - Is het veilig om de bus zo in te halen?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_5.png",
+"question": "5 - Welk bord kun je op een snelweg verwachten?",
+"options": ["A", "B", "C"],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_19/adnan6_6.png",
+"question": "6 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["Fietser eerst", "Auto eerst"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_7.png",
+"question": "7 - Wat is de maximale snelheid na dit bord?",
+"options": ["50 km/u", "80 km/u", "90 km/u"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_8.png",
+"question": "8 - Mag je hier direct links afslaan?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_9.png",
+"question": "9 - Wat kun je verwachten in een woonerf?",
+"options": [
+    "Voetgangers mogen de weg volledig gebruiken",
+    "Maximumsnelheid 15 km/u",
+    "Parkeren alleen op aangewezen plekken"
+],
+"correct": [0,1,2]
+},
+{
+"image": "images/images_exame_19/adnan6_10.png",
+"question": "10 - Welke regels volgt de bestuurder van een speed-pedelec?",
+"options": ["Fiets regels", "Snorfiets regels", "Bromfiets regels"],
+"correct": [2]
+},
+
+{
+"image": "images/images_exame_19/adnan6_11.png",
+"question": "11 - Welke factoren beïnvloeden de reactietijd?",
+"options": ["Alcohol", "Muziek via koptelefoon", "Vermoeidheid"],
+"correct": [0,1,2]
+},
+{
+"image": "images/images_exame_19/adnan6_12.png",
+"question": "12 - Bij welk bord is rechtsaf toegestaan?",
+"options": ["A", "B", "A & B"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_13.png",
+"question": "13 - Welk verkeersbord mag je niet stilstaan?",
+"options": ["A", "B", "C", "D"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_14.png",
+"question": "14 - Je rijdt hier 25 km/u, is dat te snel?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_15.png",
+"question": "15 - Welke banden hebben kortere remweg in sneeuw?",
+"options": ["Zomerbanden", "Winterbanden"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_16.png",
+"question": "16 - Is het hier toegestaan om rechtsaf te slaan?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_17.png",
+"question": "17 - Bij welk bord is parkeren toegestaan?",
+"options": ["A", "B", "C", "D"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_18.png",
+"question": "18 - Wat gebeurt er bij lage bandenspanning?",
+"options": [
+    "Meer brandstofverbruik",
+    "Snellere slijtage aan zijkanten",
+    "Vervelend geluid"
+],
+"correct": [0,1,2]
+},
+{
+"image": "images/images_exame_19/adnan6_19.png",
+"question": "19 - Moet je uitvoegend verkeer voor laten gaan?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_20.png",
+"question": "20 - Is jouw rijbewijs onbeperkt geldig?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_19/adnan6_21.png",
+"question": "21 - Bij welk bord mag je goederen lossen?",
+"options": ["A", "B", "C", "D"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_22.png",
+"question": "22 - Waar meeste kans op bevroren wegdek?",
+"options": ["Rotondes", "Parkeerplaatsen", "Viaducten"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_19/adnan6_23.png",
+"question": "23 - Bij welk bord verwacht je tegenliggers?",
+"options": ["A", "B"],
+"correct": [0,1]
+},
+{
+"image": "images/images_exame_19/adnan6_24.png",
+"question": "24 - Waar kans op slipgevaar?",
+"options": ["Nieuwe wegen", "Natte weg", "Beide"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_19/adnan6_25.png",
+"question": "25 - Verlaat je hier een woonerf?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_26.png",
+"question": "26 - Juiste handeling in deze situatie?",
+"options": [
+    "Volg verkeer, stop achter gele auto",
+    "Blijf op dezelfde plek",
+    "Rechtsaf slaan"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_27.png",
+"question": "27 - Welke hoeken zijn dode hoeken?",
+"options": ["A", "B", "C"],
+"correct": [0,2]
+},
+{
+"image": "images/images_exame_19/adnan6_28.png",
+"question": "28 - Wat is de juiste volgorde?",
+"options": ["1 dan 2", "2 dan 1"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_29.png",
+"question": "29 - Wat is de juiste volgorde?",
+"options": ["Tram eerst", "Auto eerst"],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_19/adnan6_30.png",
+"question": "30 - Wat is de juist volgorde?",
+"options": ["T - Jij", "Jij - T"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_31.png",
+"question": "31 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["1-2-3", "1-3-2", "3-1-2", "1-2-3"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_32.png",
+"question": "32 - Wat is de toegestane maximumsnelheid wanneer je dit bord ziet?",
+"options": ["50 km/u", "100 km/u", "130 km/u"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_19/adnan6_33.png",
+"question": "33 - Wat is de juiste volgorde van voor laten gaan?",
+"options": ["1-2-3-4", "1-3-2-4", "3-1-2-4"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_34.png",
+"question": "34 - Ben je hier verplicht om rechts te rijden?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_35.png",
+"question": "35 - Bij welk bord moet je voorrang verlenen aan andere bestuurders?",
+"options": ["A", "B", "C", "D"],
+"correct": [1, 3]
+},
+{
+"image": "images/images_exame_19/adnan6_36.png",
+"question": "36 - Welk voertuig wordt gezien als een voorrangsvoertuig?",
+"options": ["A", "B", "C"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_19/adnan6_37.png",
+"question": "37 - Rijd je in een zone gebied?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_38.png",
+"question": "38 - Wat is de juiste handeling bij het inhalen van een vrachtwagen in regenachtige omstandigheden?",
+"options": ["Activeer de achterruitverwarming", "Activeer de ruitenwissers op hoge snelheid", "Blijf zo dicht mogelijk bij de vrachtwagen"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_39.png",
+"question": "39 - Moet je hier voorrang verlenen aan de fietser?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_40.png",
+"question": "40 - Je parkeert in de berm buiten de bebouwde kom in de avond, moet je stadslicht voeren?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_41.png",
+"question": "41 - Je rijdt de witte lesauto, moet je hier de voetganger voor laten gaan?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_42.png",
+"question": "42 - In welke situatie mag je een rijstrook wissel maken?",
+"options": ["A", "B"],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_19/adnan6_43.png",
+"question": "43 - In welke situatie mag je rechts inhalen?",
+"options": ["A", "B", "A & B"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_44.png",
+"question": "44 - Je plaatst de zware lading aan de achterkant van je aanhangwagen, is dit veilig?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_45.png",
+"question": "45 - Je wilt de rotonde verlaten bij de derde afslag, waar moet je voorsorteren?",
+"options": ["A (links voorsorteren)", "B (rechts voorsorteren)"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_46.png",
+"question": "46 - In welke situatie kun je een ruiter verwachten op de rijbaan?",
+"options": ["A", "B", "A & B"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_47.png",
+"question": "47 - Welke van de volgende zaken beïnvloedt de remafstand?",
+"options": [
+    "Het consumeren van alcohol",
+    "Bandenspanning",
+    "Het dragen van een telefoon tijdens het rijden"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_19/adnan6_48.png",
+"question": "48 - Wanneer kan je de tractor veilig inhalen?",
+"options": [
+    "Vóór het kruispunt",
+    "Na het kruispunt",
+    "Wanneer de weg veilig en recht is"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_19/adnan6_49.png",
+"question": "49 - Op wat duidt dit symbool?",
+"options": [
+    "Rijbaanassistent",
+    "Elektronisch Stabiliteitsprogramma (ESP)",
+    "Voor-waarschuwingssysteem voor botsingen",
+    "Dode hoek waarschuwingssysteem"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_19/adnan6_50.png",
+"question": "50 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "Eerst de voertuigen, daarna de voetganger",
+    "Eerst de voetganger, daarna de voertuigen"
+],
+"correct": [1]
+}
+]
+},
+{
+"id": 20,
+"title": "images_exame_20",
+"type": "image",
+"disabled": true,
+"questions": 
+[
+{
+"image": "images/images_exame_20/adnan7_1.png",
+"question": "1 - De vrachtauto's willen gaan invoegen. Hoe handel je in deze situatie?",
+"options": [
+    "maakt ruimte door je snelheid te verhogen.",
+    "Je maakt ruimte door je snelheid te verlagen."
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_2.png",
+"question": "2 - Welk voertuig kun je buiten de bebouwde kom verwachten? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B"
+],
+"correct": [0, 1]
+},
+{
+"image": "images/images_exame_20/adnan7_3.png",
+"question": "3 - Bij welk bord moet je voorrang verlenen aan voetgangers? (Je kunt meer dan één antwoord kiezen.)",
+"options": [
+    "A",
+    "B",
+    "C",
+    "D"
+],
+"correct": [0,3]
+},
+{
+"image": "images/images_exame_20/adnan7_4.png",
+"question": "4 - Je wilt rechts afslaan, mag je je hier van rijstrook wisselen?",
+"options": [
+    "JA",
+    "NEE"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_5.png",
+"question": "5 - Mag je zo rijden?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_6.png",
+"question": "6 - Welk voertuig is het laatste voertuig van een militaire colonne?",
+"options": [
+    "A",
+    "B",
+    "C"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_7.png",
+"question": "7 - Bij welk verkeersbord verwacht je bestuurders van rechts?",
+"options": [
+    "A",
+    "B",
+    "A & B"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_8.png",
+"question": "8 - Bij welk bord geldt een inhaalverbod?",
+"options": [
+    "Alleen bij A",
+    "Alleen bij B",
+    "A & B"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_9.png",
+"question": "9 - Mag je een kind van 2 jaar in een kinderzitje op de bijrijder stoel vervoeren?",
+"options": [
+    "Ja",
+    "Nee"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_10.png",
+"question": "10 - Wat betekent dit symbool?",
+"options": [
+    "Achterruitverwarming",
+    "Recirculatieknop",
+    "Hulpsysteem bij het omkeren"
+],
+"correct": [1]
+
+},
+
+{
+"image": "images/images_exame_20/adnan7_11.png",
+"question": "11 - Mag je hier de vrachtwagen inhalen?",
+"options": ["JA", "NEE"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_12.png",
+"question": "12 - Wie is een weggebruiker?",
+"options": [
+    "Alleen voetgangers",
+    "Alle bestuurders",
+    "Bestuurders en voetgangers"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_20/adnan7_13.png",
+"question": "13 - Mag je links afslaan?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_14.png",
+"question": "14 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto scooter  ,Rouwstoet",
+    "witte auto ,Rouwstoet ,scooter",
+    "scooter ,witte auto,Rouwstoet ",
+    "Rouwstoet ,scooter ,witte auto"
+],
+"correct": [2]
+},
+{
+"image": "images/images_exame_20/adnan7_15.png",
+"question": "15 - Welk verkeersbord verwacht je bij een eenrichtingsweg? (Je kunt meer dan één antwoord kiezen.)",
+"options": ["A", "B", "C", "D"],
+"correct": [1, 2]
+},
+{
+"image": "images/images_exame_20/adnan7_16.png",
+"question": "16 - Bij welk bord mag je links afslaan?",
+"options": ["A", "B", "Geen van beiden"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_17.png",
+"question": "17 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto ,militaire colonne", 
+    "militaire colonne ,witte auto"
+],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_18.png",
+"question": "18 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "grone auto, witte auto", 
+    "witte auto, grone auto"
+],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_19.png",
+"question": "19 - Je rijdt de witte lesauto, mag je zo de spitsstrook gebruiken?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_20.png",
+"question": "20 - Wat is de juiste volgorde?",
+"options": [
+    "fiets,witte auto,tram",
+    "fiets,tram,witte auto",
+    "tram,fiets,witte auto",
+    "tram,witte auto,fiets"
+    
+],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_20/adnan7_21.png",
+"question": "21 - Mag je hier de gele auto rechts inhalen?",
+"options": ["Ja", "Nee", "Alleen tijdens file"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_22.png",
+"question": "22 - Bij welk verkeersbord moet je voorrang verlenen aan tegenliggers?",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 3]
+},
+{
+"image": "images/images_exame_20/adnan7_23.png",
+"question": "23 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "witte auto, militaire colonne, scooter",
+    "militaire colonne, witte auto, scooter",
+    "witte auto ,scooter,militaire colonne"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_20/adnan7_24.png",
+"question": "24 - In welk geval is het toegestaan om te rijden?",
+"options": ["A", "B", "Beiden niet toegestaan"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_25.png",
+"question": "25 - Mag je hier parkeren?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_26.png",
+"question": "26 - Mag je met een onverzekerde auto parkeren op een openbare parkeerplaats?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_27.png",
+"question": "27 - Wat is de minimale profieldiepte voor een reserveband?",
+"options": ["4mm", "2mm", "1.6mm"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_20/adnan7_28.png",
+"question": "28 - Moet u voorrang verlenen aan een gehandicaptenvoertuig dat wil oversteken bij een voetgangersoversteekplaats?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_29.png",
+"question": "29 - Bij welk bord kan je tegenliggers verwachten?",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 1, 2]
+},
+{
+"image": "images/images_exame_20/adnan7_30.png",
+"question": "30 - Je wil links afslaan, sta je zo goed voorgesorteerd?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+
+{
+"image": "images/images_exame_20/adnan7_31.png",
+"question": "31 - Mag je de motorfiets in deze situatie inhalen?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_32.png",
+"question": "32 - Bij welk bord moet je voorrang verlenen aan andere bestuurders?",
+"options": ["A", "B", "C", "D"],
+"correct": [0, 1, 2]
+},
+{
+"image": "images/images_exame_20/adnan7_33.png",
+"question": "33 - Wat is de toegestane maximumsnelheid op de snelweg?",
+"options": ["100 km/u", "120 km/u", "130 km/u"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_20/adnan7_34.png",
+"question": "34 - Wat is de juist manier om een kind te vervoeren?",
+"options": ["A", "B"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_35.png",
+"question": "35 - Je wil een rijstrook naar links opschuiven, wie vormt het meest gevaar voor jou?",
+"options": ["De vrachtwagen voor je", "De motorfiets die jou van achteren nadert", "Beide"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_36.png",
+"question": "36 - Wat is de juiste volgorde van voor laten gaan?",
+"options": [
+    "tram,witte auto,militaire colonne", 
+    "militaire colonne,tram,witte auto", 
+    "witte auto,militaire colonne,tram"],
+"correct": [0] 
+},
+{
+"image": "images/images_exame_20/adnan7_37.png",
+"question": "37 - Bij welke verkeersbord verwacht je een uitwijkplaats op de rijbaan?",
+"options": ["A", "B", "C", "D"],
+"correct": [1, 2]
+},
+{
+"image": "images/images_exame_20/adnan7_38.png",
+"question": "38 - Je wilt een rijstrookwissel maken naar rechts. Mag dat?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_39.png",
+"question": "39 - Wanneer gebruikt je auto meer brandstof?",
+"options": ["Als de cruiss control aanstaat", "Als je zware lading vervoert", "Wanneer je met hoge toeren rijdt", "Als de airconditioning aanstaat"],
+"correct": [1, 2, 3]
+},
+{
+"image": "images/images_exame_20/adnan7_40.png",
+"question": "40 - Verwacht je hier bestuurders van links?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+
+{
+"image": "images/images_exame_20/adnan7_41.png",
+"question": "41 - Wat is de maximale snelheid als je wil invoegen om 17.00 uur op een autosnelweg?",
+"options": ["60 km/u", "100 km/u", "130 km/u"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_42.png",
+"question": "42 - Mag je handsfree bellen tijdens het rijden?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_43.png",
+"question": "43 - Mag je handsfree bellen tijdens het rijden?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_44.png",
+"question": "44 - Waar mag je passagiers laten uitstappen?",
+"options": ["A", "B", "C", "D"],
+"correct": [2]
+},
+{
+"image": "images/images_exame_20/adnan7_45.png",
+"question": "45 - In welke situatie moet je een gevarendriehoek plaatsen?",
+"options": ["A", "B", "Beide"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_46.png",
+"question": "46 - Mag je op deze manier rijden?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_47.png",
+"question": "47 - Je bestuurt de witte auto, aan welke kant kan de motorfiets jou inhalen in deze situatie?",
+"options": ["Alleen rechts", "Links", "Rechts en Links"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_48.png",
+"question": "48 - Verlaat je hier de snelweg?",
+"options": ["Ja", "Nee"],
+"correct": [1]
+},
+{
+"image": "images/images_exame_20/adnan7_49.png",
+"question": "49 - Bij welke afslag is er een uitwijkroute?",
+"options": ["Eerste afslag", "Tweede afslag"],
+"correct": [0]
+},
+{
+"image": "images/images_exame_20/adnan7_50.png",
+"question": "50 - Je trekt geen aanhanger, mag je zo rijden?",
+"options": ["Ja", "Nee"],
+"correct": [0]
+}
+
+]
+}
+]
+}
+
+
+
+
