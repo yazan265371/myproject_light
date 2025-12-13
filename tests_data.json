@@ -1949,9 +1949,7 @@
     "image": "images/images_exame_1/bestuurder_5.png",
     "question": "Je ziet dit bord. Kan je hier snorfietsers op de rijbaan verwachten?",
     "options": ["Ja", "Nee"],
-    "correct": [1]
-}
-]
+   "correct": [1]
 },
 {
         "image": "images/images_exame_1/photo1.png",
@@ -2118,6 +2116,8 @@
             "De schade aan het eigen voertuig en de tegenpartij"
         ],
         "correct": [2]
+}
+]
     },
 
 {
