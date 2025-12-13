@@ -284,12 +284,7 @@
         "options": ["Alle weggebruikers", "Alle bestuurders", "Voetgangers"],
         "correct": [2]
     },
-    {
-        "image": "images/images_exame_5/regel_5.png",
-        "question": "Welke invloed heeft vermoeidheid op de focus van de bestuurder?",
-        "options": ["De focus neemt af", "De focus neemt toe", "Vermoeidheid heeft geen invloed op de focus"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/regel_6.png",
         "question": "Als je goed bent uitgerust achter het stuur, heeft dit dan invloed op je reactieafstand?",
@@ -332,12 +327,7 @@
         "options": ["Alleen binnen de bebouwde kom", "Alleen buiten de bebouwde kom", "Binnen en buiten de bebouwde kom"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/regel_14.png",
-        "question": "Moet je er rekening mee houden dat de remweg van een vrachtauto langer is dan van een personenauto?",
-        "options": ["Ja", "Nee"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/gordel_1.png",
         "question": "Je rijdt in een auto en hebt op de achterbank 3 gordels. Is het toegestaan om 4 volwassenen op de achterbank te vervoeren?",
@@ -362,12 +352,7 @@
         "options": ["Nooit", "Als het kind 1,35 meter of langer is", "Als het kind kleiner is dan 1,35 meter"],
         "correct": [1]
     },
-    {
-        "image": "images/images_exame_5/gordel_5.png",
-        "question": "Een kind van 12 zit in de auto, maar de gordel komt tegen zijn hals. Wat moet hij gebruiken?",
-        "options": ["Een zitverhoger", "Een kinderstoeltje", "Niets"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/gordel_6.png",
         "question": "Als de airbag is uitgeschakeld, welke positie is dan veiliger?",
@@ -404,12 +389,7 @@
         "options": ["Binnen de bebouwde kom", "Buiten de bebouwde kom", "Binnen en buiten de bebouwde kom"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/stoet_5.png",
-        "question": "De bus wil gaan vertrekken. Gaat de bus voor?",
-        "options": ["Ja", "Nee"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/stoet_6.png",
         "question": "Kun je nu verwachten dat de bus zal uitwijken op jouw rijstrook?",
@@ -476,12 +456,7 @@
         "options": ["In de bijsluiter", "In het doktersrecept"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/situatie_5.png",
-        "question": "Slaap- en kalmeringsmiddelen kunnen de rijvaardigheid beïnvloeden. Geldt dit ook voor andere geneesmiddelen?",
-        "options": ["Ja", "Nee"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/situatie_6.png",
         "question": "Je gebruikt medicijnen. Wanneer is het toegestaan om een auto te besturen?",
@@ -518,12 +493,7 @@
         "options": ["Het slachtoffer in een stabiele zijligging leggen", "Het slachtoffer laten liggen zoals je hem aantreft"],
         "correct": [1]
     },
-    {
-        "image": "images/images_exame_5/ongeval_5.png",
-        "question": "Wat moet je doen als een verkeersslachtoffer een whiplash heeft?",
-        "options": ["Het slachtoffer in een stabiele zijligging leggen", "Het slachtoffer zo laten liggen", "Het slachtoffer op de rug plaatsen"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/ongeval_6.png",
         "question": "Je bent betrokken bij een aanrijding waarbij gewonden zijn gevallen. Is het toegestaan het slachtoffer wat te drinken te geven?",
@@ -590,12 +560,7 @@
         "options": ["Grootlicht", "Stadslicht", "Dimlicht"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/licht_5.png",
-        "question": "Je rijdt hier met grootlicht. Is dat toegestaan?",
-        "options": ["Ja", "Nee"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/licht_6.png",
         "question": "In welke situatie is het toegestaan om grootlicht te voeren?",
@@ -644,12 +609,7 @@
         "options": ["Ja", "Nee"],
         "correct": [1]
     },
-    {
-        "image": "images/images_exame_5/licht_14.png",
-        "question": "Mistlichten aan de voorzijde mogen gevoerd worden bij mist, sneeuwval of regen als het zicht minder is dan:",
-        "options": ["50 meter", "100 meter", "200 meter"],
-        "correct": [2]
-    },
+    
     {
         "image": "images/images_exame_5/licht_15.png",
         "question": "Is het toegestaan om alleen met stadslichten te rijden?",
@@ -698,12 +658,7 @@
         "options": ["Ja", "Nee"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/alcohol_5.png",
-        "question": "Wat doet te veel alcohol met je reactietijd?",
-        "options": ["De reactietijd wordt langer", "De reactietijd wordt korter", "De reactietijd blijft gelijk"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/alcohol_6.png",
         "question": "Hoeveel microgram mag een ervaren bestuurder maximaal in zijn adem hebben?",
@@ -751,13 +706,8 @@
         "question": "Door het rijden met een aanhangwagen kan je via de binnenspiegel niet zien wat er achter je gebeurt. Wat moet je doen?",
         "options": ["De zijspiegels verbreden", "Langzamer rijden", "Over je schouder kijken"],
         "correct": [0]
-    },
-    {
-        "image": "images/images_exame_5/spiegel_5.png",
-        "question": "Heeft een vrachtauto een grotere dode hoek dan een personenauto?",
-        "options": ["Ja", "Nee"],
-        "correct": [0]
     }
+    
 ]
 },
 {
@@ -1743,8 +1693,7 @@
     "Symbool C"
     ],
     "correct": [0]
-}
-]
+    
 },
 {
 "id": 1,
@@ -1949,7 +1898,7 @@
     "image": "images/images_exame_1/bestuurder_5.png",
     "question": "Je ziet dit bord. Kan je hier snorfietsers op de rijbaan verwachten?",
     "options": ["Ja", "Nee"],
-   "correct": [1]
+    "correct": [1]
 },
 {
         "image": "images/images_exame_1/photo1.png",
@@ -2115,10 +2064,69 @@
             "Alleen de schade aan de tegenpartij",
             "De schade aan het eigen voertuig en de tegenpartij"
         ],
-        "correct": [2]
-}
-]
+    "correct": [2]
     },
+    {
+        "image": "images/images_exame_1/regel_5.png",
+        "question": "Welke invloed heeft vermoeidheid op de focus van de bestuurder?",
+        "options": ["De focus neemt af", "De focus neemt toe", "Vermoeidheid heeft geen invloed op de focus"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_1/regel_14.png",
+        "question": "Moet je er rekening mee houden dat de remweg van een vrachtauto langer is dan van een personenauto?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_1/gordel_5.png",
+        "question": "Een kind van 12 zit in de auto, maar de gordel komt tegen zijn hals. Wat moet hij gebruiken?",
+        "options": ["Een zitverhoger", "Een kinderstoeltje", "Niets"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_1/stoet_5.png",
+        "question": "De bus wil gaan vertrekken. Gaat de bus voor?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_1/situatie_5.png",
+        "question": "Slaap- en kalmeringsmiddelen kunnen de rijvaardigheid beïnvloeden. Geldt dit ook voor andere geneesmiddelen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_1/ongeval_5.png",
+        "question": "Wat moet je doen als een verkeersslachtoffer een whiplash heeft?",
+        "options": ["Het slachtoffer in een stabiele zijligging leggen", "Het slachtoffer zo laten liggen", "Het slachtoffer op de rug plaatsen"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_1/licht_5.png",
+        "question": "Je rijdt hier met grootlicht. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_1/licht_14.png",
+        "question": "Mistlichten aan de voorzijde mogen gevoerd worden bij mist, sneeuwval of regen als het zicht minder is dan:",
+        "options": ["50 meter", "100 meter", "200 meter"],
+        "correct": [2]
+    },
+{
+        "image": "images/images_exame_1/alcohol_5.png",
+        "question": "Wat doet te veel alcohol met je reactietijd?",
+        "options": ["De reactietijd wordt langer", "De reactietijd wordt korter", "De reactietijd blijft gelijk"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_1/spiegel_5.png",
+        "question": "Heeft een vrachtauto een grotere dode hoek dan een personenauto?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+
 
 {
 "id": 10,
