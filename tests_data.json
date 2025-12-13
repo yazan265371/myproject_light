@@ -5,175 +5,10 @@
 "title": "اختبار الصور التجريبي",
 "type": "image",
 "questions": [
-    {
-        "image": "images/photo1.png",
-        "question": "je hebt zojuist het rijbewijs B gehaald. welk(e) voertuig(en) mag je besturen?",
-        "options": [
-            "Alleen een personenauto",
-            "Alleen een personenauto en bromfiets",
-            "Alleen een personenauto, bromfiets en brommobiel"
-        ],
-        "correct": [2]
-    },
-    {
-        "image": "images/photo2.png",
-        "question": "Wat is de minimumleeftijd voor het besturen van een personenauto bij begeleid rijden?",
-        "options": [
-            "16 jaar",
-            "17 jaar",
-            "18 jaar"
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/photo3.jpeg",
-        "question": "Je bent 18 jaar en haalt voor het eerst een rijbewijs. Hoe lang ben je een beginnende bestuurder?",
-        "options": [
-            "5 jaar",
-            "1 jaar",
-            "7 jaar"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/medepassagiers.jpg",
-        "question": "Je rijdt met medepassagiers. Waar moet je dan rekening mee houden?",
-        "options": [
-            "Een langere remweg",
-            "afleiding.",
-            "minder grip op het wegdek."
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/bacha.jpg",
-        "question": "Waar kun je massa rijklaar gewicht van je auto vinden?",
-        "options": [
-            "Op het kentekenbewijs.",
-            "Op het rijbewijs.",
-            "Allebei."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/politie.png",
-        "question": "De massa rijklaar gewicht van je auto staat op het kentekenbewijs. Waar is dat belangrijk voor?",
-        "options": [
-            "De politie.",
-            "De wegenbelasting.",
-            "De verzekering."
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/rijkswaterstaat-auto.png",
-        "question": "Is een Rijkswaterstaat-auto een voorrangsvoertuig?",
-        "options": [
-            "Ja.",
-            "Nee."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/zitplaatsen.jpg",
-        "question": "Hoeveel andere zitplaatsen mag een auto maximaal hebben om met een rijbewijs B te rijden?",
-        "options": [
-            "6 zitplaatsen",
-            "7 zitplaatsen",
-            "8 zitplaatsen"
-        ],
-        "correct": [2]
-    },
-    {
-        "image": "images/ontzegd.png",
-        "question": "Je rijbevoegdheid is ontzegd. Is het toegestaan om te fietsen?",
-        "options": [
-            "Ja.",
-            "Nee."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/rijverbod.jpg",
-        "question": "De politie heeft je een rijverbod opgelegd. Welk voertuig mag je besturen?",
-        "options": [
-            "Alleen een fiets.",
-            "Geen enkel voertuig.",
-            "Alleen een fiets en een snorfiets."
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/wedstrijd.jpg",
-        "question": "Op weg wordt er een wedstrijd gehouden met een voertuig. Wie is er strafbaar?",
-        "options": [
-            "De eigenaar en de bestuurder.",
-            "De bestuurder",
-            "De eigenaar."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/telephoon.jpg",
-        "question": "Is het verboden om je telefoon in je hand te hebben als je rijdt?",
-        "options": [
-            "Ja.",
-            "Nee."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/verkeersongeval.png",
-        "question": "Je bent betrokken bij een verkeersongeval. Wanneer moet je jouw ID van je motorrijtuig kenbaar maken?",
-        "options": [
-            "Dat moet altijd.",
-            "Alleen als je het ongeval zelf veroorzaakt hebt.",
-            "Alleen als je zelf schade en letsel hebt opgelopen."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/douaneambtenaar.jfif",
-        "question": "De douaneambtenaar geeft je een teken tot stoppen. Wanneer moet je daar gehoor aan geven?",
-        "options": [
-            "Altijd.",
-            "Alleen bij een grensovergang.",
-            "Alleen als je passagiers en bagage vervoert."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/vrachtauto.jpg",
-        "question": "De vrachtauto voor je is zijn vracht verloren. Wat doe je?",
-        "options": [
-            "Niets.",
-            "De politie inschakelen.",
-            "De Wegenwacht inschakelen."
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/verplichtverzekering.png",
-        "question": "Ben je verplicht een verzekering af te sluiten voor een auto?",
-        "options": [
-            "Ja.",
-            "Nee."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/cacco.png",
-        "question": "Wat kan een WA-Casco verzekering van een motorvoertuig na een ongeval vergoeden?",
-        "options": [
-            "het eigen voertuig",
-            "Alleen de schade aan de tegenpartij",
-            "De schade aan het eigen voertuig en de tegenpartij"
-        ],
-        "correct": [2]
-    }
+
 ]
-},
-    {
+    },
+    { 
 "id": 4,
 "title": "اختبار الصور التجريبي",
 "type": "image",
@@ -2118,6 +1953,173 @@
 }
 ]
 },
+{
+        "image": "images/images_exame_1/photo1.png",
+        "question": "je hebt zojuist het rijbewijs B gehaald. welk(e) voertuig(en) mag je besturen?",
+        "options": [
+            "Alleen een personenauto",
+            "Alleen een personenauto en bromfiets",
+            "Alleen een personenauto, bromfiets en brommobiel"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_1/photo2.png",
+        "question": "Wat is de minimumleeftijd voor het besturen van een personenauto bij begeleid rijden?",
+        "options": [
+            "16 jaar",
+            "17 jaar",
+            "18 jaar"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_1/photo3.jpeg",
+        "question": "Je bent 18 jaar en haalt voor het eerst een rijbewijs. Hoe lang ben je een beginnende bestuurder?",
+        "options": [
+            "5 jaar",
+            "1 jaar",
+            "7 jaar"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/medepassagiers.jpg",
+        "question": "Je rijdt met medepassagiers. Waar moet je dan rekening mee houden?",
+        "options": [
+            "Een langere remweg",
+            "afleiding.",
+            "minder grip op het wegdek."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_1/bacha.jpg",
+        "question": "Waar kun je massa rijklaar gewicht van je auto vinden?",
+        "options": [
+            "Op het kentekenbewijs.",
+            "Op het rijbewijs.",
+            "Allebei."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/politie.png",
+        "question": "De massa rijklaar gewicht van je auto staat op het kentekenbewijs. Waar is dat belangrijk voor?",
+        "options": [
+            "De politie.",
+            "De wegenbelasting.",
+            "De verzekering."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_1/rijkswaterstaat-auto.png",
+        "question": "Is een Rijkswaterstaat-auto een voorrangsvoertuig?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/zitplaatsen.jpg",
+        "question": "Hoeveel andere zitplaatsen mag een auto maximaal hebben om met een rijbewijs B te rijden?",
+        "options": [
+            "6 zitplaatsen",
+            "7 zitplaatsen",
+            "8 zitplaatsen"
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_1/ontzegd.png",
+        "question": "Je rijbevoegdheid is ontzegd. Is het toegestaan om te fietsen?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/rijverbod.jpg",
+        "question": "De politie heeft je een rijverbod opgelegd. Welk voertuig mag je besturen?",
+        "options": [
+            "Alleen een fiets.",
+            "Geen enkel voertuig.",
+            "Alleen een fiets en een snorfiets."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_1/wedstrijd.jpg",
+        "question": "Op weg wordt er een wedstrijd gehouden met een voertuig. Wie is er strafbaar?",
+        "options": [
+            "De eigenaar en de bestuurder.",
+            "De bestuurder",
+            "De eigenaar."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/telephoon.jpg",
+        "question": "Is het verboden om je telefoon in je hand te hebben als je rijdt?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/verkeersongeval.png",
+        "question": "Je bent betrokken bij een verkeersongeval. Wanneer moet je jouw ID van je motorrijtuig kenbaar maken?",
+        "options": [
+            "Dat moet altijd.",
+            "Alleen als je het ongeval zelf veroorzaakt hebt.",
+            "Alleen als je zelf schade en letsel hebt opgelopen."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/douaneambtenaar.jfif",
+        "question": "De douaneambtenaar geeft je een teken tot stoppen. Wanneer moet je daar gehoor aan geven?",
+        "options": [
+            "Altijd.",
+            "Alleen bij een grensovergang.",
+            "Alleen als je passagiers en bagage vervoert."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/vrachtauto.jpg",
+        "question": "De vrachtauto voor je is zijn vracht verloren. Wat doe je?",
+        "options": [
+            "Niets.",
+            "De politie inschakelen.",
+            "De Wegenwacht inschakelen."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_1/verplichtverzekering.png",
+        "question": "Ben je verplicht een verzekering af te sluiten voor een auto?",
+        "options": [
+            "Ja.",
+            "Nee."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_1/cacco.png",
+        "question": "Wat kan een WA-Casco verzekering van een motorvoertuig na een ongeval vergoeden?",
+        "options": [
+            "het eigen voertuig",
+            "Alleen de schade aan de tegenpartij",
+            "De schade aan het eigen voertuig en de tegenpartij"
+        ],
+        "correct": [2]
+    },
+
 {
 "id": 10,
 "title": "اختبار الصور التجريبي",

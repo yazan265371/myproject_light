@@ -1,229 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>الرئيسية | اختر باقتك</title>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-<style>
-    body {
-    font-family: 'Cairo', 'Montserrat', Arial, sans-serif;
-    background: linear-gradient(120deg, #f0f4f8 60%, #e0eafc 100%);
-    margin: 0;
-    padding: 0;
-    }
-    .header-bar {
-background: linear-gradient(90deg, #2193b0 60%, #6dd5ed 100%);
-padding: 22px 0 10px 0;
-color: #fff;
-text-align: center;
-    box-shadow: 0 2px 10px rgba(33,147,176,0.12);
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    }
-    .header-bar h1 {
-    margin: 0;
-    font-size: 2.2rem;
-    letter-spacing: 1px;
-    }
-    nav.nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 24px;
-    background: #fff;
-    padding: 10px 32px 10px 32px;
-    box-shadow: 0 2px 9px rgba(33,147,176,0.07);
-    font-size: 1.15rem;
-    }
-    nav.nav a {
-    color: #2193b0;
-    text-decoration: none;
-        font-weight: bold;
-        transition: color 0.3s;
-        border-radius: 8px;
-        padding: 6px 16px;
-    }
-    nav.nav a:hover {
-    background: #e0eafc;
-    color: #17657a;
-    }
-    .flash-messages {
-    list-style: none;
-    padding: 0;
-    margin: 18px auto 0 auto;
-    max-width: 400px;
-    text-align: center;
-    }
-    .flash-messages li {
-    background: #ffc107;
-    color: #222;
-        font-weight: bold;
-        border-radius: 10px;
-        margin-bottom: 8px;
-        padding: 10px 16px;
-        box-shadow: 0 2px 8px rgba(33,147,176,0.09);
-    font-size: 1.07rem;
-    }
-    .Theorie {
-    text-align: center;
-    margin: 40px 0 22px 0;
-    }
-    .Theorie h1 {
-    font-size: 2rem;
-    color: #2193b0;
-    letter-spacing: 2px;
-    margin: 0;
-}
-.kies {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin: 30px auto 40px auto;
-    flex-wrap: wrap;
-    }
-    .card {
-    background: #fff;
-    border-radius: 20px;
-        box-shadow: 0 6px 18px rgba(33,147,176,0.13), 0 1px 2px rgba(0,0,0,.04);
-        padding: 32px 22px 28px 22px;
-        text-align: center;
-        min-width: 230px;
-        max-width: 270px;
-        transition: box-shadow 0.3s, transform 0.25s;
-    position: relative;
-    border: 1px solid #e3e8ee;
-    }
-    .card:hover {
-    box-shadow: 0 10px 30px rgba(33,147,176,0.22);
-    transform: translateY(-6px) scale(1.04);
-}
-    .card .prijzen {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin: 10px 0;
-    letter-spacing: 1px;
-    color: #222;
-    }
-.card h1 {
-    margin: 0 0 6px 0;
-    font-size: 1.35rem;
-    font-family: Montserrat, Cairo, Arial, sans-serif;
-    }
-    .card img {
-    margin-top: 12px;
-    transition: transform 0.3s;
-    filter: drop-shadow(0 4px 14px #2193b032);
-    }
-    .card:hover img {
-    transform: scale(1.08) rotate(-1deg);
-    }
-    .card.gouden h1, .card.gouden .prijzen {
-    color: #FFD700;
-    }
-    .card.zilveren h1, .card.zilveren .prijzen {
-    color: #C0C0C0;
-    }
-    .card.bronzen h1, .card.bronzen .prijzen {
-    color: #CD7F32;
-    }
-    .card a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    }
-    .card-btn {
-        margin-top: 18px;
-        padding: 10px 18px;
-        background: linear-gradient(90deg, #2193b0, #6dd5ed);
-        color: #fff;
-        font-weight: bold;
-        border: none;
-        border-radius: 10px;
-        font-size: 1.1rem;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(33,147,176,0.18);
-        transition: background 0.3s;
-    }
-    .card-btn:hover {
-    background: #2193b0;
-    }
-    footer {
-    background: #f7fafc;
-    text-align: center;
-    color: #9ea7b0;
-    font-size: 1rem;
-    padding: 18px 0 12px 0;
-    border-top: 1px solid #e0eafc;
-    margin-top: 40px;
-    letter-spacing: .5px;
-    }
-    @media (max-width:650px) {
-    .kies { gap: 18px; }
-        .card { min-width: 170px; max-width: 96vw; padding: 22px 7vw 14px 7vw; }
-        nav.nav { padding: 8px 4vw 8px 4vw; }
-        .header-bar h1 { font-size: 1.5rem; }
-    }
+    <title>{{ t["header_choose_package"] }} | {{ t["choose_package_title"] }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(120deg, #f0f4f8 60%, #e0eafc 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .header-bar {
+            background: linear-gradient(90deg, #2193b0 60%, #6dd5ed 100%);
+            padding: 22px 0 10px 0;
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(33,147,176,0.12);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .header-bar h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+        nav.nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 24px;
+            background: #fff;
+            padding: 10px 32px 10px 32px;
+            box-shadow: 0 2px 9px rgba(33,147,176,0.07);
+            font-size: 1.15rem;
+        }
+        nav.nav a {
+            color: #2193b0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            border-radius: 8px;
+            padding: 6px 16px;
+        }
+        nav.nav a:hover {
+            background: #e0eafc;
+            color: #17657a;
+        }
+        .lang-switch {
+            font-size: 0.95rem;
+        }
+        .lang-switch span {
+            margin-right: 4px;
+            color: #555;
+        }
+        .lang-switch a {
+            padding: 4px 8px;
+        }
+
+        .flash-messages {
+            list-style: none;
+            padding: 0;
+            margin: 18px auto 0 auto;
+            max-width: 400px;
+            text-align: center;
+        }
+        .flash-messages li {
+            background: #ffc107;
+            color: #222;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            padding: 10px 16px;
+            box-shadow: 0 2px 8px rgba(33,147,176,0.09);
+            font-size: 1.07rem;
+        }
+        .Theorie {
+            text-align: center;
+            margin: 40px 0 22px 0;
+        }
+        .Theorie h1 {
+            font-size: 2rem;
+            color: #2193b0;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        .kies {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin: 30px auto 40px auto;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(33,147,176,0.13), 0 1px 2px rgba(0,0,0,.04);
+            padding: 32px 22px 28px 22px;
+            text-align: center;
+            min-width: 230px;
+            max-width: 270px;
+            transition: box-shadow 0.3s, transform 0.25s;
+            position: relative;
+            border: 1px solid #e3e8ee;
+        }
+        .card:hover {
+            box-shadow: 0 10px 30px rgba(33,147,176,0.22);
+            transform: translateY(-6px) scale(1.04);
+        }
+        .card .prijzen {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin: 10px 0;
+            letter-spacing: 1px;
+            color: #222;
+        }
+        .card h1 {
+            margin: 0 0 6px 0;
+            font-size: 1.35rem;
+            font-family: Montserrat, Cairo, Arial, sans-serif;
+        }
+        .card img {
+            margin-top: 12px;
+            transition: transform 0.3s;
+            filter: drop-shadow(0 4px 14px #2193b032);
+        }
+        .card:hover img {
+            transform: scale(1.08) rotate(-1deg);
+        }
+        .card.gouden h1, .card.gouden .prijzen {
+            color: #FFD700;
+        }
+        .card.zilveren h1, .card.zilveren .prijzen {
+            color: #C0C0C0;
+        }
+        .card.bronzen h1, .card.bronzen .prijzen {
+            color: #CD7F32;
+        }
+        .card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .card-btn {
+            margin-top: 18px;
+            padding: 10px 18px;
+            background: linear-gradient(90deg, #2193b0, #6dd5ed);
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(33,147,176,0.18);
+            transition: background 0.3s;
+        }
+        .card-btn:hover {
+            background: #2193b0;
+        }
+        footer {
+            background: #f7fafc;
+            text-align: center;
+            color: #9ea7b0;
+            font-size: 1rem;
+            padding: 18px 0 12px 0;
+            border-top: 1px solid #e0eafc;
+            margin-top: 40px;
+            letter-spacing: .5px;
+        }
+        @media (max-width:650px) {
+            .kies { gap: 18px; }
+            .card { min-width: 170px; max-width: 96vw; padding: 22px 7vw 14px 7vw; }
+            nav.nav { padding: 8px 4vw 8px 4vw; }
+            .header-bar h1 { font-size: 1.5rem; }
+        }
     </style>
 </head>
 <body>
     <div class="header-bar">
-    <h1>اختَر الباقة الأنسب لك 🚗</h1>
+        <h1>{{ t["header_choose_package"] }} 🚗</h1>
     </div>
+
     <nav class="nav">
         <div>
-            <a href="/inloggen">تسجيل الدخول</a>
+            <a href="{{ url_for('inloggen', lang=lang) }}">{{ t["nav_login"] }}</a>
         </div>
         <div>
-            <a href="/bestellen">طلب باقة</a>
+            <a href="{{ url_for('bestellen', lang=lang) }}">{{ t["nav_order_package"] }}</a>
+        </div>
+        <div class="lang-switch">
+            <span>🌐</span>
+            <a href="{{ url_for('home', lang='ar') }}">العربية</a> |
+            <a href="{{ url_for('home', lang='nl') }}">Nederlands</a> |
+            <a href="{{ url_for('home', lang='en') }}">English</a>
         </div>
     </nav>
 
     {% with messages = get_flashed_messages() %}
-    {% if messages %}
-    <ul class="flash-messages">
-        {% for message in messages %}
-        <li>{{ message }}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-{% endwith %}
+        {% if messages %}
+            <ul class="flash-messages">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
 
     <div class="Theorie">
-        <h1>اختر الباقة المناسبة!</h1>
+        <h1>{{ t["choose_package_title"] }}</h1>
     </div>
-<div class="kies">
-    <!-- بطاقة الباقة الذهبية -->
-    <div class="card gouden">
-<a href="/examen">
-    <h1>Gouden</h1>
-        <p class="prijzen">€{{prijzen['Gouden']}}</p>
-        <img src="{{ url_for('static', filename='fotos/auto_1-removebg-preview.png') }}" width="180" alt="صورة باقة السيارة الذهبية">
-        <button class="card-btn">ابدأ الآن</button>
-    </a>
+
+    <div class="kies">
+        <!-- بطاقة الباقة الذهبية -->
+        <div class="card gouden">
+            <a href="{{ url_for('examen', lang=lang) }}">
+                <h1>Gouden</h1>
+                <p class="prijzen">€{{ prijzen['Gouden'] }}</p>
+                <img src="{{ url_for('static', filename='fotos/auto_1-removebg-preview.png') }}" width="180" alt="Gouden pakket auto">
+                <button class="card-btn">{{ t["start_now"] }}</button>
+            </a>
+        </div>
+
+        <!-- بطاقة الباقة الفضية -->
+        <div class="card zilveren">
+            <a href="{{ url_for('examen', lang=lang) }}">
+                <h1>Zilveren</h1>
+                <p class="prijzen">€{{ prijzen['Zilveren'] }}</p>
+                <img src="{{ url_for('static', filename='fotos/auto_3-removebg-preview.png') }}" width="180" alt="Zilveren pakket auto">
+                <button class="card-btn">{{ t["start_now"] }}</button>
+            </a>
+        </div>
+
+        <!-- بطاقة الباقة البرونزية -->
+        <div class="card bronzen">
+            <a href="{{ url_for('examen', lang=lang) }}">
+                <h1>Bronzen</h1>
+                <p class="prijzen">€{{ prijzen['Bronzen'] }}</p>
+                <img src="{{ url_for('static', filename='fotos/auto_5-removebg-preview.png') }}" width="180" alt="Bronzen pakket auto">
+                <button class="card-btn">{{ t["start_now"] }}</button>
+            </a>
+        </div>
     </div>
-    <!-- بطاقة الباقة الفضية -->
-    <div class="card zilveren">
-    <a href="/examen">
-        <h1>Zilveren</h1>
-        <p class="prijzen">€{{prijzen['Zilveren']}}</p>
-        <img src="{{ url_for('static', filename='fotos/auto_3-removebg-preview.png') }}" width="180" alt="صورة باقة السيارة الفضية">
-        <button class="card-btn">ابدأ الآن</button>
-    </a>
-    </div>
-    <!-- بطاقة الباقة البرونزية -->
-    <div class="card bronzen">
-    <a href="/examen">
-        <h1>Bronzen</h1>
-        <p class="prijzen">€{{prijzen['Bronzen']}}</p>
-        <img src="{{ url_for('static', filename='fotos/auto_5-removebg-preview.png') }}" width="180" alt="صورة باقة السيارة البرونزية">
-        <button class="card-btn">ابدأ الآن</button>
-        </a>
-    </div>
-    </div>
+
     <footer>
-    جميع الحقوق محفوظة &copy; 2025
+        {{ t["footer_rights"] }} &copy; 2025
     </footer>
 </body>
 </html>
