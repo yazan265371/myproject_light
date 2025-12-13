@@ -252,6 +252,66 @@
         "question": "Moet je de bus voorrang verlenen?",
         "options": ["Ja", "Nee"],
         "correct": [1]
+    },
+    {
+        "image": "images/images_exame_5/regel_2.png",
+        "question": "Je rijdt hier achteruit. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_5/gordel_2.png",
+        "question": "Hoort een autogordel los of strak op het lichaam te zitten?",
+        "options": ["Los", "Strak"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_5/stoet_2.png",
+        "question": "Je gaat rechtdoor. Moet je de uitvaartstoet voorrang verlenen?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_5/stoet_12.png",
+        "question": "Mag je over een verdrijvingsvlak rijden als een ambulance er langs moet?",
+        "options": ["Ja", "Nee"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_5/situatie_2.png",
+        "question": "Kun je de stopafstand verkleinen door goed te anticiperen?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+{
+        "image": "images/images_exame_5/ongeval_2.png",
+        "question": "Een slachtoffer is bewusteloos en begint te braken. Wat is de juiste lichaamspositie?",
+        "options": ["Houding A", "Houding B"],
+        "correct": [1]
+    },
+ {
+        "image": "images/images_exame_5/ongeval_12.png",
+        "question": "Je rijdt in een tunnel zonder vluchtstrook. Je bent bijna aan het einde van de tunnel als er rook onder de motorkap vandaan komt. Wat moet je doen?",
+        "options": ["Onmiddellijk stoppen en de motor afzetten", "Proberen de tunnel uit te rijden en dan te stoppen"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_5/licht_2.png",
+        "question": "Je rijdt overdag met dimlicht. Is dat toegestaan?",
+        "options": ["Ja", "Nee"],
+        "correct": [0]
+    },
+ {
+        "image": "images/images_exame_5/licht_12.png",
+        "question": "Wat is de betekenis van dit symbool?",
+        "options": ["Stadslicht", "Mistachterlicht", "Dimlicht"],
+        "correct": [1]
+    },
+{
+        "image": "images/images_exame_5/alcohol_2.png",
+        "question": "Wat kan je doen om alcohol sneller uit je bloed te krijgen?",
+        "options": ["Veel koffie drinken", "Veel water drinken", "Niets"],
+        "correct": [2]
     }
 ]
 },
@@ -266,12 +326,7 @@
         "options": ["Ja", "Nee"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/regel_2.png",
-        "question": "Je rijdt hier achteruit. Is dat toegestaan?",
-        "options": ["Ja", "Nee"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/regel_3.png",
         "question": "Bij welk verkeersbord of borden is het toegestaan om te keren?",
@@ -334,12 +389,7 @@
         "options": ["Ja", "Nee"],
         "correct": [1]
     },
-    {
-        "image": "images/images_exame_5/gordel_2.png",
-        "question": "Hoort een autogordel los of strak op het lichaam te zitten?",
-        "options": ["Los", "Strak"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/gordel_3.png",
         "question": "Een zwangere bestuurder gebruikt de driepuntsgordel als heupgordel. Is dat toegestaan?",
@@ -371,12 +421,7 @@
         "options": ["Ja", "Nee"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/stoet_2.png",
-        "question": "Je gaat rechtdoor. Moet je de uitvaartstoet voorrang verlenen?",
-        "options": ["Ja", "Nee"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/stoet_3.png",
         "question": "Je gaat rechtdoor. Moet je de militaire colonne voorrang verlenen?",
@@ -426,24 +471,14 @@
         "options": ["Ja", "Nee"],
         "correct": [1]
     },
-    {
-        "image": "images/images_exame_5/stoet_12.png",
-        "question": "Mag je over een verdrijvingsvlak rijden als een ambulance er langs moet?",
-        "options": ["Ja", "Nee"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/situatie_1.png",
         "question": "In welke situatie verleen je de voetganger voorrang?",
         "options": ["Situatie A", "Situatie B", "Situatie A en B"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/situatie_2.png",
-        "question": "Kun je de stopafstand verkleinen door goed te anticiperen?",
-        "options": ["Ja", "Nee"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/situatie_3.png",
         "question": "Wat gebeurt er met je brandstofverbruik als je goed anticipeert?",
@@ -475,12 +510,7 @@
         "options": ["Ja", "Nee"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/ongeval_2.png",
-        "question": "Een slachtoffer is bewusteloos en begint te braken. Wat is de juiste lichaamspositie?",
-        "options": ["Houding A", "Houding B"],
-        "correct": [1]
-    },
+    
     {
         "image": "images/images_exame_5/ongeval_3.png",
         "question": "Je komt als eerste aan bij een ongeval. Wat moet je eerst doen?",
@@ -530,24 +560,14 @@
         "options": ["In geval van nood", "Om je telefoon te beantwoorden", "Zowel in geval van nood als om je telefoon te beantwoorden"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/ongeval_12.png",
-        "question": "Je rijdt in een tunnel zonder vluchtstrook. Je bent bijna aan het einde van de tunnel als er rook onder de motorkap vandaan komt. Wat moet je doen?",
-        "options": ["Onmiddellijk stoppen en de motor afzetten", "Proberen de tunnel uit te rijden en dan te stoppen"],
-        "correct": [1]
-    },
+
     {
         "image": "images/images_exame_5/licht_1.png",
         "question": "Moet je nu je lichten aanzetten?",
         "options": ["Ja", "Nee"],
         "correct": [0]
     },
-    {
-        "image": "images/images_exame_5/licht_2.png",
-        "question": "Je rijdt overdag met dimlicht. Is dat toegestaan?",
-        "options": ["Ja", "Nee"],
-        "correct": [0]
-    },
+    
     {
         "image": "images/images_exame_5/licht_3.png",
         "question": "Je rijdt een tunnel met dimlicht. Is dat toegestaan?",
@@ -597,12 +617,7 @@
         "options": ["Ja", "Nee"],
         "correct": [1]
     },
-    {
-        "image": "images/images_exame_5/licht_12.png",
-        "question": "Wat is de betekenis van dit symbool?",
-        "options": ["Stadslicht", "Mistachterlicht", "Dimlicht"],
-        "correct": [1]
-    },
+
     {
         "image": "images/images_exame_5/licht_13.png",
         "question": "Je rijdt in mist. Je kunt de twee volgende hectometerpaaltjes nog zien. Is het toegestaan om het mistachterlicht aan te doen?",
@@ -640,12 +655,7 @@
         "options": ["Half uur", "1 uur", "1,5 uur"],
         "correct": [2]
     },
-    {
-        "image": "images/images_exame_5/alcohol_2.png",
-        "question": "Wat kan je doen om alcohol sneller uit je bloed te krijgen?",
-        "options": ["Veel koffie drinken", "Veel water drinken", "Niets"],
-        "correct": [2]
-    },
+    
     {
         "image": "images/images_exame_5/alcohol_3.png",
         "question": "Bevat een glas pils minder alcohol dan een glas jenever?",
