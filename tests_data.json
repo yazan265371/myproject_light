@@ -1693,6 +1693,8 @@
     "Symbool C"
     ],
     "correct": [0]
+}
+]
     
 },
 {
@@ -2125,7 +2127,9 @@
         "question": "Heeft een vrachtauto een grotere dode hoek dan een personenauto?",
         "options": ["Ja", "Nee"],
         "correct": [0]
-    },
+}
+]
+},
 
 
 {
