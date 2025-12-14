@@ -860,6 +860,172 @@
         "correct": [0]
     },
     {
+        "image": "images/images_exame_6/verbruik_1.png",
+        "question": "Als je in een bocht de snelheid verhoogt, wat gebeurt er dan met de centrifugale kracht?",
+        "options": [
+            "Deze wordt kleiner",
+            "Deze wordt groter",
+            "Deze blijft gelijk"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_2.png",
+        "question": "Wat verbruikt in de auto de meeste energie?",
+        "options": [
+            "De airconditioning",
+            "De achterruitverwarming",
+            "De verwarming van de buitenspiegels"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_3.png",
+        "question": "Je laat de motor kort warmlopen voordat je weg rijdt. Is dit een extra belasting voor het milieu?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_4.png",
+        "question": "Je laat de motor warm draaien. Is dat beter voor de motor van de auto?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_5.png",
+        "question": "Is het schadelijk voor het milieu als na een hevige sneeuwbui je ruiten sneeuwvrij maakt en direct wegrijdt?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_6.png",
+        "question": "Je remt sterk af en trekt daarna hard op. Bespaar je hiermee brandstof?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_7.png",
+        "question": "Is het mogelijk om aan je toerenteller te zien wanneer je moet doorschakelen?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_8.png",
+        "question": "Is je toerenteller stuk, is het toegestaan om zo door te rijden naar de garage om je toerenteller te laten controleren?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_9.png",
+        "question": "Je snelheidsmeter is defect. Is het toegestaan om dan door te rijden?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_10.png",
+        "question": "Wat is het nadeel van cruisecontrol?",
+        "options": [
+            "Het rijden wordt makkelijker waardoor oplettendheid kan verminderen.",
+            "Het brandstofverbruik neemt toe."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_11.png",
+        "question": "Wanneer verbruikt je auto meer brandstof?",
+        "options": [
+            "Als er veel met constante snelheid wordt gereden.",
+            "Als er veel met wisselende snelheid wordt gereden."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_12.png",
+        "question": "Kun je brandstof besparen door cruisecontrol te gebruiken?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_13.png",
+        "question": "Waardoor kan je het gebruik van brandstof verminderen?",
+        "options": [
+            "Door cruisecontrol te gebruiken.",
+            "Door de motor warm te laten draaien.",
+            "Door zo lang mogelijk in een lage versnelling te blijven rijden."
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_14.png",
+        "question": "Je houdt je aan een goede volgafstand. Kan je dan brandstof besparen?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_15.png",
+        "question": "Wat is het gevolg van extra gewicht in de auto?",
+        "options": [
+            "Alleen meer brandstofverbruik.",
+            "Een langere remweg en langere reactietijd.",
+            "Een langere remweg en meer brandstofverbruik."
+        ],
+        "correct": [2]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_16.png",
+        "question": "Je schakelt pas bij een hoog toerental door naar een hogere versnelling. Heb je hierdoor een hoger brandstofverbruik?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_17.png",
+        "question": "Hoe kun je ervoor zorgen dat het brandstofverbruik vermindert?",
+        "options": [
+            "Door zoveel mogelijk op een lage versnelling te blijven rijden.",
+            "Door zoveel mogelijk op een hoge versnelling te blijven rijden."
+        ],
+        "correct": [1]
+    },
+    {
+        "image": "images/images_exame_6/verbruik_18.png",
+        "question": "Je rijdt met je raam open. Heeft dit invloed op je brandstofverbruik?",
+        "options": [
+            "Ja",
+            "Nee"
+        ],
+        "correct": [0]
+    },
+    {
         "image": "images/images_exame_6/verkeer_19.png",
         "question": "Op welke route ervaar je meer vertraging?",
         "options": [
@@ -876,172 +1042,6 @@
 "title": "اختبار الصور التجريبي",
 "type": "image",
 "questions": [
-    {
-        "image": "images/images_exame_7/verbruik_1.png",
-        "question": "Als je in een bocht de snelheid verhoogt, wat gebeurt er dan met de centrifugale kracht?",
-        "options": [
-            "Deze wordt kleiner",
-            "Deze wordt groter",
-            "Deze blijft gelijk"
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_2.png",
-        "question": "Wat verbruikt in de auto de meeste energie?",
-        "options": [
-            "De airconditioning",
-            "De achterruitverwarming",
-            "De verwarming van de buitenspiegels"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_3.png",
-        "question": "Je laat de motor kort warmlopen voordat je weg rijdt. Is dit een extra belasting voor het milieu?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_4.png",
-        "question": "Je laat de motor warm draaien. Is dat beter voor de motor van de auto?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_5.png",
-        "question": "Is het schadelijk voor het milieu als na een hevige sneeuwbui je ruiten sneeuwvrij maakt en direct wegrijdt?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_6.png",
-        "question": "Je remt sterk af en trekt daarna hard op. Bespaar je hiermee brandstof?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_7.png",
-        "question": "Is het mogelijk om aan je toerenteller te zien wanneer je moet doorschakelen?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_8.png",
-        "question": "Is je toerenteller stuk, is het toegestaan om zo door te rijden naar de garage om je toerenteller te laten controleren?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_9.png",
-        "question": "Je snelheidsmeter is defect. Is het toegestaan om dan door te rijden?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_10.png",
-        "question": "Wat is het nadeel van cruisecontrol?",
-        "options": [
-            "Het rijden wordt makkelijker waardoor oplettendheid kan verminderen.",
-            "Het brandstofverbruik neemt toe."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_11.png",
-        "question": "Wanneer verbruikt je auto meer brandstof?",
-        "options": [
-            "Als er veel met constante snelheid wordt gereden.",
-            "Als er veel met wisselende snelheid wordt gereden."
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_12.png",
-        "question": "Kun je brandstof besparen door cruisecontrol te gebruiken?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_13.png",
-        "question": "Waardoor kan je het gebruik van brandstof verminderen?",
-        "options": [
-            "Door cruisecontrol te gebruiken.",
-            "Door de motor warm te laten draaien.",
-            "Door zo lang mogelijk in een lage versnelling te blijven rijden."
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_14.png",
-        "question": "Je houdt je aan een goede volgafstand. Kan je dan brandstof besparen?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_15.png",
-        "question": "Wat is het gevolg van extra gewicht in de auto?",
-        "options": [
-            "Alleen meer brandstofverbruik.",
-            "Een langere remweg en langere reactietijd.",
-            "Een langere remweg en meer brandstofverbruik."
-        ],
-        "correct": [2]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_16.png",
-        "question": "Je schakelt pas bij een hoog toerental door naar een hogere versnelling. Heb je hierdoor een hoger brandstofverbruik?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_17.png",
-        "question": "Hoe kun je ervoor zorgen dat het brandstofverbruik vermindert?",
-        "options": [
-            "Door zoveel mogelijk op een lage versnelling te blijven rijden.",
-            "Door zoveel mogelijk op een hoge versnelling te blijven rijden."
-        ],
-        "correct": [1]
-    },
-    {
-        "image": "images/images_exame_7/verbruik_18.png",
-        "question": "Je rijdt met je raam open. Heeft dit invloed op je brandstofverbruik?",
-        "options": [
-            "Ja",
-            "Nee"
-        ],
-        "correct": [0]
-    },
     {
         "image": "images/images_exame_7/verbruik_19.png",
         "question": "Op welke manier kan je brandstof besparen?",
