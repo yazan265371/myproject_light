@@ -1436,8 +1436,17 @@
     "question": "Wat geeft dit bord aan?",
     "options": ["Politiecontrole", "Overstekende kinderen", "Wegwerkzaamheden"],
     "correct": [1]
+},
+{
+    "image": "images/images_exame_7/splitsing_22.png",
+    "question": "Je ziet dit bord. Wanneer moet je oppassen voor slipgevaar?",
+    "options": [
+    "Direct na dit bord",
+    "Na anderhalve kilometer",
+    "Alleen als het regent"
+    ],
+    "correct": [0]
 }
-
 ]
 },
 {
@@ -2986,16 +2995,6 @@
     "Eénrichtingsweg, geldt alleen voor fietsen, snorfietsen en bromfietsen"
     ],
     "correct": [1]
-},
-{
-    "image": "images/images_exame_11/splitsing_22.png",
-    "question": "Je ziet dit bord. Wanneer moet je oppassen voor slipgevaar?",
-    "options": [
-    "Direct na dit bord",
-    "Na anderhalve kilometer",
-    "Alleen als het regent"
-    ],
-    "correct": [0]
 }
 ]
 },
