@@ -1231,6 +1231,171 @@
     "0 graden"
     ],
     "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_10.png",
+    "question": "Je ziet dit symbool op de band. Wat voor soort band is dit?",
+    "options": [
+    "Een reserveband",
+    "Een winterband",
+    "Een gewone band"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_11.png",
+    "question": "Waar is een ventieldop goed voor?",
+    "options": [
+    "Voorkomen van een klapband",
+    "Bescherming tegen water",
+    "Bescherming tegen vuil en vocht"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_12.png",
+    "question": "Wat is het belangrijkste gevolg van een te hoge bandenspanning?",
+    "options": [
+    "Minder grip op het wegdek",
+    "Een hoger brandstofverbruik",
+    "Meer slijtage aan de buitenkant van de band"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_13.png",
+    "question": "Wat is het gevolg voor de remweg als je rijdt op zomerse temperaturen met winterbanden?",
+    "options": [
+    "Winterbanden hebben een lagere remweg",
+    "Winterbanden lopen sneller leeg",
+    "Winterbanden hebben een grotere kans op aquaplaning"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_14.png",
+    "question": "Na een lange droge periode begint het te regenen. Wat voor invloed heeft dit op de stopafstand?",
+    "options": [
+    "De stopafstand wordt langer",
+    "De stopafstand wordt kleiner",
+    "De stopafstand blijft gelijk"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_15.png",
+    "question": "Met welke autoband is de kans op aquaplaning het grootst?",
+    "options": [
+    "Band A",
+    "Band B"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_16.png",
+    "question": "Je rijdt met lage bandenspanning. Heeft dit invloed op de slijtage van de banden?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_17.png",
+    "question": "Het heeft gesneeuwd. Waar besteed je voor het wegrijden aandacht aan?",
+    "options": [
+    "De koelvloeistof",
+    "De motorolie",
+    "De ruitenvloeistof"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_18.png",
+    "question": "Je ruitenwissers zijn kapot. Is het toegestaan dan te rijden?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_19.png",
+    "question": "Hoe vaak moet je de auto APK laten keuren als je auto op diesel rijdt en ouder is dan 3 jaar?",
+    "options": [
+    "Elk jaar",
+    "Elke 2 jaar",
+    "Elk 3 jaar"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_20.png",
+    "question": "Je hebt een nieuwe benzineauto gekocht. Wanneer moet je jouw auto voor het eerst APK laten keuren?",
+    "options": [
+    "In jaar 2",
+    "In jaar 3",
+    "In jaar 4"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_21.png",
+    "question": "Je hebt een benzineauto. De auto is 4 jaar oud en APK gekeurd. Hoe lang is de APK dan geldig?",
+    "options": [
+    "2 jaar",
+    "3 jaar",
+    "4 jaar"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_22.png",
+    "question": "Wat moet je doen als je de verkeerde brandstof hebt getankt?",
+    "options": [
+    "Stoppen en de hulpdiensten inschakelen",
+    "De tank aanlengen met de juiste brandstof",
+    "Doorrijden tot de tank leeg is"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_23.png",
+    "question": "Wat is de maximale hoeveelheid brandstof die je in je auto mag vervoeren?",
+    "options": [
+    "60 liter",
+    "120 liter",
+    "240 liter"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_24.png",
+    "question": "Je rijdt op een autosnelweg. Dit controlelampje op het dashboard gaat branden. Kun je doorrijden naar de eerstvolgende parkeerplaats om te stoppen?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_25.png",
+    "question": "Wanneer schakelt ABS in tijdens het rijden?",
+    "options": [
+    "Als je de rem pompt",
+    "Als je krachtig en hard remt"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_26.png",
+    "question": "Welk symbool geeft een accu aan?",
+    "options": [
+    "Symbool A",
+    "Symbool B",
+    "Symbool C"
+    ],
+    "correct": [0]
 }
 
 ]
@@ -1548,174 +1713,7 @@
 "title": "اختبار الصور التجريبي",
 "type": "image",
 "questions": [
-{
-    "image": "images/images_exame_9/banden_10.png",
-    "question": "Je ziet dit symbool op de band. Wat voor soort band is dit?",
-    "options": [
-    "Een reserveband",
-    "Een winterband",
-    "Een gewone band"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_11.png",
-    "question": "Waar is een ventieldop goed voor?",
-    "options": [
-    "Voorkomen van een klapband",
-    "Bescherming tegen water",
-    "Bescherming tegen vuil en vocht"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_12.png",
-    "question": "Wat is het belangrijkste gevolg van een te hoge bandenspanning?",
-    "options": [
-    "Minder grip op het wegdek",
-    "Een hoger brandstofverbruik",
-    "Meer slijtage aan de buitenkant van de band"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_13.png",
-    "question": "Wat is het gevolg voor de remweg als je rijdt op zomerse temperaturen met winterbanden?",
-    "options": [
-    "Winterbanden hebben een lagere remweg",
-    "Winterbanden lopen sneller leeg",
-    "Winterbanden hebben een grotere kans op aquaplaning"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_14.png",
-    "question": "Na een lange droge periode begint het te regenen. Wat voor invloed heeft dit op de stopafstand?",
-    "options": [
-    "De stopafstand wordt langer",
-    "De stopafstand wordt kleiner",
-    "De stopafstand blijft gelijk"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_15.png",
-    "question": "Met welke autoband is de kans op aquaplaning het grootst?",
-    "options": [
-    "Band A",
-    "Band B"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_16.png",
-    "question": "Je rijdt met lage bandenspanning. Heeft dit invloed op de slijtage van de banden?",
-    "options": [
-    "Ja",
-    "Nee"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_17.png",
-    "question": "Het heeft gesneeuwd. Waar besteed je voor het wegrijden aandacht aan?",
-    "options": [
-    "De koelvloeistof",
-    "De motorolie",
-    "De ruitenvloeistof"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_18.png",
-    "question": "Je ruitenwissers zijn kapot. Is het toegestaan dan te rijden?",
-    "options": [
-    "Ja",
-    "Nee"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_19.png",
-    "question": "Hoe vaak moet je de auto APK laten keuren als je auto op diesel rijdt en ouder is dan 3 jaar?",
-    "options": [
-    "Elk jaar",
-    "Elke 2 jaar",
-    "Elk 3 jaar"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_20.png",
-    "question": "Je hebt een nieuwe benzineauto gekocht. Wanneer moet je jouw auto voor het eerst APK laten keuren?",
-    "options": [
-    "In jaar 2",
-    "In jaar 3",
-    "In jaar 4"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_21.png",
-    "question": "Je hebt een benzineauto. De auto is 4 jaar oud en APK gekeurd. Hoe lang is de APK dan geldig?",
-    "options": [
-    "2 jaar",
-    "3 jaar",
-    "4 jaar"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_22.png",
-    "question": "Wat moet je doen als je de verkeerde brandstof hebt getankt?",
-    "options": [
-    "Stoppen en de hulpdiensten inschakelen",
-    "De tank aanlengen met de juiste brandstof",
-    "Doorrijden tot de tank leeg is"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_23.png",
-    "question": "Wat is de maximale hoeveelheid brandstof die je in je auto mag vervoeren?",
-    "options": [
-    "60 liter",
-    "120 liter",
-    "240 liter"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_24.png",
-    "question": "Je rijdt op een autosnelweg. Dit controlelampje op het dashboard gaat branden. Kun je doorrijden naar de eerstvolgende parkeerplaats om te stoppen?",
-    "options": [
-    "Ja",
-    "Nee"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_25.png",
-    "question": "Wanneer schakelt ABS in tijdens het rijden?",
-    "options": [
-    "Als je de rem pompt",
-    "Als je krachtig en hard remt"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_26.png",
-    "question": "Welk symbool geeft een accu aan?",
-    "options": [
-    "Symbool A",
-    "Symbool B",
-    "Symbool C"
-    ],
-    "correct": [0]
-}
-]
-    
-},
+
 {
 "id": 1,
 "title": "اختبار الصور التجريبي",
