@@ -1120,29 +1120,119 @@
         "correct": [0]
     },
     {
-    "image": "images/images_exame_8/toegstaan_24.png",
+    "image": "images/images_exame_7/toegstaan_24.png",
     "question": "Welke weg is ingericht voor een maximumsnelheid van 100 km/u?",
     "options": ["Weg A", "Weg B", "Weg A en B"],
     "correct": [2]
 },
 {
-    "image": "images/images_exame_8/toegstaan_25.png",
+    "image": "images/images_exame_7/toegstaan_25.png",
     "question": "Je rijdt 120 km/u. Welke volgafstand moet je minimaal aanhouden bij deze snelheid?",
     "options": ["1 seconde", "2 seconden", "3 seconden"],
     "correct": [1]
 },
 {
-    "image": "images/images_exame_8/toegstaan_26.png",
+    "image": "images/images_exame_7/toegstaan_26.png",
     "question": "Je rijdt 100 km/u. Welke volgafstand moet je tenminste aanhouden bij deze snelheid?",
     "options": ["Ongeveer 35 meter", "Ongeveer 55 meter", "Ongeveer 100 meter"],
     "correct": [1]
 },
 {
-    "image": "images/images_exame_8/toegstaan_27.png",
+    "image": "images/images_exame_7/toegstaan_27.png",
     "question": "Wat is de minimale volgafstand bij hevige regenval?",
     "options": ["1 seconde", "2 seconden", "3 seconden"],
     "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_1.png",
+    "question": "Wanneer heeft het nut om winterbanden te gebruiken?",
+    "options": [
+    "Bij een temperatuur onder 7 graden",
+    "Bij een temperatuur onder 0 graden",
+    "Bij een temperatuur onder -5 graden"
+    ],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/banden_2.png",
+    "question": "Een winterband heeft een aanbevolen minimum profieldiepte om goed te kunnen functioneren. Hoeveel is dat?",
+    "options": [
+    "1,6 millimeter",
+    "4 millimeter",
+    "5 millimeter"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_3.png",
+    "question": "Wat is de minimale profieldiepte van banden?",
+    "options": [
+    "0,8 millimeter",
+    "1,6 millimeter",
+    "2,4 millimeter"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_4.png",
+    "question": "Wat moet de profieldiepte van een aanhangwagenband zijn?",
+    "options": [
+    "0,8 millimeter",
+    "1,6 millimeter",
+    "2,4 millimeter"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_5.png",
+    "question": "Wat is het gevolg van een te lage bandenspanning?",
+    "options": [
+    "Alleen een slechtere wegligging",
+    "Alleen een hoger brandstofverbruik",
+    "Een slechtere wegligging en een hoger brandstofverbruik"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_6.png",
+    "question": "Je rijdt met een lage bandenspanning. Wanneer heeft dit invloed op jouw brandstofverbruik?",
+    "options": [
+    "Alleen als je langzaam rijdt",
+    "Als je snel rijdt",
+    "In beide gevallen"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_7.png",
+    "question": "Is het beter om de bandenspanning te controleren nadat je al een stuk hebt gereden?",
+    "options": [
+    "Ja",
+    "Nee"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/banden_8.png",
+    "question": "Welke bandenspanning is juist?",
+    "options": [
+    "Band A",
+    "Band B",
+    "Band C"
+    ],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_7/banden_9.png",
+    "question": "Vanaf hoeveel graden zijn de positieve effecten van winterbanden merkbaar?",
+    "options": [
+    "14 graden",
+    "7 graden",
+    "0 graden"
+    ],
+    "correct": [1]
 }
+
 ]
 },
 {
@@ -1458,95 +1548,6 @@
 "title": "اختبار الصور التجريبي",
 "type": "image",
 "questions": [
-{
-    "image": "images/images_exame_9/banden_1.png",
-    "question": "Wanneer heeft het nut om winterbanden te gebruiken?",
-    "options": [
-    "Bij een temperatuur onder 7 graden",
-    "Bij een temperatuur onder 0 graden",
-    "Bij een temperatuur onder -5 graden"
-    ],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_9/banden_2.png",
-    "question": "Een winterband heeft een aanbevolen minimum profieldiepte om goed te kunnen functioneren. Hoeveel is dat?",
-    "options": [
-    "1,6 millimeter",
-    "4 millimeter",
-    "5 millimeter"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_3.png",
-    "question": "Wat is de minimale profieldiepte van banden?",
-    "options": [
-    "0,8 millimeter",
-    "1,6 millimeter",
-    "2,4 millimeter"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_4.png",
-    "question": "Wat moet de profieldiepte van een aanhangwagenband zijn?",
-    "options": [
-    "0,8 millimeter",
-    "1,6 millimeter",
-    "2,4 millimeter"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_5.png",
-    "question": "Wat is het gevolg van een te lage bandenspanning?",
-    "options": [
-    "Alleen een slechtere wegligging",
-    "Alleen een hoger brandstofverbruik",
-    "Een slechtere wegligging en een hoger brandstofverbruik"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_6.png",
-    "question": "Je rijdt met een lage bandenspanning. Wanneer heeft dit invloed op jouw brandstofverbruik?",
-    "options": [
-    "Alleen als je langzaam rijdt",
-    "Als je snel rijdt",
-    "In beide gevallen"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_7.png",
-    "question": "Is het beter om de bandenspanning te controleren nadat je al een stuk hebt gereden?",
-    "options": [
-    "Ja",
-    "Nee"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_9/banden_8.png",
-    "question": "Welke bandenspanning is juist?",
-    "options": [
-    "Band A",
-    "Band B",
-    "Band C"
-    ],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_9/banden_9.png",
-    "question": "Vanaf hoeveel graden zijn de positieve effecten van winterbanden merkbaar?",
-    "options": [
-    "14 graden",
-    "7 graden",
-    "0 graden"
-    ],
-    "correct": [1]
-},
 {
     "image": "images/images_exame_9/banden_10.png",
     "question": "Je ziet dit symbool op de band. Wat voor soort band is dit?",
