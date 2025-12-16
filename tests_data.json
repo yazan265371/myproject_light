@@ -1118,7 +1118,31 @@
             "Nee"
         ],
         "correct": [0]
-    }
+    },
+    {
+    "image": "images/images_exame_8/toegstaan_24.png",
+    "question": "Welke weg is ingericht voor een maximumsnelheid van 100 km/u?",
+    "options": ["Weg A", "Weg B", "Weg A en B"],
+    "correct": [2]
+},
+{
+    "image": "images/images_exame_8/toegstaan_25.png",
+    "question": "Je rijdt 120 km/u. Welke volgafstand moet je minimaal aanhouden bij deze snelheid?",
+    "options": ["1 seconde", "2 seconden", "3 seconden"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_26.png",
+    "question": "Je rijdt 100 km/u. Welke volgafstand moet je tenminste aanhouden bij deze snelheid?",
+    "options": ["Ongeveer 35 meter", "Ongeveer 55 meter", "Ongeveer 100 meter"],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_8/toegstaan_27.png",
+    "question": "Wat is de minimale volgafstand bij hevige regenval?",
+    "options": ["1 seconde", "2 seconden", "3 seconden"],
+    "correct": [2]
+}
 ]
 },
 {
@@ -1425,31 +1449,8 @@
     "question": "Wat is de toegestane maximumsnelheid op deze weg?",
     "options": ["70 km/u", "80 km/u", "100 km/u"],
     "correct": [1]
-},
-{
-    "image": "images/images_exame_8/toegstaan_24.png",
-    "question": "Welke weg is ingericht voor een maximumsnelheid van 100 km/u?",
-    "options": ["Weg A", "Weg B", "Weg A en B"],
-    "correct": [2]
-},
-{
-    "image": "images/images_exame_8/toegstaan_25.png",
-    "question": "Je rijdt 120 km/u. Welke volgafstand moet je minimaal aanhouden bij deze snelheid?",
-    "options": ["1 seconde", "2 seconden", "3 seconden"],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_8/toegstaan_26.png",
-    "question": "Je rijdt 100 km/u. Welke volgafstand moet je tenminste aanhouden bij deze snelheid?",
-    "options": ["Ongeveer 35 meter", "Ongeveer 55 meter", "Ongeveer 100 meter"],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_8/toegstaan_27.png",
-    "question": "Wat is de minimale volgafstand bij hevige regenval?",
-    "options": ["1 seconde", "2 seconden", "3 seconden"],
-    "correct": [2]
 }
+
 ]
 },
 {
