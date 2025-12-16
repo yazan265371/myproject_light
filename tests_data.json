@@ -1396,6 +1396,46 @@
     "Symbool C"
     ],
     "correct": [0]
+},
+{
+    "image": "images/images_exame_7/borden_51.png",
+    "question": "Wat is de betekenis van dit bord?",
+    "options": ["Vluchthaven", "Parkeergelegenheid", "Verbreding van de rijbaan"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/borden_52.png",
+    "question": "Word je gewaarschuwd voor een rijstrook die afgesloten is?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/borden_53.png",
+    "question": "Welke verboden worden na dit bord beëindigd?",
+    "options": [
+    "Alleen verboden op verkeersborden",
+    "Alleen verboden op elektronische signaleringsborden",
+    "De verboden op verkeersborden en op elektronische signaleringsborden"
+    ],
+    "correct": [1]
+},
+{
+    "image": "images/images_exame_7/borden_54.png",
+    "question": "Welk bord geeft het einde van alle door verkeersborden aangegeven verboden aan?",
+    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/borden_55.png",
+    "question": "Geeft dit bord een wegversmalling aan?",
+    "options": ["Ja", "Nee"],
+    "correct": [0]
+},
+{
+    "image": "images/images_exame_7/borden_56.png",
+    "question": "Wat geeft dit bord aan?",
+    "options": ["Politiecontrole", "Overstekende kinderen", "Wegwerkzaamheden"],
+    "correct": [1]
 }
 
 ]
@@ -2494,47 +2534,8 @@
     "Parkeren om over te stappen op het openbaar vervoer"
     ],
     "correct": [2]
-},
-{
-    "image": "images/images_exame_10/borden_51.png",
-    "question": "Wat is de betekenis van dit bord?",
-    "options": ["Vluchthaven", "Parkeergelegenheid", "Verbreding van de rijbaan"],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_10/borden_52.png",
-    "question": "Word je gewaarschuwd voor een rijstrook die afgesloten is?",
-    "options": ["Ja", "Nee"],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_10/borden_53.png",
-    "question": "Welke verboden worden na dit bord beëindigd?",
-    "options": [
-    "Alleen verboden op verkeersborden",
-    "Alleen verboden op elektronische signaleringsborden",
-    "De verboden op verkeersborden en op elektronische signaleringsborden"
-    ],
-    "correct": [1]
-},
-{
-    "image": "images/images_exame_10/borden_54.png",
-    "question": "Welk bord geeft het einde van alle door verkeersborden aangegeven verboden aan?",
-    "options": ["Alleen bord A", "Alleen bord B", "Bord A en B"],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_10/borden_55.png",
-    "question": "Geeft dit bord een wegversmalling aan?",
-    "options": ["Ja", "Nee"],
-    "correct": [0]
-},
-{
-    "image": "images/images_exame_10/borden_56.png",
-    "question": "Wat geeft dit bord aan?",
-    "options": ["Politiecontrole", "Overstekende kinderen", "Wegwerkzaamheden"],
-    "correct": [1]
 }
+
 ]
 },
 {
