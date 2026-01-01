@@ -242,7 +242,7 @@
     "correct": [0]
 },
 {
-    "image": "images/images_exame_2/verkeersregelaar_27.png",
+    "image": "images/images_exame_2/lading2_27.png",
     "question": "Mag je in deze situatie rechts afslaan?",
     "options": [
         "Ja",
@@ -251,14 +251,14 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/brommobielen_28.png",
+    "image": "images/images_exame_2/lading2_28.png",
     "question": "Waar kan je brommobielen verwachten?",
     "multiple_answers": true,
     "options": ["A", "B", "C", "D"],
     "correct": [0, 1, 2]
 },
 {
-    "image": "images/images_exame_2/tools_29.png",
+    "image": "images/images_exame_2/lading2_29.png",
     "question": "Wat is het nut van dit gereedschap in de auto?",
     "multiple_answers": true,
     "options": [
@@ -269,7 +269,7 @@
     "correct": [0, 1]
 },
 {
-    "image": "images/images_exame_2/voorrang_30.png",
+    "image": "images/images_exame_2/lading2_30.png",
     "question": "Wat is de juiste volgorde van voor laten gaan?",
     "options": [
         "militaire colonne, witte auto, motor",
@@ -279,7 +279,7 @@
     "correct": [2]
 },
 {
-    "image": "images/images_exame_2/snelweg_split_31.png",
+    "image": "images/images_exame_2/lading2_31.png",
     "question": "Wat is de maximale snelheid na dit bord om 22.00 uur?",
     "options": [
         "60 km/u",
@@ -289,17 +289,17 @@
     "correct": [2]
 },
 {
-    "image": "images/images_exame_2/voorrang_volgorde_32.png",
+    "image": "images/images_exame_2/lading2_32.png",
     "question": "Wat is de juiste volgorde van voor laten gaan?",
     "options": [
-        "militaire colonne,voetganger,witte auto",
-        "witte auto,voetganger,militaire colonne",
-        "voetganger,witte auto,militaire colonne"
+        "militaire colonne,voetganger,witte auto,motor",
+        "witte auto,voetganger,militaire colonne,motor",
+        "voetganger,witte auto,militaire colonne,motor"
     ],
-    "correct": [1]
+    "correct": [0]
 },
 {
-    "image": "images/images_exame_2/oranje_knipperende_pijl_33.png",
+    "image": "images/images_exame_2/lading2_33.png",
     "question": "Wat geeft de oranje knipperende pijl aan?",
     "options": [
         "Er staat een brug open",
@@ -309,7 +309,7 @@
     "correct": [2]
 },
 {
-    "image": "images/images_exame_2/verkeersregelaar_linksaf_34.png",
+    "image": "images/images_exame_2/lading2_34.png",
     "question": "Mag je in deze situatie linksaf slaan?",
     "options": [
         "Ja",
@@ -318,7 +318,7 @@
     "correct": [0]
 },
 {
-    "image": "images/images_exame_2/voorrang_volgorde_35.png",
+    "image": "images/images_exame_2/lading2_35.png",
     "question": "Wat is de juiste volgorde van voor laten gaan?",
     "options": [
 
@@ -326,10 +326,10 @@
         "voetganger,motor,witte auto",
         "motor,voetganger,witte auto"
     ],
-    "correct": [0]
+    "correct": [2]
 },
 {
-    "image": "images/images_exame_2/snorfiets_36.png",
+    "image": "images/images_exame_2/lading2_36.png",
     "question": "In welke situatie kun je een snorfiets op de rijbaan verwachten?",
     "options": [
         "A",
@@ -339,7 +339,7 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/voetgangers_37.png",
+    "image": "images/images_exame_2/lading2_37.png",
     "question": "Moet je in dit geval voorrang verlenen aan voetgangers?",
     "options": [
         "Ja",
@@ -348,7 +348,7 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/voetgangers_38.png",
+    "image": "images/images_exame_2/lading2_38.png",
     "question": "In welke situatie moet je voorrang geven aan voetgangers?",
     "options": [
         "Situatie A",
@@ -357,7 +357,7 @@
     "correct": [0, 1]
 },
 {
-    "image": "images/images_exame_2/bestelwagen_39.png",
+    "image": "images/images_exame_2/lading2_39.png",
     "question": "Is het toegestaan om een kleine bestelwagen te besturen met een gewicht minder dan 3500 kg met een rijbewijs B?",
     "options": [
         "Ja",
@@ -366,17 +366,17 @@
     "correct": [0]
 },
 {
-    "image": "images/images_exame_2/volgorde_40.png",
+    "image": "images/images_exame_2/lading2_40.png",
     "question": "Wat is de juiste volgorde?",
     "options": [
         "tram,voetganger,auto",
         "voetganger,auto,tram",
         "auto,tram,voetganger"
     ],
-    "correct": [0, 1, 2]
+    "correct": [1]
 },
 {
-    "image": "images/images_exame_2/voorrang_voetgangers_41.png",
+    "image": "images/images_exame_2/lading2_41.png",
     "question": "In welke situatie geef je geen voorrang aan voetgangers?",
     "options": [
         "Situatie A",
@@ -386,7 +386,7 @@
     "correct": [0]
 },
 {
-    "image": "images/images_exame_2/parkeren_zone_parkeerverbod_42.png",
+    "image": "images/images_exame_2/lading2_42.png",
     "question": "Mag je aan deze kant van de weg parkeren?",
     "options": [
         "Ja",
@@ -395,7 +395,7 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/lading_uitsteken_zijkant_43.png",
+    "image": "images/images_exame_2/lading2_43.png",
     "question": "Welke lading mag aan de zijkant uitsteken?",
     "options": [
         "A",
@@ -405,7 +405,7 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/rotonde_remmen_45.png",
+    "image": "images/images_exame_2/lading2_45.png",
     "question": "Verwacht je dat de auto voor je zal remmen?",
     "options": [
         "Ja",
@@ -414,7 +414,7 @@
     "correct": [0]
 },
 {
-    "image": "images/images_exame_2/verkeersdrempel_woonwijk_46.png",
+    "image": "images/images_exame_2/lading2_46.png",
     "question": "Wie gaat eerst?",
     "options": [
         "Voetganger",
@@ -423,7 +423,7 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/zuinig_schakelen_47.png",
+    "image": "images/images_exame_2/lading2_47.png",
     "question": "Wat moet je doen om minder brandstof te verbruiken?",
     "options": [
         "Je hoort een licht motorgeluid en rijdt met een hoge versnelling",
@@ -432,7 +432,7 @@
     "correct": [0]
 },
 {
-    "image": "images/images_exame_2/uitstekende_lading_48.png",
+    "image": "images/images_exame_2/lading2_48.png",
     "question": "De lading steekt één meter uit aan de achterkant, mag je zo rijden?",
     "options": [
         "Ja",
@@ -441,7 +441,7 @@
     "correct": [1]
 },
 {
-    "image": "images/images_exame_2/aanhanger_buiten_bebouwde_kom_49.png",
+    "image": "images/images_exame_2/lading2_49.png",
     "question": "Je trekt een aanhanger buiten de bebouwde kom, wat is je maximale snelheid?",
     "options": [
         "100 km/h",
@@ -451,7 +451,7 @@
     "correct": [2]
 },
 {
-    "image": "images/images_exame_2/parkeren_berm_50.png",
+    "image": "images/images_exame_2/lading2_50.png",
     "question": "Je parkeert in de berm, mag dat in deze situatie?",
     "options": [
         "Ja",
