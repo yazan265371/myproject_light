@@ -756,8 +756,8 @@
         "options": ["Ja", "Nee"],
         "correct": [0]
     },
- {
-        "image": "images/images_exame_4/auto_1.png",
+{
+        "image": "images/images_exame_4/licht_12.png",
         "question": "Wat is de betekenis van dit symbool?",
         "options": ["Stadslicht", "Mistachterlicht", "Dimlicht"],
         "correct": [1]
